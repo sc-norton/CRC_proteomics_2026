@@ -1,0 +1,1215 @@
+uniprot_id,gene,description,in_hpa_muscle,is_keratin,in_blood_blacklist,reason
+P68871,HBB,Hemoglobin subunit beta,TRUE,FALSE,TRUE,Blood blacklist filter
+P69905,HBA1,Hemoglobin subunit alpha,TRUE,FALSE,TRUE,Blood blacklist filter
+P02768,ALB,Serum albumin,TRUE,FALSE,TRUE,Blood blacklist filter
+P02042,HBD,Hemoglobin subunit delta,FALSE,FALSE,TRUE,HPA filter
+P00915,CA1,Carbonic anhydrase 1,FALSE,FALSE,FALSE,HPA filter
+P01857,IGHG1,Immunoglobulin heavy constant gamma 1,TRUE,FALSE,TRUE,Blood blacklist filter
+P02647,APOA1,Apolipoprotein A-I,FALSE,FALSE,TRUE,HPA filter
+P01834,IGKC,Immunoglobulin kappa constant,FALSE,FALSE,TRUE,HPA filter
+P01009,SERPINA1,Alpha-1-antitrypsin,TRUE,FALSE,TRUE,Blood blacklist filter
+P01859,IGHG2,Immunoglobulin heavy constant gamma 2,TRUE,FALSE,TRUE,Blood blacklist filter
+P02787,TF,Serotransferrin,TRUE,FALSE,TRUE,Blood blacklist filter
+P00738,HP,Haptoglobin,TRUE,FALSE,TRUE,Blood blacklist filter
+P0DOY2,IGLC2,Immunoglobulin lambda constant 2,TRUE,FALSE,TRUE,Blood blacklist filter
+P02652,APOA2,Apolipoprotein A-II,FALSE,FALSE,TRUE,HPA filter
+P69891,HBG1,Hemoglobin subunit gamma-1,FALSE,FALSE,TRUE,HPA filter
+P02763,ORM1,Alpha-1-acid glycoprotein 1,TRUE,FALSE,TRUE,Blood blacklist filter
+P02790,HPX,Hemopexin,FALSE,FALSE,TRUE,HPA filter
+P01876,IGHA1,Immunoglobulin heavy constant alpha 1,TRUE,FALSE,TRUE,Blood blacklist filter
+P02730,SLC4A1,Band 3 anion transport protein,FALSE,FALSE,FALSE,HPA filter
+P01024,C3,Complement C3,TRUE,FALSE,TRUE,Blood blacklist filter
+P02766,TTR,Transthyretin,TRUE,FALSE,TRUE,Blood blacklist filter
+P01023,A2M,Alpha-2-macroglobulin,TRUE,FALSE,TRUE,Blood blacklist filter
+Q9NWX5,ASB6,Ankyrin repeat and SOCS box protein 6,TRUE,FALSE,FALSE,Missingness filter
+P02689,PMP2,Myelin P2 protein,FALSE,FALSE,FALSE,HPA filter
+P25189,MPZ,Myelin protein P0,TRUE,FALSE,FALSE,Missingness filter
+P19652,ORM2,Alpha-1-acid glycoprotein 2,FALSE,FALSE,TRUE,HPA filter
+P69892,HBG2,Hemoglobin subunit gamma-2,TRUE,FALSE,TRUE,Blood blacklist filter
+P02765,AHSG,Alpha-2-HS-glycoprotein,FALSE,FALSE,TRUE,HPA filter
+P01871,IGHM,Immunoglobulin heavy constant mu,TRUE,FALSE,TRUE,Blood blacklist filter
+P12532,CKMT1A,"Creatine kinase U-type, mitochondrial",FALSE,FALSE,FALSE,HPA filter
+Q9NZT1,CALML5,Calmodulin-like protein 5,TRUE,FALSE,FALSE,Missingness filter
+P02774,GC,Vitamin D-binding protein,FALSE,FALSE,TRUE,HPA filter
+P02656,APOC3,Apolipoprotein C-III,FALSE,FALSE,TRUE,HPA filter
+Q9BXM0,PRX,Periaxin,TRUE,FALSE,FALSE,Missingness filter
+P01624,IGKV3-15,Immunoglobulin kappa variable 3-15,TRUE,FALSE,TRUE,Blood blacklist filter
+P01619,IGKV3-20,Immunoglobulin kappa variable 3-20,TRUE,FALSE,TRUE,Blood blacklist filter
+A0A0B4J2D5,GATD3B,"Glutamine amidotransferase-like class 1 domain-containing protein 3B, mitochondrial",FALSE,FALSE,FALSE,HPA filter
+P02686,MBP,Myelin basic protein,TRUE,FALSE,FALSE,Missingness filter
+A0A087WW87,IGKV2-40,Immunoglobulin kappa variable 2-40,FALSE,FALSE,TRUE,HPA filter
+P02679,FGG,Fibrinogen gamma chain,FALSE,FALSE,TRUE,HPA filter
+P02671,FGA,Fibrinogen alpha chain,FALSE,FALSE,TRUE,HPA filter
+P06727,APOA4,Apolipoprotein A-IV,FALSE,FALSE,TRUE,HPA filter
+A0A0B4J1Y9,IGHV3-72,Immunoglobulin heavy variable 3-72,FALSE,FALSE,TRUE,HPA filter
+Q15847,ADIRF,Adipogenesis regulatory factor,TRUE,FALSE,FALSE,Missingness filter
+P02749,APOH,Beta-2-glycoprotein 1,FALSE,FALSE,TRUE,HPA filter
+P01042,KNG1,Kininogen-1,FALSE,FALSE,TRUE,HPA filter
+B9A064,IGLL5,Immunoglobulin lambda-like polypeptide 5,FALSE,FALSE,TRUE,HPA filter
+P10909,CLU,Clusterin,TRUE,FALSE,TRUE,Blood blacklist filter
+P04264,KRT1,"Keratin, type II cytoskeletal 1",TRUE,TRUE,FALSE,Keratin filter
+P0C0L5,C4B,Complement C4-B,FALSE,FALSE,TRUE,HPA filter
+P01860,IGHG3,Immunoglobulin heavy constant gamma 3,FALSE,FALSE,TRUE,HPA filter
+Q9Y2H6,FNDC3A,Fibronectin type-III domain-containing protein 3A,TRUE,FALSE,FALSE,Missingness filter
+P04004,VTN,Vitronectin,FALSE,FALSE,FALSE,HPA filter
+P04217,A1BG,Alpha-1B-glycoprotein,FALSE,FALSE,TRUE,HPA filter
+P01780,IGHV3-7,Immunoglobulin heavy variable 3-7,TRUE,FALSE,TRUE,Blood blacklist filter
+P49747,COMP,Cartilage oligomeric matrix protein,TRUE,FALSE,FALSE,Missingness filter
+P31151,S100A7,Protein S100-A7,FALSE,FALSE,FALSE,HPA filter
+P10412,H1-4,Histone H1.4,FALSE,FALSE,FALSE,HPA filter
+P04433,IGKV3-11,Immunoglobulin kappa variable 3-11,TRUE,FALSE,TRUE,Blood blacklist filter
+P00747,PLG,Plasminogen,FALSE,FALSE,TRUE,HPA filter
+P05155,SERPING1,Plasma protease C1 inhibitor,TRUE,FALSE,TRUE,Blood blacklist filter
+P68032,ACTC1,"Actin, alpha cardiac muscle 1",TRUE,FALSE,FALSE,Missingness filter
+P08603,CFH,Complement factor H,TRUE,FALSE,TRUE,Blood blacklist filter
+P04271,S100B,Protein S100-B,TRUE,FALSE,FALSE,Missingness filter
+P01008,SERPINC1,Antithrombin-III,FALSE,FALSE,TRUE,HPA filter
+P01861,IGHG4,Immunoglobulin heavy constant gamma 4,FALSE,FALSE,TRUE,HPA filter
+P23141,CES1,Liver carboxylesterase 1,TRUE,FALSE,FALSE,Missingness filter
+P04114,APOB,Apolipoprotein B-100,FALSE,FALSE,TRUE,HPA filter
+A0A0B4J1X5,IGHV3-74,Immunoglobulin heavy variable 3-74,FALSE,FALSE,TRUE,HPA filter
+P05090,APOD,Apolipoprotein D,TRUE,FALSE,TRUE,Blood blacklist filter
+P02654,APOC1,Apolipoprotein C-I,TRUE,FALSE,TRUE,Blood blacklist filter
+P02743,APCS,Serum amyloid P-component,FALSE,FALSE,FALSE,HPA filter
+Q14894,CRYM,Ketimine reductase mu-crystallin,TRUE,FALSE,FALSE,Missingness filter
+P02675,FGB,Fibrinogen beta chain,FALSE,FALSE,TRUE,HPA filter
+P14555,PLA2G2A,"Phospholipase A2, membrane associated",TRUE,FALSE,FALSE,Missingness filter
+P00751,CFB,Complement factor B,TRUE,FALSE,TRUE,Blood blacklist filter
+P02549,SPTA1,"Spectrin alpha chain, erythrocytic 1",FALSE,FALSE,FALSE,HPA filter
+P59666,DEFA3,Neutrophil defensin 3,TRUE,FALSE,TRUE,Blood blacklist filter
+P00734,F2,Prothrombin,FALSE,FALSE,TRUE,HPA filter
+Q14624,ITIH4,Inter-alpha-trypsin inhibitor heavy chain H4,TRUE,FALSE,TRUE,Blood blacklist filter
+Q06828,FMOD,Fibromodulin,TRUE,FALSE,FALSE,Missingness filter
+P19823,ITIH2,Inter-alpha-trypsin inhibitor heavy chain H2,FALSE,FALSE,TRUE,HPA filter
+P19827,ITIH1,Inter-alpha-trypsin inhibitor heavy chain H1,FALSE,FALSE,TRUE,HPA filter
+P50238,CRIP1,Cysteine-rich protein 1,TRUE,FALSE,FALSE,Missingness filter
+P13645,KRT10,"Keratin, type I cytoskeletal 10",TRUE,TRUE,FALSE,Keratin filter
+P0CG38,POTEI,POTE ankyrin domain family member I,FALSE,FALSE,FALSE,HPA filter
+P02760,AMBP,Protein AMBP,FALSE,FALSE,FALSE,HPA filter
+Q9NZD4,AHSP,Alpha-hemoglobin-stabilizing protein,FALSE,FALSE,TRUE,HPA filter
+P08727,KRT19,"Keratin, type I cytoskeletal 19",TRUE,TRUE,FALSE,Keratin filter
+P31944,CASP14,Caspase-14,TRUE,FALSE,FALSE,Missingness filter
+A0A087WSY6,IGKV3D-15,Immunoglobulin kappa variable 3D-15,FALSE,FALSE,TRUE,HPA filter
+P18577,RHCE,Blood group Rh(CE) polypeptide,TRUE,FALSE,FALSE,Missingness filter
+Q6P4A7,SFXN4,Sideroflexin-4,TRUE,FALSE,FALSE,Missingness filter
+Q5VVW2,GARNL3,GTPase-activating Rap/Ran-GAP domain-like protein 3,TRUE,FALSE,FALSE,Missingness filter
+P06312,IGKV4-1,Immunoglobulin kappa variable 4-1,TRUE,FALSE,TRUE,Blood blacklist filter
+Q8IYJ1,CPNE9,Copine-9,FALSE,FALSE,FALSE,HPA filter
+P04003,C4BPA,C4b-binding protein alpha chain,FALSE,FALSE,TRUE,HPA filter
+P04196,HRG,Histidine-rich glycoprotein,FALSE,FALSE,FALSE,HPA filter
+P49207,RPL34,60S ribosomal protein L34,TRUE,FALSE,FALSE,Missingness filter
+Q8IXB3,TRARG1,Trafficking regulator of GLUT4 1,TRUE,FALSE,FALSE,Missingness filter
+P02452,COL1A1,Collagen alpha-1(I) chain,TRUE,FALSE,FALSE,Missingness filter
+O15260,SURF4,Surfeit locus protein 4,TRUE,FALSE,FALSE,Missingness filter
+P06331,IGHV4-34,Immunoglobulin heavy variable 4-34,FALSE,FALSE,TRUE,HPA filter
+P35443,THBS4,Thrombospondin-4,TRUE,FALSE,FALSE,Missingness filter
+P30613,PKLR,Pyruvate kinase PKLR,FALSE,FALSE,FALSE,HPA filter
+P05787,KRT8,"Keratin, type II cytoskeletal 8",TRUE,TRUE,FALSE,Keratin filter
+P02655,APOC2,Apolipoprotein C-II,TRUE,FALSE,TRUE,Blood blacklist filter
+P01743,IGHV1-46,Immunoglobulin heavy variable 1-46,FALSE,FALSE,TRUE,HPA filter
+A0A0J9YX35,IGHV3-64D,Immunoglobulin heavy variable 3-64D,FALSE,FALSE,TRUE,HPA filter
+P55008,AIF1,Allograft inflammatory factor 1,TRUE,FALSE,FALSE,Missingness filter
+P49327,FASN,Fatty acid synthase,TRUE,FALSE,FALSE,Missingness filter
+P35527,KRT9,"Keratin, type I cytoskeletal 9",FALSE,TRUE,FALSE,HPA filter
+Q7Z6K5,ARPIN,Arpin,TRUE,FALSE,FALSE,Missingness filter
+P05546,SERPIND1,Heparin cofactor 2,FALSE,FALSE,TRUE,HPA filter
+P02745,C1QA,Complement C1q subcomponent subunit A,TRUE,FALSE,TRUE,Blood blacklist filter
+P30711,GSTT1,Glutathione S-transferase theta-1,FALSE,FALSE,FALSE,HPA filter
+P01591,JCHAIN,Immunoglobulin J chain,TRUE,FALSE,TRUE,Blood blacklist filter
+P16452,EPB42,Erythrocyte membrane protein band 4.2,FALSE,FALSE,FALSE,HPA filter
+P08123,COL1A2,Collagen alpha-2(I) chain,TRUE,FALSE,FALSE,Missingness filter
+P01701,IGLV1-51,Immunoglobulin lambda variable 1-51,TRUE,FALSE,TRUE,Blood blacklist filter
+P50914,RPL14,60S ribosomal protein L14,TRUE,FALSE,FALSE,Missingness filter
+Q99972,MYOC,Myocilin,TRUE,FALSE,FALSE,Missingness filter
+P59768,GNG2,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2,TRUE,FALSE,FALSE,Missingness filter
+P55083,MFAP4,Microfibril-associated glycoprotein 4,TRUE,FALSE,FALSE,Missingness filter
+P02775,PPBP,Platelet basic protein,TRUE,FALSE,TRUE,Blood blacklist filter
+O75558,STX11,Syntaxin-11,TRUE,FALSE,FALSE,Missingness filter
+P02748,C9,Complement component C9,FALSE,FALSE,TRUE,HPA filter
+P50454,SERPINH1,Serpin H1,TRUE,FALSE,FALSE,Missingness filter
+P10620,MGST1,Microsomal glutathione S-transferase 1,TRUE,FALSE,FALSE,Missingness filter
+Q92736,RYR2,Ryanodine receptor 2,FALSE,FALSE,FALSE,HPA filter
+P56539,CAV3,Caveolin-3,TRUE,FALSE,FALSE,Missingness filter
+P01877,IGHA2,Immunoglobulin heavy constant alpha 2,TRUE,FALSE,TRUE,Blood blacklist filter
+Q92743,HTRA1,Serine protease HTRA1,TRUE,FALSE,FALSE,Missingness filter
+Q16363,LAMA4,Laminin subunit alpha-4,TRUE,FALSE,FALSE,Missingness filter
+A0A0C4DH68,IGKV2-24,Immunoglobulin kappa variable 2-24,FALSE,FALSE,TRUE,HPA filter
+P35908,KRT2,"Keratin, type II cytoskeletal 2 epidermal",TRUE,TRUE,FALSE,Keratin filter
+P01768,IGHV3-30,Immunoglobulin heavy variable 3-30,FALSE,FALSE,TRUE,HPA filter
+P02649,APOE,Apolipoprotein E,TRUE,FALSE,TRUE,Blood blacklist filter
+P51911,CNN1,Calponin-1,TRUE,FALSE,FALSE,Missingness filter
+Q969G5,CAVIN3,Caveolae-associated protein 3,TRUE,FALSE,FALSE,Missingness filter
+P22676,CALB2,Calretinin,FALSE,FALSE,FALSE,HPA filter
+P00488,F13A1,Coagulation factor XIII A chain,TRUE,FALSE,TRUE,Blood blacklist filter
+P00746,CFD,Complement factor D,TRUE,FALSE,FALSE,Missingness filter
+Q07507,DPT,Dermatopontin,TRUE,FALSE,FALSE,Missingness filter
+O75339,CILP,Cartilage intermediate layer protein 1,TRUE,FALSE,FALSE,Missingness filter
+O95445,APOM,Apolipoprotein M,TRUE,FALSE,TRUE,Blood blacklist filter
+P43652,AFM,Afamin,FALSE,FALSE,FALSE,HPA filter
+P43121,MCAM,Cell surface glycoprotein MUC18,TRUE,FALSE,FALSE,Missingness filter
+P00739,HPR,Haptoglobin-related protein,TRUE,FALSE,FALSE,Missingness filter
+P18428,LBP,Lipopolysaccharide-binding protein,TRUE,FALSE,FALSE,Missingness filter
+Q7RTS7,KRT74,"Keratin, type II cytoskeletal 74",FALSE,TRUE,FALSE,HPA filter
+A2NJV5,IGKV2-29,Immunoglobulin kappa variable 2-29,FALSE,FALSE,TRUE,HPA filter
+P01602,IGKV1-5,Immunoglobulin kappa variable 1-5,FALSE,FALSE,TRUE,HPA filter
+Q7Z5R6,APBB1IP,Amyloid beta A4 precursor protein-binding family B member 1-interacting protein,TRUE,FALSE,FALSE,Missingness filter
+Q05469,LIPE,Hormone-sensitive lipase,TRUE,FALSE,FALSE,Missingness filter
+P35542,SAA4,Serum amyloid A-4 protein,TRUE,FALSE,FALSE,Missingness filter
+P01031,C5,Complement C5,FALSE,FALSE,TRUE,HPA filter
+Q562R1,ACTBL2,Beta-actin-like protein 2,FALSE,FALSE,FALSE,HPA filter
+Q9H2S6,TNMD,Tenomodulin,TRUE,FALSE,FALSE,Missingness filter
+P04211,IGLV7-43,Immunoglobulin lambda variable 7-43,FALSE,FALSE,TRUE,HPA filter
+P04259,KRT6B,"Keratin, type II cytoskeletal 6B",FALSE,TRUE,FALSE,HPA filter
+A0A0C4DH43,IGHV2-70D,Immunoglobulin heavy variable 2-70D,FALSE,FALSE,TRUE,HPA filter
+Q9NPC6,MYOZ2,Myozenin-2,TRUE,FALSE,FALSE,Missingness filter
+Q6DD88,ATL3,Atlastin-3,TRUE,FALSE,FALSE,Missingness filter
+P02746,C1QB,Complement C1q subcomponent subunit B,FALSE,FALSE,TRUE,HPA filter
+Q9Y2S6,TMA7,Translation machinery-associated protein 7,TRUE,FALSE,FALSE,Missingness filter
+P60201,PLP1,Myelin proteolipid protein,TRUE,FALSE,FALSE,Missingness filter
+P02776,PF4,Platelet factor 4,FALSE,FALSE,TRUE,HPA filter
+A0A0C4DH25,IGKV3D-20,Immunoglobulin kappa variable 3D-20,FALSE,FALSE,TRUE,HPA filter
+Q9BYC9,MRPL20,"39S ribosomal protein L20, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+A0A0C4DH36,IGHV3-38,Probable non-functional immunoglobulin heavy variable 3-38,FALSE,FALSE,TRUE,HPA filter
+P80748,IGLV3-21,Immunoglobulin lambda variable 3-21,FALSE,FALSE,TRUE,HPA filter
+P27169,PON1,Serum paraoxonase/arylesterase 1,FALSE,FALSE,FALSE,HPA filter
+O00244,ATOX1,Copper transport protein ATOX1,TRUE,FALSE,FALSE,Missingness filter
+Q08431,MFGE8,Lactadherin,TRUE,FALSE,FALSE,Missingness filter
+O43175,PHGDH,D-3-phosphoglycerate dehydrogenase,TRUE,FALSE,FALSE,Missingness filter
+O95183,VAMP5,Vesicle-associated membrane protein 5,TRUE,FALSE,FALSE,Missingness filter
+A0A075B6I0,IGLV8-61,Immunoglobulin lambda variable 8-61,FALSE,FALSE,TRUE,HPA filter
+Q96AD5,PNPLA2,Patatin-like phospholipase domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q05707,COL14A1,Collagen alpha-1(XIV) chain,TRUE,FALSE,FALSE,Missingness filter
+P13611,VCAN,Versican core protein,TRUE,FALSE,FALSE,Missingness filter
+Q9UKZ9,PCOLCE2,Procollagen C-endopeptidase enhancer 2,TRUE,FALSE,FALSE,Missingness filter
+Q99715,COL12A1,Collagen alpha-1(XII) chain,TRUE,FALSE,FALSE,Missingness filter
+E9PAV3,NACA,"Nascent polypeptide-associated complex subunit alpha, muscle-specific form",FALSE,FALSE,FALSE,HPA filter
+Q96L96,ALPK3,Alpha-protein kinase 3,TRUE,FALSE,FALSE,Missingness filter
+A0A0B4J1U7,IGHV6-1,Immunoglobulin heavy variable 6-1,FALSE,FALSE,TRUE,HPA filter
+P08185,SERPINA6,Corticosteroid-binding globulin,FALSE,FALSE,FALSE,HPA filter
+P09871,C1S,Complement C1s subcomponent,TRUE,FALSE,FALSE,Missingness filter
+Q8WW12,PCNP,PEST proteolytic signal-containing nuclear protein,TRUE,FALSE,FALSE,Missingness filter
+O43294,TGFB1I1,Transforming growth factor beta-1-induced transcript 1 protein,TRUE,FALSE,FALSE,Missingness filter
+P01700,IGLV1-47,Immunoglobulin lambda variable 1-47,FALSE,FALSE,TRUE,HPA filter
+O60701,UGDH,UDP-glucose 6-dehydrogenase,TRUE,FALSE,FALSE,Missingness filter
+P02747,C1QC,Complement C1q subcomponent subunit C,TRUE,FALSE,TRUE,Blood blacklist filter
+P13671,C6,Complement component C6,FALSE,FALSE,TRUE,HPA filter
+Q15063,POSTN,Periostin,TRUE,FALSE,FALSE,Missingness filter
+P04440,HLA-DPB1,"HLA class II histocompatibility antigen, DP beta 1 chain",TRUE,FALSE,FALSE,Missingness filter
+O00767,SCD,Acyl-CoA desaturase,TRUE,FALSE,FALSE,Missingness filter
+Q6PH85,DCUN1D2,DCN1-like protein 2,TRUE,FALSE,FALSE,Missingness filter
+P81605,DCD,Dermcidin,TRUE,FALSE,FALSE,Missingness filter
+Q8TDC0,MYOZ3,Myozenin-3,TRUE,FALSE,FALSE,Missingness filter
+Q06278,AOX1,Aldehyde oxidase,TRUE,FALSE,FALSE,Missingness filter
+P03952,KLKB1,Plasma kallikrein,TRUE,FALSE,FALSE,Missingness filter
+P07205,PGK2,Phosphoglycerate kinase 2,FALSE,FALSE,FALSE,HPA filter
+A0A075B6K4,IGLV3-10,Immunoglobulin lambda variable 3-10,FALSE,FALSE,TRUE,HPA filter
+Q6NUM9,RETSAT,"All-trans-retinol 13,14-reductase",TRUE,FALSE,FALSE,Missingness filter
+P0C0L4,C4A,Complement C4-A,TRUE,FALSE,TRUE,Blood blacklist filter
+P35580,MYH10,Myosin-10,TRUE,FALSE,FALSE,Missingness filter
+A0A0C4DH31,IGHV1-18,Immunoglobulin heavy variable 1-18,FALSE,FALSE,TRUE,HPA filter
+Q12765,SCRN1,Secernin-1,TRUE,FALSE,FALSE,Missingness filter
+P42025,ACTR1B,Beta-centractin,TRUE,FALSE,FALSE,Missingness filter
+Q969V3,NCLN,Nicalin,TRUE,FALSE,FALSE,Missingness filter
+A0A0C4DH72,IGKV1-6,Immunoglobulin kappa variable 1-6,FALSE,FALSE,TRUE,HPA filter
+A0A0C4DH38,IGHV5-51,Immunoglobulin heavy variable 5-51,FALSE,FALSE,TRUE,HPA filter
+O43866,CD5L,CD5 antigen-like,FALSE,FALSE,FALSE,HPA filter
+Q71U36,TUBA1A,Tubulin alpha-1A chain,TRUE,FALSE,FALSE,Missingness filter
+P07357,C8A,Complement component C8 alpha chain,FALSE,FALSE,TRUE,HPA filter
+P29622,SERPINA4,Kallistatin,FALSE,FALSE,FALSE,HPA filter
+P07942,LAMB1,Laminin subunit beta-1,TRUE,FALSE,FALSE,Missingness filter
+Q96KN2,CNDP1,Beta-Ala-His dipeptidase,TRUE,FALSE,FALSE,Missingness filter
+Q13509,TUBB3,Tubulin beta-3 chain,FALSE,FALSE,FALSE,HPA filter
+A0A0J9YXX1,IGHV5-10-1,Immunoglobulin heavy variable 5-10-1,FALSE,FALSE,TRUE,HPA filter
+Q96B97,SH3KBP1,SH3 domain-containing kinase-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q8IVF2,AHNAK2,Protein AHNAK2,TRUE,FALSE,FALSE,Missingness filter
+Q08495,DMTN,Dematin,TRUE,FALSE,FALSE,Missingness filter
+P13533,MYH6,Myosin-6,TRUE,FALSE,FALSE,Missingness filter
+Q9P2E9,RRBP1,Ribosome-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+P05156,CFI,Complement factor I,TRUE,FALSE,TRUE,Blood blacklist filter
+Q14956,GPNMB,Transmembrane glycoprotein NMB,TRUE,FALSE,FALSE,Missingness filter
+P14384,CPM,Carboxypeptidase M,TRUE,FALSE,FALSE,Missingness filter
+P20292,ALOX5AP,Arachidonate 5-lipoxygenase-activating protein,TRUE,FALSE,FALSE,Missingness filter
+Q5KU26,COLEC12,Collectin-12,TRUE,FALSE,FALSE,Missingness filter
+Q9UH65,SWAP70,Switch-associated protein 70,TRUE,FALSE,FALSE,Missingness filter
+P27144,AK4,"Adenylate kinase 4, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P0DJI8,SAA1,Serum amyloid A-1 protein,TRUE,FALSE,TRUE,Blood blacklist filter
+P82921,MRPS21,"28S ribosomal protein S21, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+A0AVT1,UBA6,Ubiquitin-like modifier-activating enzyme 6,TRUE,FALSE,FALSE,Missingness filter
+O60504,SORBS3,Vinexin,TRUE,FALSE,FALSE,Missingness filter
+P08514,ITGA2B,Integrin alpha-IIb,FALSE,FALSE,FALSE,HPA filter
+P07996,THBS1,Thrombospondin-1,TRUE,FALSE,TRUE,Blood blacklist filter
+P62910,RPL32,60S ribosomal protein L32,TRUE,FALSE,FALSE,Missingness filter
+Q96PD5,PGLYRP2,N-acetylmuramoyl-L-alanine amidase,FALSE,FALSE,FALSE,HPA filter
+A0A0B4J1V1,IGHV3-21,Immunoglobulin heavy variable 3-21,FALSE,FALSE,TRUE,HPA filter
+P08254,MMP3,Stromelysin-1,TRUE,FALSE,FALSE,Missingness filter
+Q14112,NID2,Nidogen-2,TRUE,FALSE,FALSE,Missingness filter
+P02462,COL4A1,Collagen alpha-1(IV) chain,TRUE,FALSE,FALSE,Missingness filter
+P80303,NUCB2,Nucleobindin-2,TRUE,FALSE,FALSE,Missingness filter
+Q10589,BST2,Bone marrow stromal antigen 2,TRUE,FALSE,FALSE,Missingness filter
+Q5TDH0,DDI2,Protein DDI1 homolog 2,TRUE,FALSE,FALSE,Missingness filter
+Q8IUL8,CILP2,Cartilage intermediate layer protein 2,FALSE,FALSE,FALSE,HPA filter
+Q14019,COTL1,Coactosin-like protein,TRUE,FALSE,FALSE,Missingness filter
+O95260,ATE1,Arginyl-tRNA--protein transferase 1,TRUE,FALSE,FALSE,Missingness filter
+Q9UBF2,COPG2,Coatomer subunit gamma-2,TRUE,FALSE,FALSE,Missingness filter
+P06310,IGKV2-30,Immunoglobulin kappa variable 2-30,FALSE,FALSE,TRUE,HPA filter
+Q9P289,STK26,Serine/threonine-protein kinase 26,FALSE,FALSE,FALSE,HPA filter
+P55056,APOC4,Apolipoprotein C-IV,FALSE,FALSE,TRUE,HPA filter
+P31323,PRKAR2B,cAMP-dependent protein kinase type II-beta regulatory subunit,TRUE,FALSE,FALSE,Missingness filter
+P01782,IGHV3-9,Immunoglobulin heavy variable 3-9,FALSE,FALSE,TRUE,HPA filter
+Q5JWF2,GNAS,Guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas,FALSE,FALSE,FALSE,HPA filter
+A0A0B4J2D9,IGKV1D-13,Immunoglobulin kappa variable 1D-13,FALSE,FALSE,TRUE,HPA filter
+A0A0B4J2H0,IGHV1-69D,Immunoglobulin heavy variable 1-69D,FALSE,FALSE,TRUE,HPA filter
+P02533,KRT14,"Keratin, type I cytoskeletal 14",TRUE,TRUE,FALSE,Keratin filter
+P11498,PC,"Pyruvate carboxylase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P29508,SERPINB3,Serpin B3,FALSE,FALSE,FALSE,HPA filter
+Q99707,MTR,Methionine synthase,TRUE,FALSE,FALSE,Missingness filter
+P24592,IGFBP6,Insulin-like growth factor-binding protein 6,TRUE,FALSE,FALSE,Missingness filter
+A0A0C4DH35,IGHV3-35,Probable non-functional immunoglobulin heavy variable 3-35,FALSE,FALSE,TRUE,HPA filter
+Q9UNN8,PROCR,Endothelial protein C receptor,TRUE,FALSE,FALSE,Missingness filter
+P15559,NQO1,NAD(P)H dehydrogenase [quinone] 1,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2D5,AKAP2,A-kinase anchor protein 2,FALSE,FALSE,FALSE,HPA filter
+P06276,BCHE,Cholinesterase,TRUE,FALSE,FALSE,Missingness filter
+O60938,KERA,Keratocan,FALSE,FALSE,FALSE,HPA filter
+Q9P2X0,DPM3,Dolichol-phosphate mannosyltransferase subunit 3,TRUE,FALSE,FALSE,Missingness filter
+Q86VD7,SLC25A42,Mitochondrial coenzyme A transporter SLC25A42,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3Z3,SAMHD1,Deoxynucleoside triphosphate triphosphohydrolase SAMHD1,TRUE,FALSE,FALSE,Missingness filter
+Q9NP58,ABCB6,"ATP-binding cassette sub-family B member 6, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P10619,CTSA,Lysosomal protective protein,TRUE,FALSE,FALSE,Missingness filter
+Q7Z794,KRT77,"Keratin, type II cytoskeletal 1b",FALSE,TRUE,FALSE,HPA filter
+O60613,SELENOF,Selenoprotein F,TRUE,FALSE,FALSE,Missingness filter
+O14879,IFIT3,Interferon-induced protein with tetratricopeptide repeats 3,TRUE,FALSE,FALSE,Missingness filter
+Q9NRG4,SMYD2,N-lysine methyltransferase SMYD2,TRUE,FALSE,FALSE,Missingness filter
+P53396,ACLY,ATP-citrate synthase,TRUE,FALSE,FALSE,Missingness filter
+P07225,PROS1,Vitamin K-dependent protein S,TRUE,FALSE,TRUE,Blood blacklist filter
+Q9C005,DPY30,Protein dpy-30 homolog,TRUE,FALSE,FALSE,Missingness filter
+Q96HR9,REEP6,Receptor expression-enhancing protein 6,TRUE,FALSE,FALSE,Missingness filter
+Q9Y5Y7,LYVE1,Lymphatic vessel endothelial hyaluronic acid receptor 1,TRUE,FALSE,FALSE,Missingness filter
+Q9P121,NTM,Neurotrimin,FALSE,FALSE,FALSE,HPA filter
+P13646,KRT13,"Keratin, type I cytoskeletal 13",TRUE,TRUE,FALSE,Keratin filter
+P82675,MRPS5,"28S ribosomal protein S5, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9Y6W5,WASF2,Wiskott-Aldrich syndrome protein family member 2,TRUE,FALSE,FALSE,Missingness filter
+O60879,DIAPH2,Protein diaphanous homolog 2,TRUE,FALSE,FALSE,Missingness filter
+Q15306,IRF4,Interferon regulatory factor 4,FALSE,FALSE,FALSE,HPA filter
+Q16654,PDK4,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9UBX3,SLC25A10,Mitochondrial dicarboxylate carrier,TRUE,FALSE,FALSE,Missingness filter
+Q16643,DBN1,Drebrin,TRUE,FALSE,FALSE,Missingness filter
+A0A0C4DH34,IGHV4-28,Immunoglobulin heavy variable 4-28,FALSE,FALSE,TRUE,HPA filter
+P46821,MAP1B,Microtubule-associated protein 1B,TRUE,FALSE,FALSE,Missingness filter
+Q13061,TRDN,Triadin,TRUE,FALSE,FALSE,Missingness filter
+P04180,LCAT,Phosphatidylcholine-sterol acyltransferase,TRUE,FALSE,FALSE,Missingness filter
+Q53TN4,CYBRD1,Cytochrome b reductase 1,TRUE,FALSE,FALSE,Missingness filter
+Q7Z7G0,ABI3BP,Target of Nesh-SH3,TRUE,FALSE,FALSE,Missingness filter
+P43007,SLC1A4,Neutral amino acid transporter A,TRUE,FALSE,FALSE,Missingness filter
+O75781,PALM,Paralemmin-1,TRUE,FALSE,FALSE,Missingness filter
+O00391,QSOX1,Sulfhydryl oxidase 1,TRUE,FALSE,FALSE,Missingness filter
+P61289,PSME3,Proteasome activator complex subunit 3,TRUE,FALSE,FALSE,Missingness filter
+P00736,C1R,Complement C1r subcomponent,FALSE,FALSE,FALSE,HPA filter
+P22897,MRC1,Macrophage mannose receptor 1,TRUE,FALSE,FALSE,Missingness filter
+P08519,LPA,Apolipoprotein(a),FALSE,FALSE,FALSE,HPA filter
+Q9UGM5,FETUB,Fetuin-B,FALSE,FALSE,FALSE,HPA filter
+P35612,ADD2,Beta-adducin,FALSE,FALSE,FALSE,HPA filter
+Q15758,SLC1A5,Neutral amino acid transporter B(0),TRUE,FALSE,FALSE,Missingness filter
+P09496,CLTA,Clathrin light chain A,TRUE,FALSE,FALSE,Missingness filter
+Q99961,SH3GL1,Endophilin-A2,TRUE,FALSE,FALSE,Missingness filter
+O14639,ABLIM1,Actin-binding LIM protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9P000,COMMD9,COMM domain-containing protein 9,TRUE,FALSE,FALSE,Missingness filter
+O14974,PPP1R12A,Protein phosphatase 1 regulatory subunit 12A,TRUE,FALSE,FALSE,Missingness filter
+P15144,ANPEP,Aminopeptidase N,TRUE,FALSE,FALSE,Missingness filter
+Q6P9B6,MEAK7,MTOR-associated protein MEAK7,TRUE,FALSE,FALSE,Missingness filter
+Q9GZM7,TINAGL1,Tubulointerstitial nephritis antigen-like,TRUE,FALSE,FALSE,Missingness filter
+Q96A00,PPP1R14A,Protein phosphatase 1 regulatory subunit 14A,TRUE,FALSE,FALSE,Missingness filter
+Q2UY09,COL28A1,Collagen alpha-1(XXVIII) chain,TRUE,FALSE,FALSE,Missingness filter
+Q6NUJ1,PSAPL1,Proactivator polypeptide-like 1,FALSE,FALSE,FALSE,HPA filter
+P15814,IGLL1,Immunoglobulin lambda-like polypeptide 1,FALSE,FALSE,TRUE,HPA filter
+Q16799,RTN1,Reticulon-1,FALSE,FALSE,FALSE,HPA filter
+Q9UM00,TMCO1,Calcium load-activated calcium channel,TRUE,FALSE,FALSE,Missingness filter
+P54709,ATP1B3,Sodium/potassium-transporting ATPase subunit beta-3,TRUE,FALSE,FALSE,Missingness filter
+P23946,CMA1,Chymase,FALSE,FALSE,FALSE,HPA filter
+O14791,APOL1,Apolipoprotein L1,TRUE,FALSE,TRUE,Blood blacklist filter
+A0A0C4DH67,IGKV1-8,Immunoglobulin kappa variable 1-8,FALSE,FALSE,TRUE,HPA filter
+P53007,SLC25A1,"Tricarboxylate transport protein, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q07065,CKAP4,Cytoskeleton-associated protein 4,TRUE,FALSE,FALSE,Missingness filter
+P11413,G6PD,Glucose-6-phosphate 1-dehydrogenase,TRUE,FALSE,FALSE,Missingness filter
+P16104,H2AX,Histone H2AX,TRUE,FALSE,FALSE,Missingness filter
+Q8N474,SFRP1,Secreted frizzled-related protein 1,TRUE,FALSE,FALSE,Missingness filter
+P29373,CRABP2,Cellular retinoic acid-binding protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q8NHG7,SVIP,Small VCP/p97-interacting protein,TRUE,FALSE,FALSE,Missingness filter
+Q6UWY5,OLFML1,Olfactomedin-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+P36269,GGT5,Glutathione hydrolase 5 proenzyme,TRUE,FALSE,FALSE,Missingness filter
+Q96R05,RBP7,Retinoid-binding protein 7,TRUE,FALSE,FALSE,Missingness filter
+Q99969,RARRES2,Retinoic acid receptor responder protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q96E11,MRRF,"Ribosome-recycling factor, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q07866,KLC1,Kinesin light chain 1,TRUE,FALSE,FALSE,Missingness filter
+P08493,MGP,Matrix Gla protein,TRUE,FALSE,FALSE,Missingness filter
+P01593,IGKV1D-33,Immunoglobulin kappa variable 1D-33,FALSE,FALSE,TRUE,HPA filter
+P0CG29,GSTT2,Glutathione S-transferase theta-2,FALSE,FALSE,FALSE,HPA filter
+Q9HAV7,GRPEL1,"GrpE protein homolog 1, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q6FHJ7,SFRP4,Secreted frizzled-related protein 4,TRUE,FALSE,FALSE,Missingness filter
+P01704,IGLV2-14,Immunoglobulin lambda variable 2-14,TRUE,FALSE,TRUE,Blood blacklist filter
+Q8NI22,MCFD2,Multiple coagulation factor deficiency protein 2,TRUE,FALSE,FALSE,Missingness filter
+P24821,TNC,Tenascin,TRUE,FALSE,FALSE,Missingness filter
+P03950,ANG,Angiogenin,TRUE,FALSE,FALSE,Missingness filter
+Q8NFZ8,CADM4,Cell adhesion molecule 4,TRUE,FALSE,FALSE,Missingness filter
+Q6IB77,GLYAT,Glycine N-acyltransferase,FALSE,FALSE,FALSE,HPA filter
+P09105,HBQ1,Hemoglobin subunit theta-1,FALSE,FALSE,TRUE,HPA filter
+P0C0S5,H2AZ1,Histone H2A.Z,TRUE,FALSE,FALSE,Missingness filter
+Q15392,DHCR24,Delta(24)-sterol reductase,TRUE,FALSE,FALSE,Missingness filter
+P49908,SELENOP,Selenoprotein P,TRUE,FALSE,FALSE,Missingness filter
+P10643,C7,Complement component C7,TRUE,FALSE,TRUE,Blood blacklist filter
+P22792,CPN2,Carboxypeptidase N subunit 2,FALSE,FALSE,FALSE,HPA filter
+Q8N0U8,VKORC1L1,Vitamin K epoxide reductase complex subunit 1-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+P08571,CD14,Monocyte differentiation antigen CD14,TRUE,FALSE,FALSE,Missingness filter
+P14207,FOLR2,Folate receptor beta,TRUE,FALSE,FALSE,Missingness filter
+P02008,HBZ,Hemoglobin subunit zeta,FALSE,FALSE,TRUE,HPA filter
+P20742,PZP,Pregnancy zone protein,FALSE,FALSE,FALSE,HPA filter
+Q9NY15,STAB1,Stabilin-1,TRUE,FALSE,FALSE,Missingness filter
+Q96IY4,CPB2,Carboxypeptidase B2,FALSE,FALSE,FALSE,HPA filter
+Q8IYB5,SMAP1,Stromal membrane-associated protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q96F85,CNRIP1,CB1 cannabinoid receptor-interacting protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9H1E1,RNASE7,Ribonuclease 7,FALSE,FALSE,FALSE,HPA filter
+P28062,PSMB8,Proteasome subunit beta type-8,TRUE,FALSE,FALSE,Missingness filter
+P16070,CD44,CD44 antigen,TRUE,FALSE,FALSE,Missingness filter
+Q86UU1,PHLDB1,Pleckstrin homology-like domain family B member 1,TRUE,FALSE,FALSE,Missingness filter
+P09486,SPARC,SPARC,TRUE,FALSE,FALSE,Missingness filter
+P20472,PVALB,Parvalbumin alpha,TRUE,FALSE,FALSE,Missingness filter
+P01703,IGLV1-40,Immunoglobulin lambda variable 1-40,TRUE,FALSE,TRUE,Blood blacklist filter
+Q9ULV4,CORO1C,Coronin-1C,TRUE,FALSE,FALSE,Missingness filter
+P16949,STMN1,Stathmin,TRUE,FALSE,FALSE,Missingness filter
+O15239,NDUFA1,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 1,TRUE,FALSE,FALSE,Missingness filter
+P13647,KRT5,"Keratin, type II cytoskeletal 5",TRUE,TRUE,FALSE,Keratin filter
+O60437,PPL,Periplakin,TRUE,FALSE,FALSE,Missingness filter
+Q92930,RAB8B,Ras-related protein Rab-8B,TRUE,FALSE,FALSE,Missingness filter
+Q9UHY1,NRBP1,Nuclear receptor-binding protein,TRUE,FALSE,FALSE,Missingness filter
+Q13361,MFAP5,Microfibrillar-associated protein 5,TRUE,FALSE,FALSE,Missingness filter
+Q99504,EYA3,Eyes absent homolog 3,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3B8,REXO2,"Oligoribonuclease, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P09668,CTSH,Pro-cathepsin H,TRUE,FALSE,FALSE,Missingness filter
+P23229,ITGA6,Integrin alpha-6,TRUE,FALSE,FALSE,Missingness filter
+O75636,FCN3,Ficolin-3,TRUE,FALSE,FALSE,Missingness filter
+Q9H4B7,TUBB1,Tubulin beta-1 chain,FALSE,FALSE,FALSE,HPA filter
+Q9H5X1,CIAO2A,Cytosolic iron-sulfur assembly component 2A,TRUE,FALSE,FALSE,Missingness filter
+P01717,IGLV3-25,Immunoglobulin lambda variable 3-25,FALSE,FALSE,TRUE,HPA filter
+Q6FI81,CIAPIN1,Anamorsin,TRUE,FALSE,FALSE,Missingness filter
+P01111,NRAS,GTPase NRas,TRUE,FALSE,FALSE,Missingness filter
+P07360,C8G,Complement component C8 gamma chain,TRUE,FALSE,TRUE,Blood blacklist filter
+Q9Y2V2,CARHSP1,Calcium-regulated heat-stable protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q6IQ22,RAB12,Ras-related protein Rab-12,FALSE,FALSE,FALSE,HPA filter
+Q9UEY8,ADD3,Gamma-adducin,TRUE,FALSE,FALSE,Missingness filter
+Q16610,ECM1,Extracellular matrix protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q14982,OPCML,Opioid-binding protein/cell adhesion molecule,FALSE,FALSE,FALSE,HPA filter
+P12829,MYL4,Myosin light chain 4,TRUE,FALSE,FALSE,Missingness filter
+Q99747,NAPG,Gamma-soluble NSF attachment protein,TRUE,FALSE,FALSE,Missingness filter
+Q9BRQ8,AIFM2,Ferroptosis suppressor protein 1,TRUE,FALSE,FALSE,Missingness filter
+P07358,C8B,Complement component C8 beta chain,FALSE,FALSE,TRUE,HPA filter
+O43143,DHX15,Pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15,TRUE,FALSE,FALSE,Missingness filter
+P01714,IGLV3-19,Immunoglobulin lambda variable 3-19,FALSE,FALSE,TRUE,HPA filter
+Q4V9L6,TMEM119,Transmembrane protein 119,TRUE,FALSE,FALSE,Missingness filter
+P61952,GNG11,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-11,TRUE,FALSE,FALSE,Missingness filter
+P98082,DAB2,Disabled homolog 2,TRUE,FALSE,FALSE,Missingness filter
+Q96D15,RCN3,Reticulocalbin-3,TRUE,FALSE,FALSE,Missingness filter
+P61421,ATP6V0D1,V-type proton ATPase subunit d 1,TRUE,FALSE,FALSE,Missingness filter
+P53634,CTSC,Dipeptidyl peptidase 1,TRUE,FALSE,FALSE,Missingness filter
+P34913,EPHX2,Bifunctional epoxide hydrolase 2,TRUE,FALSE,FALSE,Missingness filter
+Q86UX7,FERMT3,Fermitin family homolog 3,TRUE,FALSE,FALSE,Missingness filter
+P06756,ITGAV,Integrin alpha-V,TRUE,FALSE,FALSE,Missingness filter
+P08246,ELANE,Neutrophil elastase,TRUE,FALSE,FALSE,Missingness filter
+Q9HCU0,CD248,Endosialin,TRUE,FALSE,FALSE,Missingness filter
+Q86V81,ALYREF,THO complex subunit 4,FALSE,FALSE,FALSE,HPA filter
+P58005,SESN3,Sestrin-3,TRUE,FALSE,FALSE,Missingness filter
+P21589,NT5E,5'-nucleotidase,TRUE,FALSE,FALSE,Missingness filter
+O43301,HSPA12A,Heat shock 70 kDa protein 12A,TRUE,FALSE,FALSE,Missingness filter
+O75367,MACROH2A1,Core histone macro-H2A.1,TRUE,FALSE,FALSE,Missingness filter
+P61254,RPL26,60S ribosomal protein L26,TRUE,FALSE,FALSE,Missingness filter
+Q9H0Z9,RBM38,RNA-binding protein 38,TRUE,FALSE,FALSE,Missingness filter
+P05543,SERPINA7,Thyroxine-binding globulin,FALSE,FALSE,FALSE,HPA filter
+Q92522,H1FX,Histone H1x,TRUE,FALSE,FALSE,Missingness filter
+Q92781,RDH5,Retinol dehydrogenase 5,TRUE,FALSE,FALSE,Missingness filter
+P40121,CAPG,Macrophage-capping protein,TRUE,FALSE,FALSE,Missingness filter
+Q96S97,MYADM,Myeloid-associated differentiation marker,TRUE,FALSE,FALSE,Missingness filter
+P02461,COL3A1,Collagen alpha-1(III) chain,TRUE,FALSE,FALSE,Missingness filter
+Q86U28,ISCA2,"Iron-sulfur cluster assembly 2 homolog, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P05107,ITGB2,Integrin beta-2,TRUE,FALSE,FALSE,Missingness filter
+Q16647,PTGIS,Prostacyclin synthase,TRUE,FALSE,FALSE,Missingness filter
+Q14520,HABP2,Hyaluronan-binding protein 2,FALSE,FALSE,FALSE,HPA filter
+Q6UW78,UQCC3,Ubiquinol-cytochrome-c reductase complex assembly factor 3,TRUE,FALSE,FALSE,Missingness filter
+A0A0B4J2F0,PIGBOS1,Protein PIGBOS1,TRUE,FALSE,FALSE,Missingness filter
+P54868,HMGCS2,"Hydroxymethylglutaryl-CoA synthase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q969L2,MAL2,Protein MAL2,FALSE,FALSE,FALSE,HPA filter
+Q07954,LRP1,Prolow-density lipoprotein receptor-related protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q96CB9,NSUN4,5-methylcytosine rRNA methyltransferase NSUN4,TRUE,FALSE,FALSE,Missingness filter
+Q9UKL6,PCTP,Phosphatidylcholine transfer protein,TRUE,FALSE,FALSE,Missingness filter
+Q92599,SEPTIN8,Septin-8,TRUE,FALSE,FALSE,Missingness filter
+Q92954,PRG4,Proteoglycan 4,TRUE,FALSE,FALSE,Missingness filter
+P42773,CDKN2C,Cyclin-dependent kinase 4 inhibitor C,TRUE,FALSE,FALSE,Missingness filter
+P50851,LRBA,Lipopolysaccharide-responsive and beige-like anchor protein,TRUE,FALSE,FALSE,Missingness filter
+Q9Y240,CLEC11A,C-type lectin domain family 11 member A,TRUE,FALSE,FALSE,Missingness filter
+P07196,NEFL,Neurofilament light polypeptide,FALSE,FALSE,FALSE,HPA filter
+P63096,GNAI1,Guanine nucleotide-binding protein G(i) subunit alpha-1,TRUE,FALSE,FALSE,Missingness filter
+P00156,MT-CYB,Cytochrome b,TRUE,FALSE,FALSE,Missingness filter
+P54105,CLNS1A,Methylosome subunit pICln,TRUE,FALSE,FALSE,Missingness filter
+Q86VB7,CD163,Scavenger receptor cysteine-rich type 1 protein M130,TRUE,FALSE,FALSE,Missingness filter
+Q02818,NUCB1,Nucleobindin-1,TRUE,FALSE,FALSE,Missingness filter
+P06681,C2,Complement C2,TRUE,FALSE,FALSE,Missingness filter
+Q9BUB7,TMEM70,"Transmembrane protein 70, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P16112,ACAN,Aggrecan core protein,FALSE,FALSE,FALSE,HPA filter
+P61764,STXBP1,Syntaxin-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9UHB6,LIMA1,LIM domain and actin-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9NVH1,DNAJC11,DnaJ homolog subfamily C member 11,TRUE,FALSE,FALSE,Missingness filter
+P30519,HMOX2,Heme oxygenase 2,TRUE,FALSE,FALSE,Missingness filter
+Q10588,BST1,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2,TRUE,FALSE,FALSE,Missingness filter
+P0DN76,U2AF1L5,Splicing factor U2AF 35 kDa subunit-like protein,FALSE,FALSE,FALSE,HPA filter
+Q96GZ6,SLC41A3,Solute carrier family 41 member 3,TRUE,FALSE,FALSE,Missingness filter
+P48509,CD151,CD151 antigen,TRUE,FALSE,FALSE,Missingness filter
+Q9UIL1,SCOC,Short coiled-coil protein,TRUE,FALSE,FALSE,Missingness filter
+Q9P0P8,MTRES1,Mitochondrial transcription rescue factor 1,TRUE,FALSE,FALSE,Missingness filter
+Q8IXS6,PALM2,Paralemmin-2,FALSE,FALSE,FALSE,HPA filter
+Q16270,IGFBP7,Insulin-like growth factor-binding protein 7,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3E7,CHMP3,Charged multivesicular body protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q9UJ68,MSRA,Mitochondrial peptide methionine sulfoxide reductase,TRUE,FALSE,FALSE,Missingness filter
+Q9BXD5,NPL,N-acetylneuraminate lyase,TRUE,FALSE,FALSE,Missingness filter
+O60826,CCDC22,Coiled-coil domain-containing protein 22,TRUE,FALSE,FALSE,Missingness filter
+P52597,HNRNPF,Heterogeneous nuclear ribonucleoprotein F,TRUE,FALSE,FALSE,Missingness filter
+P16401,H1-5,Histone H1.5,FALSE,FALSE,FALSE,HPA filter
+P05160,F13B,Coagulation factor XIII B chain,FALSE,FALSE,TRUE,HPA filter
+A0A0C4DH29,IGHV1-3,Immunoglobulin heavy variable 1-3,FALSE,FALSE,TRUE,HPA filter
+Q5HYK7,SH3D19,SH3 domain-containing protein 19,TRUE,FALSE,FALSE,Missingness filter
+Q12846,STX4,Syntaxin-4,TRUE,FALSE,FALSE,Missingness filter
+P40261,NNMT,Nicotinamide N-methyltransferase,TRUE,FALSE,FALSE,Missingness filter
+Q14139,UBE4A,Ubiquitin conjugation factor E4 A,TRUE,FALSE,FALSE,Missingness filter
+Q9NZP8,C1RL,Complement C1r subcomponent-like protein,TRUE,FALSE,FALSE,Missingness filter
+Q92879,CELF1,CUGBP Elav-like family member 1,TRUE,FALSE,FALSE,Missingness filter
+O95816,BAG2,BAG family molecular chaperone regulator 2,TRUE,FALSE,FALSE,Missingness filter
+Q5T6F2,UBAP2,Ubiquitin-associated protein 2,TRUE,FALSE,FALSE,Missingness filter
+P01344,IGF2,Insulin-like growth factor II,TRUE,FALSE,FALSE,Missingness filter
+P56199,ITGA1,Integrin alpha-1,TRUE,FALSE,FALSE,Missingness filter
+P39210,MPV17,Protein Mpv17,TRUE,FALSE,FALSE,Missingness filter
+P07686,HEXB,Beta-hexosaminidase subunit beta,TRUE,FALSE,FALSE,Missingness filter
+Q9Y6Y8,SEC23IP,SEC23-interacting protein,TRUE,FALSE,FALSE,Missingness filter
+Q14696,MESD,LRP chaperone MESD,TRUE,FALSE,FALSE,Missingness filter
+P15169,CPN1,Carboxypeptidase N catalytic chain,FALSE,FALSE,FALSE,HPA filter
+P62304,SNRPE,Small nuclear ribonucleoprotein E,TRUE,FALSE,FALSE,Missingness filter
+Q03169,TNFAIP2,Tumor necrosis factor alpha-induced protein 2,TRUE,FALSE,FALSE,Missingness filter
+P08174,CD55,Complement decay-accelerating factor,TRUE,FALSE,FALSE,Missingness filter
+Q9UDX3,SEC14L4,SEC14-like protein 4,FALSE,FALSE,FALSE,HPA filter
+Q8N129,CNPY4,Protein canopy homolog 4,TRUE,FALSE,FALSE,Missingness filter
+Q15031,LARS2,"Probable leucine--tRNA ligase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P27487,DPP4,Dipeptidyl peptidase 4,TRUE,FALSE,FALSE,Missingness filter
+Q8NC42,RNF149,E3 ubiquitin-protein ligase RNF149,TRUE,FALSE,FALSE,Missingness filter
+Q12841,FSTL1,Follistatin-related protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q13113,PDZK1IP1,PDZK1-interacting protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9BWM7,SFXN3,Sideroflexin-3,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3C8,UFC1,Ubiquitin-fold modifier-conjugating enzyme 1,TRUE,FALSE,FALSE,Missingness filter
+Q8NBJ7,SUMF2,Inactive C-alpha-formylglycine-generating enzyme 2,TRUE,FALSE,FALSE,Missingness filter
+P00748,F12,Coagulation factor XII,FALSE,FALSE,FALSE,HPA filter
+Q13336,SLC14A1,Urea transporter 1,TRUE,FALSE,FALSE,Missingness filter
+Q63ZY3,KANK2,KN motif and ankyrin repeat domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+P24158,PRTN3,Myeloblastin,FALSE,FALSE,FALSE,HPA filter
+P05164,MPO,Myeloperoxidase,TRUE,FALSE,FALSE,Missingness filter
+P33151,CDH5,Cadherin-5,TRUE,FALSE,FALSE,Missingness filter
+P04275,VWF,von Willebrand factor,TRUE,FALSE,TRUE,Blood blacklist filter
+Q96C19,EFHD2,EF-hand domain-containing protein D2,TRUE,FALSE,FALSE,Missingness filter
+P16455,MGMT,Methylated-DNA--protein-cysteine methyltransferase,TRUE,FALSE,FALSE,Missingness filter
+P20339,RAB5A,Ras-related protein Rab-5A,TRUE,FALSE,FALSE,Missingness filter
+Q9HAT2,SIAE,Sialate O-acetylesterase,TRUE,FALSE,FALSE,Missingness filter
+P0DOY3,IGLC3,Immunoglobulin lambda constant 3,TRUE,FALSE,TRUE,Blood blacklist filter
+Q9H4G0,EPB41L1,Band 4.1-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+P61006,RAB8A,Ras-related protein Rab-8A,TRUE,FALSE,FALSE,Missingness filter
+P14780,MMP9,Matrix metalloproteinase-9,FALSE,FALSE,FALSE,HPA filter
+P11234,RALB,Ras-related protein Ral-B,TRUE,FALSE,FALSE,Missingness filter
+Q9H3Q1,CDC42EP4,Cdc42 effector protein 4,TRUE,FALSE,FALSE,Missingness filter
+P01880,IGHD,Immunoglobulin heavy constant delta,FALSE,FALSE,TRUE,HPA filter
+Q17R31,TATDN3,Putative deoxyribonuclease TATDN3,TRUE,FALSE,FALSE,Missingness filter
+Q99729,HNRNPAB,Heterogeneous nuclear ribonucleoprotein A/B,TRUE,FALSE,FALSE,Missingness filter
+O14735,CDIPT,CDP-diacylglycerol--inositol 3-phosphatidyltransferase,TRUE,FALSE,FALSE,Missingness filter
+P50135,HNMT,Histamine N-methyltransferase,TRUE,FALSE,FALSE,Missingness filter
+Q5VT66,MTARC1,Mitochondrial amidoxime-reducing component 1,TRUE,FALSE,FALSE,Missingness filter
+P02788,LTF,Lactotransferrin,TRUE,FALSE,FALSE,Missingness filter
+P47914,RPL29,60S ribosomal protein L29,TRUE,FALSE,FALSE,Missingness filter
+Q9Y624,F11R,Junctional adhesion molecule A,TRUE,FALSE,FALSE,Missingness filter
+Q8WUY1,THEM6,Protein THEM6,TRUE,FALSE,FALSE,Missingness filter
+Q00341,HDLBP,Vigilin,TRUE,FALSE,FALSE,Missingness filter
+O75828,CBR3,Carbonyl reductase [NADPH] 3,TRUE,FALSE,FALSE,Missingness filter
+Q8IZP0,ABI1,Abl interactor 1,TRUE,FALSE,FALSE,Missingness filter
+P79483,HLA-DRB3,"HLA class II histocompatibility antigen, DR beta 3 chain",FALSE,FALSE,FALSE,HPA filter
+Q86YJ6,THNSL2,Threonine synthase-like 2,TRUE,FALSE,FALSE,Missingness filter
+Q9UMR2,DDX19B,ATP-dependent RNA helicase DDX19B,TRUE,FALSE,FALSE,Missingness filter
+P35858,IGFALS,Insulin-like growth factor-binding protein complex acid labile subunit,FALSE,FALSE,FALSE,HPA filter
+Q96EL3,MRPL53,"39S ribosomal protein L53, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q96S52,PIGS,GPI transamidase component PIG-S,TRUE,FALSE,FALSE,Missingness filter
+Q27J81,INF2,Inverted formin-2,TRUE,FALSE,FALSE,Missingness filter
+Q9BR76,CORO1B,Coronin-1B,TRUE,FALSE,FALSE,Missingness filter
+O15067,PFAS,Phosphoribosylformylglycinamidine synthase,TRUE,FALSE,FALSE,Missingness filter
+Q8IUX7,AEBP1,Adipocyte enhancer-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+P46778,RPL21,60S ribosomal protein L21,TRUE,FALSE,FALSE,Missingness filter
+Q9P2R3,ANKFY1,Rabankyrin-5,TRUE,FALSE,FALSE,Missingness filter
+Q6YHK3,CD109,CD109 antigen,TRUE,FALSE,FALSE,Missingness filter
+Q92597,NDRG1,Protein NDRG1,TRUE,FALSE,FALSE,Missingness filter
+P15586,GNS,N-acetylglucosamine-6-sulfatase,TRUE,FALSE,FALSE,Missingness filter
+P51178,PLCD1,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1",TRUE,FALSE,FALSE,Missingness filter
+Q8N465,D2HGDH,"D-2-hydroxyglutarate dehydrogenase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q8NBN7,RDH13,Retinol dehydrogenase 13,TRUE,FALSE,FALSE,Missingness filter
+P21246,PTN,Pleiotrophin,TRUE,FALSE,FALSE,Missingness filter
+Q9BY49,PECR,Peroxisomal trans-2-enoyl-CoA reductase,TRUE,FALSE,FALSE,Missingness filter
+Q86UX2,ITIH5,Inter-alpha-trypsin inhibitor heavy chain H5,FALSE,FALSE,FALSE,HPA filter
+P04350,TUBB4A,Tubulin beta-4A chain,TRUE,FALSE,FALSE,Missingness filter
+Q8N0X4,CLYBL,"Citramalyl-CoA lyase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O15075,DCLK1,Serine/threonine-protein kinase DCLK1,TRUE,FALSE,FALSE,Missingness filter
+Q86Y82,STX12,Syntaxin-12,TRUE,FALSE,FALSE,Missingness filter
+P21283,ATP6V1C1,V-type proton ATPase subunit C 1,TRUE,FALSE,FALSE,Missingness filter
+P10176,COX8A,"Cytochrome c oxidase subunit 8A, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P49459,UBE2A,Ubiquitin-conjugating enzyme E2 A,TRUE,FALSE,FALSE,Missingness filter
+A0A0A0MS15,IGHV3-49,Immunoglobulin heavy variable 3-49,FALSE,FALSE,TRUE,HPA filter
+P17900,GM2A,Ganglioside GM2 activator,TRUE,FALSE,FALSE,Missingness filter
+P13637,ATP1A3,Sodium/potassium-transporting ATPase subunit alpha-3,FALSE,FALSE,FALSE,HPA filter
+P62328,TMSB4X,Thymosin beta-4,TRUE,FALSE,FALSE,Missingness filter
+Q330K2,NDUFAF6,"NADH dehydrogenase (ubiquinone) complex I, assembly factor 6",TRUE,FALSE,FALSE,Missingness filter
+Q9H477,RBKS,Ribokinase,TRUE,FALSE,FALSE,Missingness filter
+Q16777,HIST2H2AC,Histone H2A type 2-C,FALSE,FALSE,FALSE,HPA filter
+Q9NSK7,C19orf12,Protein C19orf12,TRUE,FALSE,FALSE,Missingness filter
+Q9BPX6,MICU1,"Calcium uptake protein 1, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O00154,ACOT7,Cytosolic acyl coenzyme A thioester hydrolase,TRUE,FALSE,FALSE,Missingness filter
+A0A075B6J9,IGLV2-18,Immunoglobulin lambda variable 2-18,FALSE,FALSE,TRUE,HPA filter
+Q7LBR1,CHMP1B,Charged multivesicular body protein 1b,TRUE,FALSE,FALSE,Missingness filter
+Q9P2X3,IMPACT,Protein IMPACT,TRUE,FALSE,FALSE,Missingness filter
+Q9C0C2,TNKS1BP1,182 kDa tankyrase-1-binding protein,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3U8,RPL36,60S ribosomal protein L36,TRUE,FALSE,FALSE,Missingness filter
+Q05655,PRKCD,Protein kinase C delta type,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2J2,EPB41L3,Band 4.1-like protein 3,TRUE,FALSE,FALSE,Missingness filter
+P00533,EGFR,Epidermal growth factor receptor,TRUE,FALSE,FALSE,Missingness filter
+Q9H6K4,OPA3,Optic atrophy 3 protein,TRUE,FALSE,FALSE,Missingness filter
+Q9UPQ0,LIMCH1,LIM and calponin homology domains-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+P00742,F10,Coagulation factor X,TRUE,FALSE,TRUE,Blood blacklist filter
+Q9NZL4,HSPBP1,Hsp70-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q96RS6,NUDCD1,NudC domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+P39023,RPL3,60S ribosomal protein L3,TRUE,FALSE,FALSE,Missingness filter
+A1L4H1,SSC5D,Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D,TRUE,FALSE,FALSE,Missingness filter
+Q6BCY4,CYB5R2,NADH-cytochrome b5 reductase 2,TRUE,FALSE,FALSE,Missingness filter
+P02538,KRT6A,"Keratin, type II cytoskeletal 6A",TRUE,TRUE,FALSE,Keratin filter
+P31994,FCGR2B,Low affinity immunoglobulin gamma Fc region receptor II-b,TRUE,FALSE,FALSE,Missingness filter
+P01040,CSTA,Cystatin-A,TRUE,FALSE,FALSE,Missingness filter
+A1L0T0,ILVBL,Acetolactate synthase-like protein,TRUE,FALSE,FALSE,Missingness filter
+Q06033,ITIH3,Inter-alpha-trypsin inhibitor heavy chain H3,FALSE,FALSE,TRUE,HPA filter
+P49321,NASP,Nuclear autoantigenic sperm protein,TRUE,FALSE,FALSE,Missingness filter
+O94875,SORBS2,Sorbin and SH3 domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+O75882,ATRN,Attractin,TRUE,FALSE,FALSE,Missingness filter
+Q6P1A2,LPCAT3,Lysophospholipid acyltransferase 5,TRUE,FALSE,FALSE,Missingness filter
+Q8N5X7,EIF4E3,Eukaryotic translation initiation factor 4E type 3,TRUE,FALSE,FALSE,Missingness filter
+Q02318,CYP27A1,"Sterol 26-hydroxylase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9BY32,ITPA,Inosine triphosphate pyrophosphatase,TRUE,FALSE,FALSE,Missingness filter
+A0A0A0MT89,IGKJ1,Immunoglobulin kappa joining 1,TRUE,FALSE,TRUE,Blood blacklist filter
+Q53S33,BOLA3,BolA-like protein 3,TRUE,FALSE,FALSE,Missingness filter
+P05154,SERPINA5,Plasma serine protease inhibitor,TRUE,FALSE,FALSE,Missingness filter
+Q14699,RFTN1,Raftlin,TRUE,FALSE,FALSE,Missingness filter
+P49593,PPM1F,Protein phosphatase 1F,TRUE,FALSE,FALSE,Missingness filter
+P16144,ITGB4,Integrin beta-4,TRUE,FALSE,FALSE,Missingness filter
+Q5TGZ0,MICOS10,MICOS complex subunit MIC10,TRUE,FALSE,FALSE,Missingness filter
+Q01628,IFITM3,Interferon-induced transmembrane protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2T3,GDA,Guanine deaminase,TRUE,FALSE,FALSE,Missingness filter
+Q99523,SORT1,Sortilin,TRUE,FALSE,FALSE,Missingness filter
+P42785,PRCP,Lysosomal Pro-X carboxypeptidase,TRUE,FALSE,FALSE,Missingness filter
+Q03591,CFHR1,Complement factor H-related protein 1,FALSE,FALSE,FALSE,HPA filter
+O60869,EDF1,Endothelial differentiation-related factor 1,TRUE,FALSE,FALSE,Missingness filter
+Q96P70,IPO9,Importin-9,TRUE,FALSE,FALSE,Missingness filter
+P49789,FHIT,Bis(5'-adenosyl)-triphosphatase,TRUE,FALSE,FALSE,Missingness filter
+O00170,AIP,AH receptor-interacting protein,TRUE,FALSE,FALSE,Missingness filter
+Q15113,PCOLCE,Procollagen C-endopeptidase enhancer 1,TRUE,FALSE,FALSE,Missingness filter
+Q9BYV7,BCO2,"Beta,beta-carotene 9',10'-oxygenase",TRUE,FALSE,FALSE,Missingness filter
+Q9NPA0,EMC7,ER membrane protein complex subunit 7,TRUE,FALSE,FALSE,Missingness filter
+A5D6W6,FITM1,Fat storage-inducing transmembrane protein 1,TRUE,FALSE,FALSE,Missingness filter
+P61011,SRP54,Signal recognition particle 54 kDa protein,TRUE,FALSE,FALSE,Missingness filter
+Q9NRN7,AASDHPPT,L-aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase,TRUE,FALSE,FALSE,Missingness filter
+Q7Z3B1,NEGR1,Neuronal growth regulator 1,TRUE,FALSE,FALSE,Missingness filter
+P32320,CDA,Cytidine deaminase,TRUE,FALSE,FALSE,Missingness filter
+A0A0B4J1V0,IGHV3-15,Immunoglobulin heavy variable 3-15,FALSE,FALSE,TRUE,HPA filter
+Q5RI15,COX20,"Cytochrome c oxidase assembly protein COX20, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O43504,LAMTOR5,Ragulator complex protein LAMTOR5,TRUE,FALSE,FALSE,Missingness filter
+Q96BJ3,AIDA,"Axin interactor, dorsalization-associated protein",TRUE,FALSE,FALSE,Missingness filter
+Q13151,HNRNPA0,Heterogeneous nuclear ribonucleoprotein A0,TRUE,FALSE,FALSE,Missingness filter
+Q01844,EWSR1,RNA-binding protein EWS,TRUE,FALSE,FALSE,Missingness filter
+Q9NUP9,LIN7C,Protein lin-7 homolog C,TRUE,FALSE,FALSE,Missingness filter
+P53582,METAP1,Methionine aminopeptidase 1,TRUE,FALSE,FALSE,Missingness filter
+Q14344,GNA13,Guanine nucleotide-binding protein subunit alpha-13,TRUE,FALSE,FALSE,Missingness filter
+Q14677,CLINT1,Clathrin interactor 1,TRUE,FALSE,FALSE,Missingness filter
+Q9Y617,PSAT1,Phosphoserine aminotransferase,FALSE,FALSE,FALSE,HPA filter
+Q15811,ITSN1,Intersectin-1,TRUE,FALSE,FALSE,Missingness filter
+P53680,AP2S1,AP-2 complex subunit sigma,TRUE,FALSE,FALSE,Missingness filter
+Q13936,CACNA1C,Voltage-dependent L-type calcium channel subunit alpha-1C,FALSE,FALSE,FALSE,HPA filter
+P04839,CYBB,Cytochrome b-245 heavy chain,TRUE,FALSE,FALSE,Missingness filter
+Q6QEF8,CORO6,Coronin-6,TRUE,FALSE,FALSE,Missingness filter
+Q9UEU0,VTI1B,Vesicle transport through interaction with t-SNAREs homolog 1B,TRUE,FALSE,FALSE,Missingness filter
+Q7Z7H5,TMED4,Transmembrane emp24 domain-containing protein 4,TRUE,FALSE,FALSE,Missingness filter
+Q9Y6N1,COX11,"Cytochrome c oxidase assembly protein COX11, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P20851,C4BPB,C4b-binding protein beta chain,FALSE,FALSE,TRUE,HPA filter
+P32455,GBP1,Guanylate-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+P62253,UBE2G1,Ubiquitin-conjugating enzyme E2 G1,TRUE,FALSE,FALSE,Missingness filter
+Q30154,HLA-DRB5,"HLA class II histocompatibility antigen, DR beta 5 chain",TRUE,FALSE,FALSE,Missingness filter
+P08648,ITGA5,Integrin alpha-5,TRUE,FALSE,FALSE,Missingness filter
+Q53H12,AGK,"Acylglycerol kinase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9Y3D9,MRPS23,"28S ribosomal protein S23, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q04941,PLP2,Proteolipid protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q9H1C7,CYSTM1,Cysteine-rich and transmembrane domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+O95278,EPM2A,Laforin,TRUE,FALSE,FALSE,Missingness filter
+O14498,ISLR,Immunoglobulin superfamily containing leucine-rich repeat protein,TRUE,FALSE,FALSE,Missingness filter
+Q15386,UBE3C,Ubiquitin-protein ligase E3C,TRUE,FALSE,FALSE,Missingness filter
+O14828,SCAMP3,Secretory carrier-associated membrane protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3A6,TMED5,Transmembrane emp24 domain-containing protein 5,TRUE,FALSE,FALSE,Missingness filter
+P35221,CTNNA1,Catenin alpha-1,TRUE,FALSE,FALSE,Missingness filter
+P50583,NUDT2,Bis(5'-nucleosyl)-tetraphosphatase [asymmetrical],TRUE,FALSE,FALSE,Missingness filter
+A5D8V6,VPS37C,Vacuolar protein sorting-associated protein 37C,TRUE,FALSE,FALSE,Missingness filter
+Q9Y276,BCS1L,Mitochondrial chaperone BCS1,TRUE,FALSE,FALSE,Missingness filter
+P50453,SERPINB9,Serpin B9,TRUE,FALSE,FALSE,Missingness filter
+Q92973,TNPO1,Transportin-1,TRUE,FALSE,FALSE,Missingness filter
+Q8TC44,POC1B,POC1 centriolar protein homolog B,TRUE,FALSE,FALSE,Missingness filter
+Q6P5Q4,LMOD2,Leiomodin-2,TRUE,FALSE,FALSE,Missingness filter
+Q9UNN5,FAF1,FAS-associated factor 1,TRUE,FALSE,FALSE,Missingness filter
+Q9ULZ3,PYCARD,Apoptosis-associated speck-like protein containing a CARD,TRUE,FALSE,FALSE,Missingness filter
+Q9BVJ7,DUSP23,Dual specificity protein phosphatase 23,TRUE,FALSE,FALSE,Missingness filter
+O75410,TACC1,Transforming acidic coiled-coil-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+P80723,BASP1,Brain acid soluble protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q96IV0,NGLY1,Peptide-N(4)-(N-acetyl-beta-glucosaminyl)asparagine amidase,TRUE,FALSE,FALSE,Missingness filter
+Q96A35,MRPL24,"39S ribosomal protein L24, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q3ZCM7,TUBB8,Tubulin beta-8 chain,FALSE,FALSE,FALSE,HPA filter
+Q9BRJ2,MRPL45,"39S ribosomal protein L45, mitochondrial",FALSE,FALSE,FALSE,HPA filter
+Q15438,CYTH1,Cytohesin-1,TRUE,FALSE,FALSE,Missingness filter
+P61626,LYZ,Lysozyme C,TRUE,FALSE,TRUE,Blood blacklist filter
+Q9UBG0,MRC2,C-type mannose receptor 2,TRUE,FALSE,FALSE,Missingness filter
+Q06190,PPP2R3A,Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit alpha,TRUE,FALSE,FALSE,Missingness filter
+Q8IWL3,HSCB,Iron-sulfur cluster co-chaperone protein HscB,TRUE,FALSE,FALSE,Missingness filter
+P12273,PIP,Prolactin-inducible protein,TRUE,FALSE,FALSE,Missingness filter
+Q9UKK9,NUDT5,ADP-sugar pyrophosphatase,TRUE,FALSE,FALSE,Missingness filter
+P35556,FBN2,Fibrillin-2,FALSE,FALSE,FALSE,HPA filter
+P09619,PDGFRB,Platelet-derived growth factor receptor beta,TRUE,FALSE,FALSE,Missingness filter
+P02724,GYPA,Glycophorin-A,FALSE,FALSE,FALSE,HPA filter
+Q8NDI1,EHBP1,EH domain-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+P09455,RBP1,Retinol-binding protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q6H8Q1,ABLIM2,Actin-binding LIM protein 2,TRUE,FALSE,FALSE,Missingness filter
+P48681,NES,Nestin,TRUE,FALSE,FALSE,Missingness filter
+P50148,GNAQ,Guanine nucleotide-binding protein G(q) subunit alpha,TRUE,FALSE,FALSE,Missingness filter
+Q9UBE0,SAE1,SUMO-activating enzyme subunit 1,TRUE,FALSE,FALSE,Missingness filter
+O60488,ACSL4,Long-chain-fatty-acid--CoA ligase 4,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3B3,TMED7,Transmembrane emp24 domain-containing protein 7,TRUE,FALSE,FALSE,Missingness filter
+Q9HB90,RRAGC,Ras-related GTP-binding protein C,TRUE,FALSE,FALSE,Missingness filter
+P46060,RANGAP1,Ran GTPase-activating protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q92747,ARPC1A,Actin-related protein 2/3 complex subunit 1A,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2Z4,YARS2,"Tyrosine--tRNA ligase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9Y639,NPTN,Neuroplastin,TRUE,FALSE,FALSE,Missingness filter
+Q92882,OSTF1,Osteoclast-stimulating factor 1,TRUE,FALSE,FALSE,Missingness filter
+Q12849,GRSF1,G-rich sequence factor 1,TRUE,FALSE,FALSE,Missingness filter
+O60610,DIAPH1,Protein diaphanous homolog 1,TRUE,FALSE,FALSE,Missingness filter
+Q5TA50,CPTP,Ceramide-1-phosphate transfer protein,TRUE,FALSE,FALSE,Missingness filter
+Q06136,KDSR,3-ketodihydrosphingosine reductase,TRUE,FALSE,FALSE,Missingness filter
+O43826,SLC37A4,Glucose-6-phosphate exchanger SLC37A4,FALSE,FALSE,FALSE,HPA filter
+Q8NHP8,PLBD2,Putative phospholipase B-like 2,TRUE,FALSE,FALSE,Missingness filter
+Q6B0K9,HBM,Hemoglobin subunit mu,FALSE,FALSE,TRUE,HPA filter
+Q8N4H5,TOMM5,Mitochondrial import receptor subunit TOM5 homolog,TRUE,FALSE,FALSE,Missingness filter
+Q96S96,PEBP4,Phosphatidylethanolamine-binding protein 4,TRUE,FALSE,FALSE,Missingness filter
+P55058,PLTP,Phospholipid transfer protein,TRUE,FALSE,FALSE,Missingness filter
+P49023,PXN,Paxillin,TRUE,FALSE,FALSE,Missingness filter
+P00740,F9,Coagulation factor IX,FALSE,FALSE,FALSE,HPA filter
+P62072,TIMM10,Mitochondrial import inner membrane translocase subunit Tim10,TRUE,FALSE,FALSE,Missingness filter
+P12004,PCNA,Proliferating cell nuclear antigen,TRUE,FALSE,FALSE,Missingness filter
+P35558,PCK1,"Phosphoenolpyruvate carboxykinase, cytosolic [GTP]",FALSE,FALSE,FALSE,HPA filter
+Q13451,FKBP5,Peptidyl-prolyl cis-trans isomerase FKBP5,TRUE,FALSE,FALSE,Missingness filter
+P60602,ROMO1,Reactive oxygen species modulator 1,TRUE,FALSE,FALSE,Missingness filter
+O95777,LSM8,U6 snRNA-associated Sm-like protein LSm8,TRUE,FALSE,FALSE,Missingness filter
+Q96T66,NMNAT3,Nicotinamide/nicotinic acid mononucleotide adenylyltransferase 3,TRUE,FALSE,FALSE,Missingness filter
+Q13153,PAK1,Serine/threonine-protein kinase PAK 1,TRUE,FALSE,FALSE,Missingness filter
+Q9NYL9,TMOD3,Tropomodulin-3,TRUE,FALSE,FALSE,Missingness filter
+Q9UP65,PLA2G4C,Cytosolic phospholipase A2 gamma,TRUE,FALSE,FALSE,Missingness filter
+P55899,FCGRT,IgG receptor FcRn large subunit p51,TRUE,FALSE,FALSE,Missingness filter
+Q9P2B2,PTGFRN,Prostaglandin F2 receptor negative regulator,TRUE,FALSE,FALSE,Missingness filter
+Q99538,LGMN,Legumain,TRUE,FALSE,FALSE,Missingness filter
+Q5ZPR3,CD276,CD276 antigen,TRUE,FALSE,FALSE,Missingness filter
+Q96AG3,SLC25A46,Solute carrier family 25 member 46,TRUE,FALSE,FALSE,Missingness filter
+P08621,SNRNP70,U1 small nuclear ribonucleoprotein 70 kDa,TRUE,FALSE,FALSE,Missingness filter
+Q9Y646,CPQ,Carboxypeptidase Q,TRUE,FALSE,FALSE,Missingness filter
+Q96FQ6,S100A16,Protein S100-A16,TRUE,FALSE,FALSE,Missingness filter
+Q7Z4H3,HDDC2,HD domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q9H0U3,MAGT1,Magnesium transporter protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9BXB4,OSBPL11,Oxysterol-binding protein-related protein 11,TRUE,FALSE,FALSE,Missingness filter
+Q9Y4Z0,LSM4,U6 snRNA-associated Sm-like protein LSm4,TRUE,FALSE,FALSE,Missingness filter
+Q7L0Y3,TRMT10C,tRNA methyltransferase 10 homolog C,TRUE,FALSE,FALSE,Missingness filter
+P16435,POR,NADPH--cytochrome P450 reductase,TRUE,FALSE,FALSE,Missingness filter
+Q8WTS1,ABHD5,1-acylglycerol-3-phosphate O-acyltransferase ABHD5,TRUE,FALSE,FALSE,Missingness filter
+P02795,MT2A,Metallothionein-2,TRUE,FALSE,FALSE,Missingness filter
+Q6UXB8,PI16,Peptidase inhibitor 16,TRUE,FALSE,FALSE,Missingness filter
+P98179,RBM3,RNA-binding protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q9UK76,JPT1,Jupiter microtubule associated homolog 1,TRUE,FALSE,FALSE,Missingness filter
+P28906,CD34,Hematopoietic progenitor cell antigen CD34,TRUE,FALSE,FALSE,Missingness filter
+Q8WZA9,IRGQ,Immunity-related GTPase family Q protein,TRUE,FALSE,FALSE,Missingness filter
+Q14554,PDIA5,Protein disulfide-isomerase A5,TRUE,FALSE,FALSE,Missingness filter
+P07998,RNASE1,Ribonuclease pancreatic,TRUE,FALSE,FALSE,Missingness filter
+Q96IJ6,GMPPA,Mannose-1-phosphate guanyltransferase alpha,TRUE,FALSE,FALSE,Missingness filter
+Q13263,TRIM28,Transcription intermediary factor 1-beta,TRUE,FALSE,FALSE,Missingness filter
+O95674,CDS2,Phosphatidate cytidylyltransferase 2,TRUE,FALSE,FALSE,Missingness filter
+Q9BVA1,TUBB2B,Tubulin beta-2B chain,TRUE,FALSE,FALSE,Missingness filter
+Q8WXH0,SYNE2,Nesprin-2,TRUE,FALSE,FALSE,Missingness filter
+Q14767,LTBP2,Latent-transforming growth factor beta-binding protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q7Z422,SZRD1,SUZ domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9BQI9,NRIP2,Nuclear receptor-interacting protein 2,TRUE,FALSE,FALSE,Missingness filter
+A0A0B4J1X8,IGHV3-43,Immunoglobulin heavy variable 3-43,FALSE,FALSE,TRUE,HPA filter
+Q5QJ74,TBCEL,Tubulin-specific chaperone cofactor E-like protein,TRUE,FALSE,FALSE,Missingness filter
+Q12792,TWF1,Twinfilin-1,TRUE,FALSE,FALSE,Missingness filter
+Q0VAK6,LMOD3,Leiomodin-3,TRUE,FALSE,FALSE,Missingness filter
+P17213,BPI,Bactericidal permeability-increasing protein,FALSE,FALSE,FALSE,HPA filter
+Q9BRK5,SDF4,45 kDa calcium-binding protein,FALSE,FALSE,FALSE,HPA filter
+Q9NR46,SH3GLB2,Endophilin-B2,TRUE,FALSE,FALSE,Missingness filter
+Q9NUQ8,ABCF3,ATP-binding cassette sub-family F member 3,TRUE,FALSE,FALSE,Missingness filter
+Q9HD15,SRA1,Steroid receptor RNA activator 1,TRUE,FALSE,FALSE,Missingness filter
+Q13790,APOF,Apolipoprotein F,FALSE,FALSE,FALSE,HPA filter
+Q92901,RPL3L,60S ribosomal protein L3-like,TRUE,FALSE,FALSE,Missingness filter
+P09601,HMOX1,Heme oxygenase 1,TRUE,FALSE,FALSE,Missingness filter
+Q8TAE6,PPP1R14C,Protein phosphatase 1 regulatory subunit 14C,TRUE,FALSE,FALSE,Missingness filter
+Q8N5K1,CISD2,CDGSH iron-sulfur domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q6EMK4,VASN,Vasorin,TRUE,FALSE,FALSE,Missingness filter
+P19256,CD58,Lymphocyte function-associated antigen 3,TRUE,FALSE,FALSE,Missingness filter
+O95834,EML2,Echinoderm microtubule-associated protein-like 2,TRUE,FALSE,FALSE,Missingness filter
+Q9NRN5,OLFML3,Olfactomedin-like protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q3SXM5,HSDL1,Inactive hydroxysteroid dehydrogenase-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9P0S9,TMEM14C,Transmembrane protein 14C,TRUE,FALSE,FALSE,Missingness filter
+A0A0B4J1V2,IGHV2-26,Immunoglobulin heavy variable 2-26,FALSE,FALSE,TRUE,HPA filter
+P11215,ITGAM,Integrin alpha-M,TRUE,FALSE,FALSE,Missingness filter
+O00161,SNAP23,Synaptosomal-associated protein 23,TRUE,FALSE,FALSE,Missingness filter
+P25940,COL5A3,Collagen alpha-3(V) chain,TRUE,FALSE,FALSE,Missingness filter
+Q9Y279,VSIG4,V-set and immunoglobulin domain-containing protein 4,TRUE,FALSE,FALSE,Missingness filter
+Q96JY6,PDLIM2,PDZ and LIM domain protein 2,TRUE,FALSE,FALSE,Missingness filter
+P15502,ELN,Elastin,TRUE,FALSE,FALSE,Missingness filter
+P08195,SLC3A2,4F2 cell-surface antigen heavy chain,TRUE,FALSE,FALSE,Missingness filter
+Q0ZGT2,NEXN,Nexilin,TRUE,FALSE,FALSE,Missingness filter
+P78559,MAP1A,Microtubule-associated protein 1A,TRUE,FALSE,FALSE,Missingness filter
+Q8TCS8,PNPT1,"Polyribonucleotide nucleotidyltransferase 1, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+A0A0B4J1U3,IGLV1-36,Immunoglobulin lambda variable 1-36,FALSE,FALSE,TRUE,HPA filter
+P31749,AKT1,RAC-alpha serine/threonine-protein kinase,TRUE,FALSE,FALSE,Missingness filter
+O43747,AP1G1,AP-1 complex subunit gamma-1,TRUE,FALSE,FALSE,Missingness filter
+P43243,MATR3,Matrin-3,TRUE,FALSE,FALSE,Missingness filter
+P41227,NAA10,N-alpha-acetyltransferase 10,TRUE,FALSE,FALSE,Missingness filter
+P46937,YAP1,Transcriptional coactivator YAP1,TRUE,FALSE,FALSE,Missingness filter
+Q9UBV8,PEF1,Peflin,TRUE,FALSE,FALSE,Missingness filter
+Q86W34,AMZ2,Archaemetzincin-2,TRUE,FALSE,FALSE,Missingness filter
+Q9NVT9,ARMC1,Armadillo repeat-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+O00625,PIR,Pirin,TRUE,FALSE,FALSE,Missingness filter
+P07948,LYN,Tyrosine-protein kinase Lyn,TRUE,FALSE,FALSE,Missingness filter
+P82650,MRPS22,"28S ribosomal protein S22, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P40616,ARL1,ADP-ribosylation factor-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9H7C4,SYNC,Syncoilin,TRUE,FALSE,FALSE,Missingness filter
+Q9BXJ9,NAA15,"N-alpha-acetyltransferase 15, NatA auxiliary subunit",TRUE,FALSE,FALSE,Missingness filter
+Q07812,BAX,Apoptosis regulator BAX,TRUE,FALSE,FALSE,Missingness filter
+O95302,FKBP9,Peptidyl-prolyl cis-trans isomerase FKBP9,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3C4,TPRKB,EKC/KEOPS complex subunit TPRKB,TRUE,FALSE,FALSE,Missingness filter
+Q9BQE3,TUBA1C,Tubulin alpha-1C chain,TRUE,FALSE,FALSE,Missingness filter
+P05089,ARG1,Arginase-1,FALSE,FALSE,FALSE,HPA filter
+Q969H8,MYDGF,Myeloid-derived growth factor,TRUE,FALSE,FALSE,Missingness filter
+P46063,RECQL,ATP-dependent DNA helicase Q1,TRUE,FALSE,FALSE,Missingness filter
+Q6NYC8,PPP1R18,Phostensin,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3D7,PAM16,Mitochondrial import inner membrane translocase subunit TIM16,TRUE,FALSE,FALSE,Missingness filter
+Q12981,BNIP1,Vesicle transport protein SEC20,TRUE,FALSE,FALSE,Missingness filter
+Q9H078,CLPB,Caseinolytic peptidase B protein homolog,TRUE,FALSE,FALSE,Missingness filter
+Q96AY3,FKBP10,Peptidyl-prolyl cis-trans isomerase FKBP10,TRUE,FALSE,FALSE,Missingness filter
+Q8IVD9,NUDCD3,NudC domain-containing protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q92598,HSPH1,Heat shock protein 105 kDa,TRUE,FALSE,FALSE,Missingness filter
+Q8WZ82,OVCA2,Esterase OVCA2,TRUE,FALSE,FALSE,Missingness filter
+O15335,CHAD,Chondroadherin,TRUE,FALSE,FALSE,Missingness filter
+Q4G176,ACSF3,"Malonate--CoA ligase ACSF3, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O14907,TAX1BP3,Tax1-binding protein 3,TRUE,FALSE,FALSE,Missingness filter
+P11717,IGF2R,Cation-independent mannose-6-phosphate receptor,TRUE,FALSE,FALSE,Missingness filter
+Q99797,MIPEP,Mitochondrial intermediate peptidase,TRUE,FALSE,FALSE,Missingness filter
+Q9H8M7,MINDY3,Ubiquitin carboxyl-terminal hydrolase MINDY-3,TRUE,FALSE,FALSE,Missingness filter
+O14745,SLC9A3R1,Na(+)/H(+) exchange regulatory cofactor NHE-RF1,TRUE,FALSE,FALSE,Missingness filter
+Q15717,ELAVL1,ELAV-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9BX97,PLVAP,Plasmalemma vesicle-associated protein,TRUE,FALSE,FALSE,Missingness filter
+L0R6Q1,SLC35A4,SLC35A4 upstream open reading frame protein,FALSE,FALSE,FALSE,HPA filter
+O96007,MOCS2,Molybdopterin synthase catalytic subunit,FALSE,FALSE,FALSE,HPA filter
+P80108,GPLD1,Phosphatidylinositol-glycan-specific phospholipase D,TRUE,FALSE,FALSE,Missingness filter
+Q7Z4H8,POGLUT3,Protein O-glucosyltransferase 3,TRUE,FALSE,FALSE,Missingness filter
+Q8IXM3,MRPL41,"39S ribosomal protein L41, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q68EM7,ARHGAP17,Rho GTPase-activating protein 17,TRUE,FALSE,FALSE,Missingness filter
+P0CW19,LIMS3,LIM and senescent cell antigen-like-containing domain protein 3,TRUE,FALSE,FALSE,Missingness filter
+A0A0A0MT36,IGKV6D-21,Immunoglobulin kappa variable 6D-21,FALSE,FALSE,TRUE,HPA filter
+Q9NRR5,UBQLN4,Ubiquilin-4,TRUE,FALSE,FALSE,Missingness filter
+Q5GLZ8,HERC4,Probable E3 ubiquitin-protein ligase HERC4,TRUE,FALSE,FALSE,Missingness filter
+Q8IUI8,CRLF3,Cytokine receptor-like factor 3,TRUE,FALSE,FALSE,Missingness filter
+Q9NR50,EIF2B3,Translation initiation factor eIF-2B subunit gamma,TRUE,FALSE,FALSE,Missingness filter
+O95870,ABHD16A,Phosphatidylserine lipase ABHD16A,TRUE,FALSE,FALSE,Missingness filter
+Q9H6R3,ACSS3,"Acyl-CoA synthetase short-chain family member 3, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q5T013,HYI,Putative hydroxypyruvate isomerase,TRUE,FALSE,FALSE,Missingness filter
+Q16576,RBBP7,Histone-binding protein RBBP7,TRUE,FALSE,FALSE,Missingness filter
+Q5JVF3,PCID2,PCI domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+P01718,IGLV3-27,Immunoglobulin lambda variable 3-27,FALSE,FALSE,TRUE,HPA filter
+Q06432,CACNG1,Voltage-dependent calcium channel gamma-1 subunit,TRUE,FALSE,FALSE,Missingness filter
+Q92552,MRPS27,"28S ribosomal protein S27, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9HC35,EML4,Echinoderm microtubule-associated protein-like 4,TRUE,FALSE,FALSE,Missingness filter
+O15372,EIF3H,Eukaryotic translation initiation factor 3 subunit H,TRUE,FALSE,FALSE,Missingness filter
+P22087,FBL,rRNA 2'-O-methyltransferase fibrillarin,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2Q5,LAMTOR2,Ragulator complex protein LAMTOR2,TRUE,FALSE,FALSE,Missingness filter
+P08779,KRT16,"Keratin, type I cytoskeletal 16",FALSE,TRUE,FALSE,HPA filter
+Q9Y315,DERA,Deoxyribose-phosphate aldolase,TRUE,FALSE,FALSE,Missingness filter
+Q9H9J2,MRPL44,"39S ribosomal protein L44, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P32456,GBP2,Guanylate-binding protein 2,TRUE,FALSE,FALSE,Missingness filter
+P47929,LGALS7,Galectin-7,TRUE,FALSE,FALSE,Missingness filter
+Q8N183,NDUFAF2,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 2,TRUE,FALSE,FALSE,Missingness filter
+P36954,POLR2I,DNA-directed RNA polymerase II subunit RPB9,TRUE,FALSE,FALSE,Missingness filter
+P0DMM9,SULT1A3,Sulfotransferase 1A3,TRUE,FALSE,FALSE,Missingness filter
+P45877,PPIC,Peptidyl-prolyl cis-trans isomerase C,TRUE,FALSE,FALSE,Missingness filter
+P04233,CD74,HLA class II histocompatibility antigen gamma chain,TRUE,FALSE,FALSE,Missingness filter
+Q9Y6E0,STK24,Serine/threonine-protein kinase 24,TRUE,FALSE,FALSE,Missingness filter
+Q9BVG4,PBDC1,Protein PBDC1,TRUE,FALSE,FALSE,Missingness filter
+Q9NPY3,CD93,Complement component C1q receptor,TRUE,FALSE,FALSE,Missingness filter
+Q96LJ7,DHRS1,Dehydrogenase/reductase SDR family member 1,TRUE,FALSE,FALSE,Missingness filter
+Q6UX53,METTL7B,Methyltransferase-like protein 7B,TRUE,FALSE,FALSE,Missingness filter
+Q4G0F5,VPS26B,Vacuolar protein sorting-associated protein 26B,TRUE,FALSE,FALSE,Missingness filter
+Q9UMX5,NENF,Neudesin,TRUE,FALSE,FALSE,Missingness filter
+Q7L576,CYFIP1,Cytoplasmic FMR1-interacting protein 1,TRUE,FALSE,FALSE,Missingness filter
+P0C870,JMJD7,Bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7,TRUE,FALSE,FALSE,Missingness filter
+Q15276,RABEP1,Rab GTPase-binding effector protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9H4I9,SMDT1,"Essential MCU regulator, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O75937,DNAJC8,DnaJ homolog subfamily C member 8,TRUE,FALSE,FALSE,Missingness filter
+O75363,BCAS1,Breast carcinoma-amplified sequence 1,FALSE,FALSE,FALSE,HPA filter
+Q9NSK0,KLC4,Kinesin light chain 4,TRUE,FALSE,FALSE,Missingness filter
+P01766,IGHV3-13,Immunoglobulin heavy variable 3-13,FALSE,FALSE,TRUE,HPA filter
+Q15036,SNX17,Sorting nexin-17,TRUE,FALSE,FALSE,Missingness filter
+Q96DA6,DNAJC19,Mitochondrial import inner membrane translocase subunit TIM14,TRUE,FALSE,FALSE,Missingness filter
+Q14166,TTLL12,Tubulin--tyrosine ligase-like protein 12,TRUE,FALSE,FALSE,Missingness filter
+Q9BZE9,ASPSCR1,Tether containing UBX domain for GLUT4,TRUE,FALSE,FALSE,Missingness filter
+Q8TB22,SPATA20,Spermatogenesis-associated protein 20,TRUE,FALSE,FALSE,Missingness filter
+P08567,PLEK,Pleckstrin,TRUE,FALSE,FALSE,Missingness filter
+Q8TD55,PLEKHO2,Pleckstrin homology domain-containing family O member 2,TRUE,FALSE,FALSE,Missingness filter
+Q6PI78,TMEM65,Transmembrane protein 65,TRUE,FALSE,FALSE,Missingness filter
+Q8IWE2,FAM114A1,Protein NOXP20,TRUE,FALSE,FALSE,Missingness filter
+Q15493,RGN,Regucalcin,TRUE,FALSE,FALSE,Missingness filter
+Q8IVP5,FUNDC1,FUN14 domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2Q9,MRPS28,"28S ribosomal protein S28, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P05771,PRKCB,Protein kinase C beta type,FALSE,FALSE,FALSE,HPA filter
+Q08J23,NSUN2,RNA cytosine C(5)-methyltransferase NSUN2,TRUE,FALSE,FALSE,Missingness filter
+Q32MZ4,LRRFIP1,Leucine-rich repeat flightless-interacting protein 1,TRUE,FALSE,FALSE,Missingness filter
+P42167,TMPO,"Lamina-associated polypeptide 2, isoforms beta/gamma",FALSE,FALSE,FALSE,HPA filter
+Q8WUX9,CHMP7,Charged multivesicular body protein 7,TRUE,FALSE,FALSE,Missingness filter
+Q6ICL3,TANGO2,Transport and Golgi organization protein 2 homolog,TRUE,FALSE,FALSE,Missingness filter
+P04430,IGKV1-16,Immunoglobulin kappa variable 1-16,FALSE,FALSE,TRUE,HPA filter
+Q9Y2H1,STK38L,Serine/threonine-protein kinase 38-like,TRUE,FALSE,FALSE,Missingness filter
+Q02413,DSG1,Desmoglein-1,TRUE,FALSE,FALSE,Missingness filter
+Q7LG56,RRM2B,Ribonucleoside-diphosphate reductase subunit M2 B,TRUE,FALSE,FALSE,Missingness filter
+Q53EU6,GPAT3,Glycerol-3-phosphate acyltransferase 3,TRUE,FALSE,FALSE,Missingness filter
+P50552,VASP,Vasodilator-stimulated phosphoprotein,TRUE,FALSE,FALSE,Missingness filter
+Q13636,RAB31,Ras-related protein Rab-31,TRUE,FALSE,FALSE,Missingness filter
+Q92688,ANP32B,Acidic leucine-rich nuclear phosphoprotein 32 family member B,TRUE,FALSE,FALSE,Missingness filter
+P82663,MRPS25,"28S ribosomal protein S25, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P42566,EPS15,Epidermal growth factor receptor substrate 15,TRUE,FALSE,FALSE,Missingness filter
+Q92616,GCN1,eIF-2-alpha kinase activator GCN1,TRUE,FALSE,FALSE,Missingness filter
+Q9GZZ9,UBA5,Ubiquitin-like modifier-activating enzyme 5,TRUE,FALSE,FALSE,Missingness filter
+Q15813,TBCE,Tubulin-specific chaperone E,TRUE,FALSE,FALSE,Missingness filter
+Q01085,TIAL1,Nucleolysin TIAR,TRUE,FALSE,FALSE,Missingness filter
+Q86TI2,DPP9,Dipeptidyl peptidase 9,TRUE,FALSE,FALSE,Missingness filter
+Q8TCJ2,STT3B,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B,TRUE,FALSE,FALSE,Missingness filter
+Q9P0P0,RNF181,E3 ubiquitin-protein ligase RNF181,TRUE,FALSE,FALSE,Missingness filter
+P19075,TSPAN8,Tetraspanin-8,TRUE,FALSE,FALSE,Missingness filter
+Q13574,DGKZ,Diacylglycerol kinase zeta,TRUE,FALSE,FALSE,Missingness filter
+Q05193,DNM1,Dynamin-1,TRUE,FALSE,FALSE,Missingness filter
+P08253,MMP2,72 kDa type IV collagenase,TRUE,FALSE,FALSE,Missingness filter
+Q567U6,CCDC93,Coiled-coil domain-containing protein 93,TRUE,FALSE,FALSE,Missingness filter
+O00142,TK2,"Thymidine kinase 2, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9P0V9,SEPTIN10,Septin-10,TRUE,FALSE,FALSE,Missingness filter
+Q16666,IFI16,Gamma-interferon-inducible protein 16,TRUE,FALSE,FALSE,Missingness filter
+Q15629,TRAM1,Translocating chain-associated membrane protein 1,TRUE,FALSE,FALSE,Missingness filter
+O95721,SNAP29,Synaptosomal-associated protein 29,TRUE,FALSE,FALSE,Missingness filter
+Q96MM6,HSPA12B,Heat shock 70 kDa protein 12B,TRUE,FALSE,FALSE,Missingness filter
+Q14232,EIF2B1,Translation initiation factor eIF-2B subunit alpha,TRUE,FALSE,FALSE,Missingness filter
+Q6UVK1,CSPG4,Chondroitin sulfate proteoglycan 4,TRUE,FALSE,FALSE,Missingness filter
+P49914,MTHFS,5-formyltetrahydrofolate cyclo-ligase,TRUE,FALSE,FALSE,Missingness filter
+Q86VU5,COMTD1,Catechol O-methyltransferase domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+P62256,UBE2H,Ubiquitin-conjugating enzyme E2 H,TRUE,FALSE,FALSE,Missingness filter
+P41222,PTGDS,Prostaglandin-H2 D-isomerase,TRUE,FALSE,FALSE,Missingness filter
+Q6P1X6,C8orf82,UPF0598 protein C8orf82,TRUE,FALSE,FALSE,Missingness filter
+P23276,KEL,Kell blood group glycoprotein,FALSE,FALSE,FALSE,HPA filter
+P14317,HCLS1,Hematopoietic lineage cell-specific protein,TRUE,FALSE,FALSE,Missingness filter
+Q9UGI8,TES,Testin,TRUE,FALSE,FALSE,Missingness filter
+O75477,ERLIN1,Erlin-1,TRUE,FALSE,FALSE,Missingness filter
+Q9BVL4,SELENOO,"Protein adenylyltransferase SelO, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9ULT8,HECTD1,E3 ubiquitin-protein ligase HECTD1,TRUE,FALSE,FALSE,Missingness filter
+Q9NZJ7,MTCH1,Mitochondrial carrier homolog 1,TRUE,FALSE,FALSE,Missingness filter
+Q02127,DHODH,"Dihydroorotate dehydrogenase (quinone), mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9ULC3,RAB23,Ras-related protein Rab-23,TRUE,FALSE,FALSE,Missingness filter
+Q92575,UBXN4,UBX domain-containing protein 4,TRUE,FALSE,FALSE,Missingness filter
+P05106,ITGB3,Integrin beta-3,TRUE,FALSE,FALSE,Missingness filter
+Q8NC56,LEMD2,LEM domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q9BU89,DOHH,Deoxyhypusine hydroxylase,TRUE,FALSE,FALSE,Missingness filter
+Q9H074,PAIP1,Polyadenylate-binding protein-interacting protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9GZN8,C20orf27,UPF0687 protein C20orf27,TRUE,FALSE,FALSE,Missingness filter
+P33316,DUT,"Deoxyuridine 5'-triphosphate nucleotidohydrolase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+A3KMH1,VWA8,von Willebrand factor A domain-containing protein 8,TRUE,FALSE,FALSE,Missingness filter
+P35052,GPC1,Glypican-1,TRUE,FALSE,FALSE,Missingness filter
+A0A0C4DH24,IGKV6-21,Immunoglobulin kappa variable 6-21,FALSE,FALSE,TRUE,HPA filter
+Q15111,PLCL1,Inactive phospholipase C-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q96B96,TMEM159,Promethin,TRUE,FALSE,FALSE,Missingness filter
+P42574,CASP3,Caspase-3,TRUE,FALSE,FALSE,Missingness filter
+P50440,GATM,"Glycine amidinotransferase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9UGM6,WARS2,"Tryptophan--tRNA ligase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9Y6I3,EPN1,Epsin-1,TRUE,FALSE,FALSE,Missingness filter
+Q9BZV2,SLC19A3,Thiamine transporter 2,FALSE,FALSE,FALSE,HPA filter
+Q9BTY7,HGH1,Protein HGH1 homolog,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2B9,PKIG,cAMP-dependent protein kinase inhibitor gamma,TRUE,FALSE,FALSE,Missingness filter
+P57737,CORO7,Coronin-7,TRUE,FALSE,FALSE,Missingness filter
+Q16644,MAPKAPK3,MAP kinase-activated protein kinase 3,TRUE,FALSE,FALSE,Missingness filter
+Q9HA77,CARS2,"Probable cysteine--tRNA ligase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q96A57,TMEM230,Transmembrane protein 230,TRUE,FALSE,FALSE,Missingness filter
+P36980,CFHR2,Complement factor H-related protein 2,FALSE,FALSE,FALSE,HPA filter
+Q9UQ13,SHOC2,Leucine-rich repeat protein SHOC-2,TRUE,FALSE,FALSE,Missingness filter
+Q9HCB6,SPON1,Spondin-1,FALSE,FALSE,FALSE,HPA filter
+Q9H2G2,SLK,STE20-like serine/threonine-protein kinase,TRUE,FALSE,FALSE,Missingness filter
+Q9BYD6,MRPL1,"39S ribosomal protein L1, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q6YP21,KYAT3,Kynurenine--oxoglutarate transaminase 3,TRUE,FALSE,FALSE,Missingness filter
+Q5SRE7,PHYHD1,Phytanoyl-CoA dioxygenase domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9BYD1,MRPL13,"39S ribosomal protein L13, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q8N9N7,LRRC57,Leucine-rich repeat-containing protein 57,TRUE,FALSE,FALSE,Missingness filter
+P01721,IGLV6-57,Immunoglobulin lambda variable 6-57,FALSE,FALSE,TRUE,HPA filter
+Q9Y2S2,CRYL1,Lambda-crystallin homolog,TRUE,FALSE,FALSE,Missingness filter
+A8MXV4,NUDT19,Nucleoside diphosphate-linked moiety X motif 19,TRUE,FALSE,FALSE,Missingness filter
+Q96MW1,CCDC43,Coiled-coil domain-containing protein 43,TRUE,FALSE,FALSE,Missingness filter
+P55145,MANF,Mesencephalic astrocyte-derived neurotrophic factor,TRUE,FALSE,FALSE,Missingness filter
+Q9UQN3,CHMP2B,Charged multivesicular body protein 2b,TRUE,FALSE,FALSE,Missingness filter
+Q9Y5R8,TRAPPC1,Trafficking protein particle complex subunit 1,TRUE,FALSE,FALSE,Missingness filter
+P10109,FDX1,"Adrenodoxin, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q15165,PON2,Serum paraoxonase/arylesterase 2,TRUE,FALSE,FALSE,Missingness filter
+P20338,RAB4A,Ras-related protein Rab-4A,TRUE,FALSE,FALSE,Missingness filter
+P49356,FNTB,Protein farnesyltransferase subunit beta,TRUE,FALSE,FALSE,Missingness filter
+O00203,AP3B1,AP-3 complex subunit beta-1,TRUE,FALSE,FALSE,Missingness filter
+O95630,STAMBP,STAM-binding protein,TRUE,FALSE,FALSE,Missingness filter
+Q7Z4G1,COMMD6,COMM domain-containing protein 6,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3D3,MRPS16,"28S ribosomal protein S16, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q86U42,PABPN1,Polyadenylate-binding protein 2,TRUE,FALSE,FALSE,Missingness filter
+P62995,TRA2B,Transformer-2 protein homolog beta,TRUE,FALSE,FALSE,Missingness filter
+P34741,SDC2,Syndecan-2,TRUE,FALSE,FALSE,Missingness filter
+Q96AP7,ESAM,Endothelial cell-selective adhesion molecule,TRUE,FALSE,FALSE,Missingness filter
+P00813,ADA,Adenosine deaminase,TRUE,FALSE,FALSE,Missingness filter
+P49746,THBS3,Thrombospondin-3,TRUE,FALSE,FALSE,Missingness filter
+Q13033,STRN3,Striatin-3,TRUE,FALSE,FALSE,Missingness filter
+Q7L592,NDUFAF7,"Protein arginine methyltransferase NDUFAF7, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9H9A6,LRRC40,Leucine-rich repeat-containing protein 40,TRUE,FALSE,FALSE,Missingness filter
+Q9BT73,PSMG3,Proteasome assembly chaperone 3,TRUE,FALSE,FALSE,Missingness filter
+P01601,IGKV1D-16,Immunoglobulin kappa variable 1D-16,FALSE,FALSE,TRUE,HPA filter
+Q5JSH3,WDR44,WD repeat-containing protein 44,TRUE,FALSE,FALSE,Missingness filter
+P17252,PRKCA,Protein kinase C alpha type,TRUE,FALSE,FALSE,Missingness filter
+Q9NVA1,UQCC1,Ubiquinol-cytochrome-c reductase complex assembly factor 1,TRUE,FALSE,FALSE,Missingness filter
+O96033,MOCS2,Molybdopterin synthase sulfur carrier subunit,FALSE,FALSE,FALSE,HPA filter
+P51398,DAP3,"28S ribosomal protein S29, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9Y3B7,MRPL11,"39S ribosomal protein L11, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q5R3I4,TTC38,Tetratricopeptide repeat protein 38,TRUE,FALSE,FALSE,Missingness filter
+Q9Y5K8,ATP6V1D,V-type proton ATPase subunit D,TRUE,FALSE,FALSE,Missingness filter
+O43251,RBFOX2,RNA binding protein fox-1 homolog 2,TRUE,FALSE,FALSE,Missingness filter
+Q7L775,EPM2AIP1,EPM2A-interacting protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q68CZ2,TNS3,Tensin-3,TRUE,FALSE,FALSE,Missingness filter
+A6NHX0,CASTOR2,Cytosolic arginine sensor for mTORC1 subunit 2,TRUE,FALSE,FALSE,Missingness filter
+O94832,MYO1D,Unconventional myosin-Id,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2R9,MRPS7,"28S ribosomal protein S7, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P31146,CORO1A,Coronin-1A,TRUE,FALSE,FALSE,Missingness filter
+Q9Y2S7,POLDIP2,Polymerase delta-interacting protein 2,TRUE,FALSE,FALSE,Missingness filter
+P10398,ARAF,Serine/threonine-protein kinase A-Raf,TRUE,FALSE,FALSE,Missingness filter
+P82933,MRPS9,"28S ribosomal protein S9, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q5T4S7,UBR4,E3 ubiquitin-protein ligase UBR4,TRUE,FALSE,FALSE,Missingness filter
+Q13445,TMED1,Transmembrane emp24 domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q9HD33,MRPL47,"39S ribosomal protein L47, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P47895,ALDH1A3,Aldehyde dehydrogenase family 1 member A3,TRUE,FALSE,FALSE,Missingness filter
+Q01813,PFKP,"ATP-dependent 6-phosphofructokinase, platelet type",TRUE,FALSE,FALSE,Missingness filter
+Q99417,MYCBP,c-Myc-binding protein,TRUE,FALSE,FALSE,Missingness filter
+P48454,PPP3CC,Serine/threonine-protein phosphatase 2B catalytic subunit gamma isoform,TRUE,FALSE,FALSE,Missingness filter
+Q93062,RBPMS,RNA-binding protein with multiple splicing,TRUE,FALSE,FALSE,Missingness filter
+Q14444,CAPRIN1,Caprin-1,TRUE,FALSE,FALSE,Missingness filter
+Q14CX7,NAA25,"N-alpha-acetyltransferase 25, NatB auxiliary subunit",TRUE,FALSE,FALSE,Missingness filter
+Q8N126,CADM3,Cell adhesion molecule 3,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3S2,ZNF330,Zinc finger protein 330,TRUE,FALSE,FALSE,Missingness filter
+Q8NB37,GATD1,Glutamine amidotransferase-like class 1 domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+O15533,TAPBP,Tapasin,TRUE,FALSE,FALSE,Missingness filter
+O15230,LAMA5,Laminin subunit alpha-5,TRUE,FALSE,FALSE,Missingness filter
+Q9P0I2,EMC3,ER membrane protein complex subunit 3,TRUE,FALSE,FALSE,Missingness filter
+Q9UPR0,PLCL2,Inactive phospholipase C-like protein 2,TRUE,FALSE,FALSE,Missingness filter
+P34096,RNASE4,Ribonuclease 4,TRUE,FALSE,FALSE,Missingness filter
+Q13435,SF3B2,Splicing factor 3B subunit 2,TRUE,FALSE,FALSE,Missingness filter
+Q9Y676,MRPS18B,"28S ribosomal protein S18b, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q86VS8,HOOK3,Protein Hook homolog 3,TRUE,FALSE,FALSE,Missingness filter
+P46379,BAG6,Large proline-rich protein BAG6,TRUE,FALSE,FALSE,Missingness filter
+Q8IWB7,WDFY1,WD repeat and FYVE domain-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+P13674,P4HA1,Prolyl 4-hydroxylase subunit alpha-1,TRUE,FALSE,FALSE,Missingness filter
+Q6ZMJ2,SCARA5,Scavenger receptor class A member 5,TRUE,FALSE,FALSE,Missingness filter
+Q8WU76,SCFD2,Sec1 family domain-containing protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q5TAQ9,DCAF8,DDB1- and CUL4-associated factor 8,TRUE,FALSE,FALSE,Missingness filter
+P82979,SARNP,SAP domain-containing ribonucleoprotein,TRUE,FALSE,FALSE,Missingness filter
+Q9H3P7,ACBD3,Golgi resident protein GCP60,TRUE,FALSE,FALSE,Missingness filter
+Q9BUP0,EFHD1,EF-hand domain-containing protein D1,TRUE,FALSE,FALSE,Missingness filter
+Q9Y5A7,NUB1,NEDD8 ultimate buster 1,TRUE,FALSE,FALSE,Missingness filter
+Q5TEU4,NDUFAF5,"Arginine-hydroxylase NDUFAF5, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q14318,FKBP8,Peptidyl-prolyl cis-trans isomerase FKBP8,TRUE,FALSE,FALSE,Missingness filter
+Q04756,HGFAC,Hepatocyte growth factor activator,FALSE,FALSE,FALSE,HPA filter
+P22413,ENPP1,Ectonucleotide pyrophosphatase/phosphodiesterase family member 1,TRUE,FALSE,FALSE,Missingness filter
+P16333,NCK1,Cytoplasmic protein NCK1,TRUE,FALSE,FALSE,Missingness filter
+P04278,SHBG,Sex hormone-binding globulin,FALSE,FALSE,FALSE,HPA filter
+P84085,ARF5,ADP-ribosylation factor 5,TRUE,FALSE,FALSE,Missingness filter
+Q9BV20,MRI1,Methylthioribose-1-phosphate isomerase,TRUE,FALSE,FALSE,Missingness filter
+P07711,CTSL,Cathepsin L1,TRUE,FALSE,FALSE,Missingness filter
+Q9Y3E1,HDGFL3,Hepatoma-derived growth factor-related protein 3,TRUE,FALSE,FALSE,Missingness filter
+O60669,SLC16A7,Monocarboxylate transporter 2,TRUE,FALSE,FALSE,Missingness filter
+A0A0A0MS14,IGHV1-45,Immunoglobulin heavy variable 1-45,FALSE,FALSE,TRUE,HPA filter
+Q96GC5,MRPL48,"39S ribosomal protein L48, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O75884,RBBP9,Serine hydrolase RBBP9,TRUE,FALSE,FALSE,Missingness filter
+Q13685,AAMP,Angio-associated migratory cell protein,TRUE,FALSE,FALSE,Missingness filter
+Q9H488,POFUT1,GDP-fucose protein O-fucosyltransferase 1,TRUE,FALSE,FALSE,Missingness filter
+Q7Z2W9,MRPL21,"39S ribosomal protein L21, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+A0A075B6S6,IGKV2D-30,Immunoglobulin kappa variable 2D-30,FALSE,FALSE,TRUE,HPA filter
+P15289,ARSA,Arylsulfatase A,TRUE,FALSE,FALSE,Missingness filter
+Q5VVQ6,YOD1,Ubiquitin thioesterase OTU1,TRUE,FALSE,FALSE,Missingness filter
+Q6NW29,RWDD4,RWD domain-containing protein 4,TRUE,FALSE,FALSE,Missingness filter
+Q5MNZ9,WIPI1,WD repeat domain phosphoinositide-interacting protein 1,TRUE,FALSE,FALSE,Missingness filter
+P48740,MASP1,Mannan-binding lectin serine protease 1,TRUE,FALSE,FALSE,Missingness filter
+O76076,CCN5,CCN family member 5,TRUE,FALSE,FALSE,Missingness filter
+Q96EY7,PTCD3,"Pentatricopeptide repeat domain-containing protein 3, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q07699,SCN1B,Sodium channel subunit beta-1,TRUE,FALSE,FALSE,Missingness filter
+P49406,MRPL19,"39S ribosomal protein L19, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q13620,CUL4B,Cullin-4B,TRUE,FALSE,FALSE,Missingness filter
+O94788,ALDH1A2,Retinal dehydrogenase 2,TRUE,FALSE,FALSE,Missingness filter
+O14657,TOR1B,Torsin-1B,TRUE,FALSE,FALSE,Missingness filter
+A8MSI8,LYRM9,LYR motif-containing protein 9,TRUE,FALSE,FALSE,Missingness filter
+P52594,AGFG1,Arf-GAP domain and FG repeat-containing protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q6P1L8,MRPL14,"39S ribosomal protein L14, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P50336,PPOX,Protoporphyrinogen oxidase,TRUE,FALSE,FALSE,Missingness filter
+Q15382,RHEB,GTP-binding protein Rheb,TRUE,FALSE,FALSE,Missingness filter
+Q9GZT4,SRR,Serine racemase,TRUE,FALSE,FALSE,Missingness filter
+O94966,USP19,Ubiquitin carboxyl-terminal hydrolase 19,TRUE,FALSE,FALSE,Missingness filter
+P57772,EEFSEC,Selenocysteine-specific elongation factor,TRUE,FALSE,FALSE,Missingness filter
+Q9Y5Y2,NUBP2,Cytosolic Fe-S cluster assembly factor NUBP2,TRUE,FALSE,FALSE,Missingness filter
+P30047,GCHFR,GTP cyclohydrolase 1 feedback regulatory protein,TRUE,FALSE,FALSE,Missingness filter
+P24311,COX7B,"Cytochrome c oxidase subunit 7B, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9BSH5,HDHD3,Haloacid dehalogenase-like hydrolase domain-containing protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q15637,SF1,Splicing factor 1,TRUE,FALSE,FALSE,Missingness filter
+Q9NVS2,MRPS18A,"39S ribosomal protein S18a, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q16822,PCK2,"Phosphoenolpyruvate carboxykinase [GTP], mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O75190,DNAJB6,DnaJ homolog subfamily B member 6,TRUE,FALSE,FALSE,Missingness filter
+Q969Z0,TBRG4,FAST kinase domain-containing protein 4,TRUE,FALSE,FALSE,Missingness filter
+Q96DV4,MRPL38,"39S ribosomal protein L38, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q15599,SLC9A3R2,Na(+)/H(+) exchange regulatory cofactor NHE-RF2,TRUE,FALSE,FALSE,Missingness filter
+Q9Y5S9,RBM8A,RNA-binding protein 8A,TRUE,FALSE,FALSE,Missingness filter
+O95749,GGPS1,Geranylgeranyl pyrophosphate synthase,TRUE,FALSE,FALSE,Missingness filter
+O14672,ADAM10,Disintegrin and metalloproteinase domain-containing protein 10,TRUE,FALSE,FALSE,Missingness filter
+Q8WXX5,DNAJC9,DnaJ homolog subfamily C member 9,TRUE,FALSE,FALSE,Missingness filter
+O00418,EEF2K,Eukaryotic elongation factor 2 kinase,TRUE,FALSE,FALSE,Missingness filter
+P28330,ACADL,"Long-chain specific acyl-CoA dehydrogenase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q04695,KRT17,"Keratin, type I cytoskeletal 17",FALSE,TRUE,FALSE,HPA filter
+O95487,SEC24B,Protein transport protein Sec24B,TRUE,FALSE,FALSE,Missingness filter
+P10415,BCL2,Apoptosis regulator Bcl-2,TRUE,FALSE,FALSE,Missingness filter
+Q05519,SRSF11,Serine/arginine-rich splicing factor 11,TRUE,FALSE,FALSE,Missingness filter
+P22748,CA4,Carbonic anhydrase 4,TRUE,FALSE,FALSE,Missingness filter
+Q9Y6X5,ENPP4,Bis(5'-adenosyl)-triphosphatase ENPP4,TRUE,FALSE,FALSE,Missingness filter
+Q13370,PDE3B,"cGMP-inhibited 3',5'-cyclic phosphodiesterase B",FALSE,FALSE,FALSE,HPA filter
+P49903,SEPHS1,"Selenide, water dikinase 1",TRUE,FALSE,FALSE,Missingness filter
+P25774,CTSS,Cathepsin S,TRUE,FALSE,FALSE,Missingness filter
+Q86WR0,CCDC25,Coiled-coil domain-containing protein 25,TRUE,FALSE,FALSE,Missingness filter
+P01112,HRAS,GTPase HRas,TRUE,FALSE,FALSE,Missingness filter
+P56192,MARS1,"Methionine--tRNA ligase, cytoplasmic",TRUE,FALSE,FALSE,Missingness filter
+Q9Y365,STARD10,START domain-containing protein 10,TRUE,FALSE,FALSE,Missingness filter
+P61966,AP1S1,AP-1 complex subunit sigma-1A,TRUE,FALSE,FALSE,Missingness filter
+Q9UQ49,NEU3,Sialidase-3,TRUE,FALSE,FALSE,Missingness filter
+Q8WUR7,C15orf40,UPF0235 protein C15orf40,TRUE,FALSE,FALSE,Missingness filter
+Q8N1F7,NUP93,Nuclear pore complex protein Nup93,TRUE,FALSE,FALSE,Missingness filter
+O14786,NRP1,Neuropilin-1,TRUE,FALSE,FALSE,Missingness filter
+P27708,CAD,CAD protein,TRUE,FALSE,FALSE,Missingness filter
+Q9NQG5,RPRD1B,Regulation of nuclear pre-mRNA domain-containing protein 1B,TRUE,FALSE,FALSE,Missingness filter
+P35442,THBS2,Thrombospondin-2,TRUE,FALSE,FALSE,Missingness filter
+Q9HAV0,GNB4,Guanine nucleotide-binding protein subunit beta-4,TRUE,FALSE,FALSE,Missingness filter
+Q15286,RAB35,Ras-related protein Rab-35,TRUE,FALSE,FALSE,Missingness filter
+Q9Y4P1,ATG4B,Cysteine protease ATG4B,TRUE,FALSE,FALSE,Missingness filter
+Q4U2R6,MRPL51,"39S ribosomal protein L51, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9GZY8,MFF,Mitochondrial fission factor,TRUE,FALSE,FALSE,Missingness filter
+Q8N0U4,FAM185A,Protein FAM185A,TRUE,FALSE,FALSE,Missingness filter
+Q9NZB2,FAM120A,Constitutive coactivator of PPAR-gamma-like protein 1,TRUE,FALSE,FALSE,Missingness filter
+O75027,ABCB7,"ATP-binding cassette sub-family B member 7, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P07947,YES1,Tyrosine-protein kinase Yes,TRUE,FALSE,FALSE,Missingness filter
+Q7L523,RRAGA,Ras-related GTP-binding protein A,TRUE,FALSE,FALSE,Missingness filter
+O95671,ASMTL,Probable bifunctional dTTP/UTP pyrophosphatase/methyltransferase protein,TRUE,FALSE,FALSE,Missingness filter
+Q32MK0,MYLK3,Myosin light chain kinase 3,TRUE,FALSE,FALSE,Missingness filter
+Q9Y399,MRPS2,"28S ribosomal protein S2, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q8TCZ2,CD99L2,CD99 antigen-like protein 2,TRUE,FALSE,FALSE,Missingness filter
+O14548,COX7A2L,"Cytochrome c oxidase subunit 7A-related protein, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P35222,CTNNB1,Catenin beta-1,TRUE,FALSE,FALSE,Missingness filter
+Q8N2F6,ARMC10,Armadillo repeat-containing protein 10,TRUE,FALSE,FALSE,Missingness filter
+Q8WXF1,PSPC1,Paraspeckle component 1,TRUE,FALSE,FALSE,Missingness filter
+Q7Z460,CLASP1,CLIP-associating protein 1,TRUE,FALSE,FALSE,Missingness filter
+P00414,MT-CO3,Cytochrome c oxidase subunit 3,TRUE,FALSE,FALSE,Missingness filter
+P15153,RAC2,Ras-related C3 botulinum toxin substrate 2,TRUE,FALSE,FALSE,Missingness filter
+Q13232,NME3,Nucleoside diphosphate kinase 3,TRUE,FALSE,FALSE,Missingness filter
+Q86Y56,DNAAF5,"Dynein assembly factor 5, axonemal",TRUE,FALSE,FALSE,Missingness filter
+P51808,DYNLT3,Dynein light chain Tctex-type 3,TRUE,FALSE,FALSE,Missingness filter
+P49590,HARS2,"Histidine--tRNA ligase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q92995,USP13,Ubiquitin carboxyl-terminal hydrolase 13,TRUE,FALSE,FALSE,Missingness filter
+Q9BV57,ADI1,"1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase",TRUE,FALSE,FALSE,Missingness filter
+A0A0U1RRL7,MMP24OS,Protein MMP24OS,TRUE,FALSE,FALSE,Missingness filter
+O75764,TCEA3,Transcription elongation factor A protein 3,TRUE,FALSE,FALSE,Missingness filter
+Q63HQ2,EGFLAM,Pikachurin,TRUE,FALSE,FALSE,Missingness filter
+P07311,ACYP1,Acylphosphatase-1,TRUE,FALSE,FALSE,Missingness filter
+O95425,SVIL,Supervillin,TRUE,FALSE,FALSE,Missingness filter
+P53367,ARFIP1,Arfaptin-1,TRUE,FALSE,FALSE,Missingness filter
+P17812,CTPS1,CTP synthase 1,TRUE,FALSE,FALSE,Missingness filter
+P84022,SMAD3,Mothers against decapentaplegic homolog 3,TRUE,FALSE,FALSE,Missingness filter
+P54108,CRISP3,Cysteine-rich secretory protein 3,FALSE,FALSE,FALSE,HPA filter
+P36551,CPOX,"Oxygen-dependent coproporphyrinogen-III oxidase, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+P04156,PRNP,Major prion protein,TRUE,FALSE,FALSE,Missingness filter
+O43847,NRDC,Nardilysin,TRUE,FALSE,FALSE,Missingness filter
+Q8N766,EMC1,ER membrane protein complex subunit 1,TRUE,FALSE,FALSE,Missingness filter
+Q9NX55,HYPK,Huntingtin-interacting protein K,TRUE,FALSE,FALSE,Missingness filter
+Q9P015,MRPL15,"39S ribosomal protein L15, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q15006,EMC2,ER membrane protein complex subunit 2,TRUE,FALSE,FALSE,Missingness filter
+Q9ULP9,TBC1D24,TBC1 domain family member 24,TRUE,FALSE,FALSE,Missingness filter
+Q96RL7,VPS13A,Vacuolar protein sorting-associated protein 13A,TRUE,FALSE,FALSE,Missingness filter
+Q9BQE5,APOL2,Apolipoprotein L2,TRUE,FALSE,TRUE,Blood blacklist filter
+O75170,PPP6R2,Serine/threonine-protein phosphatase 6 regulatory subunit 2,TRUE,FALSE,FALSE,Missingness filter
+Q9UH62,ARMCX3,Armadillo repeat-containing X-linked protein 3,TRUE,FALSE,FALSE,Missingness filter
+P52306,RAP1GDS1,Rap1 GTPase-GDP dissociation stimulator 1,TRUE,FALSE,FALSE,Missingness filter
+O75116,ROCK2,Rho-associated protein kinase 2,TRUE,FALSE,FALSE,Missingness filter
+P80188,LCN2,Neutrophil gelatinase-associated lipocalin,TRUE,FALSE,FALSE,Missingness filter
+O60716,CTNND1,Catenin delta-1,TRUE,FALSE,FALSE,Missingness filter
+P20290,BTF3,Transcription factor BTF3,TRUE,FALSE,FALSE,Missingness filter
+A2RTX5,TARS3,"Threonine--tRNA ligase 2, cytoplasmic",TRUE,FALSE,FALSE,Missingness filter
+Q9Y2E4,DIP2C,Disco-interacting protein 2 homolog C,TRUE,FALSE,FALSE,Missingness filter
+P22694,PRKACB,cAMP-dependent protein kinase catalytic subunit beta,TRUE,FALSE,FALSE,Missingness filter
+P52789,HK2,Hexokinase-2,TRUE,FALSE,FALSE,Missingness filter
+Q9NYK5,MRPL39,"39S ribosomal protein L39, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q9NX47,MARCHF5,E3 ubiquitin-protein ligase MARCHF5,TRUE,FALSE,FALSE,Missingness filter
+Q9Y5J9,TIMM8B,Mitochondrial import inner membrane translocase subunit Tim8 B,TRUE,FALSE,FALSE,Missingness filter
+Q9BUE6,ISCA1,"Iron-sulfur cluster assembly 1 homolog, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q15126,PMVK,Phosphomevalonate kinase,TRUE,FALSE,FALSE,Missingness filter
+P29762,CRABP1,Cellular retinoic acid-binding protein 1,FALSE,FALSE,FALSE,HPA filter
+Q969Q5,RAB24,Ras-related protein Rab-24,TRUE,FALSE,FALSE,Missingness filter
+Q96ND0,FAM210A,Protein FAM210A,TRUE,FALSE,FALSE,Missingness filter
+Q92896,GLG1,Golgi apparatus protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q13501,SQSTM1,Sequestosome-1,TRUE,FALSE,FALSE,Missingness filter
+Q9Y6G3,MRPL42,"39S ribosomal protein L42, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+O60271,SPAG9,C-Jun-amino-terminal kinase-interacting protein 4,TRUE,FALSE,FALSE,Missingness filter
+Q8TEB1,DCAF11,DDB1- and CUL4-associated factor 11,TRUE,FALSE,FALSE,Missingness filter
+Q7Z3Z0,KRT25,"Keratin, type I cytoskeletal 25",FALSE,TRUE,FALSE,HPA filter
+Q9BUH6,PAXX,Protein PAXX,TRUE,FALSE,FALSE,Missingness filter
+P56945,BCAR1,Breast cancer anti-estrogen resistance protein 1,TRUE,FALSE,FALSE,Missingness filter
+O95295,SNAPIN,SNARE-associated protein Snapin,TRUE,FALSE,FALSE,Missingness filter
+Q9NPF4,OSGEP,Probable tRNA N6-adenosine threonylcarbamoyltransferase,TRUE,FALSE,FALSE,Missingness filter
+O96005,CLPTM1,Cleft lip and palate transmembrane protein 1,TRUE,FALSE,FALSE,Missingness filter
+Q8TCC3,MRPL30,"39S ribosomal protein L30, mitochondrial",TRUE,FALSE,FALSE,Missingness filter
+Q86TU7,SETD3,Actin-histidine N-methyltransferase,TRUE,FALSE,FALSE,Missingness filter
+Q8IYQ7,THNSL1,Threonine synthase-like 1,TRUE,FALSE,FALSE,Missingness filter
+Q8WUK0,PTPMT1,Phosphatidylglycerophosphatase and protein-tyrosine phosphatase 1,TRUE,FALSE,FALSE,Missingness filter
+O15126,SCAMP1,Secretory carrier-associated membrane protein 1,TRUE,FALSE,FALSE,Missingness filter
+P41219,PRPH,Peripherin,FALSE,FALSE,FALSE,HPA filter
+P14209,CD99,CD99 antigen,TRUE,FALSE,FALSE,Missingness filter
+P53609,PGGT1B,Geranylgeranyl transferase type-1 subunit beta,TRUE,FALSE,FALSE,Missingness filter
+O15247,CLIC2,Chloride intracellular channel protein 2,TRUE,FALSE,FALSE,Missingness filter
+Q16186,ADRM1,Proteasomal ubiquitin receptor ADRM1,TRUE,FALSE,FALSE,Missingness filter
+P52434,POLR2H,"DNA-directed RNA polymerases I, II, and III subunit RPABC3",TRUE,FALSE,FALSE,Missingness filter
+Q5EBM0,CMPK2,"UMP-CMP kinase 2, mitochondrial",FALSE,FALSE,FALSE,HPA filter
+Q96LW7,CARD19,Caspase recruitment domain-containing protein 19,TRUE,FALSE,FALSE,Missingness filter
+P40855,PEX19,Peroxisomal biogenesis factor 19,TRUE,FALSE,FALSE,Missingness filter
+Q7Z2W4,ZC3HAV1,Zinc finger CCCH-type antiviral protein 1,TRUE,FALSE,FALSE,Missingness filter
+O95396,MOCS3,Adenylyltransferase and sulfurtransferase MOCS3,TRUE,FALSE,FALSE,Missingness filter
+Q96B36,AKT1S1,Proline-rich AKT1 substrate 1,TRUE,FALSE,FALSE,Missingness filter
+Q9UHD9,UBQLN2,Ubiquilin-2,TRUE,FALSE,FALSE,Missingness filter
+Q9UI10,EIF2B4,Translation initiation factor eIF-2B subunit delta,TRUE,FALSE,FALSE,Missingness filter
+Q15796,SMAD2,Mothers against decapentaplegic homolog 2,TRUE,FALSE,FALSE,Missingness filter
+Q15477,SKIV2L,Helicase SKI2W,TRUE,FALSE,FALSE,Missingness filter
+Q16537,PPP2R5E,Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,TRUE,FALSE,FALSE,Missingness filter
+Q9UL15,BAG5,BAG family molecular chaperone regulator 5,TRUE,FALSE,FALSE,Missingness filter
+Q6PJW8,CNST,Consortin,TRUE,FALSE,FALSE,Missingness filter
+P38919,EIF4A3,Eukaryotic initiation factor 4A-III,TRUE,FALSE,FALSE,Missingness filter
+O96011,PEX11B,Peroxisomal membrane protein 11B,TRUE,FALSE,FALSE,Missingness filter

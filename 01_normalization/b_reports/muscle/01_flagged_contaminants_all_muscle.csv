@@ -1,0 +1,263 @@
+"gene","protein","description","in_hpa_muscle","in_blood_blacklist"
+"A1BG","A1BG_HUMAN","Alpha-1B-glycoprotein",FALSE,TRUE
+"A2M","A2MG_HUMAN","Alpha-2-macroglobulin",TRUE,TRUE
+"ACAN","PGCA_HUMAN","Aggrecan core protein",FALSE,FALSE
+"ACTBL2","ACTBL_HUMAN","Beta-actin-like protein 2",FALSE,FALSE
+"ADD2","ADDB_HUMAN","Beta-adducin",FALSE,FALSE
+"AFM","AFAM_HUMAN","Afamin",FALSE,FALSE
+"AHSG","FETUA_HUMAN","Alpha-2-HS-glycoprotein",FALSE,TRUE
+"AHSP","AHSP_HUMAN","Alpha-hemoglobin-stabilizing protein",FALSE,TRUE
+"AKAP2","AKAP2_HUMAN","A-kinase anchor protein 2",FALSE,FALSE
+"ALB","ALBU_HUMAN","Serum albumin",TRUE,TRUE
+"ALYREF","THOC4_HUMAN","THO complex subunit 4",FALSE,FALSE
+"AMBP","AMBP_HUMAN","Protein AMBP",FALSE,FALSE
+"APCS","SAMP_HUMAN","Serum amyloid P-component",FALSE,FALSE
+"APOA1","APOA1_HUMAN","Apolipoprotein A-I",FALSE,TRUE
+"APOA2","APOA2_HUMAN","Apolipoprotein A-II",FALSE,TRUE
+"APOA4","APOA4_HUMAN","Apolipoprotein A-IV",FALSE,TRUE
+"APOB","APOB_HUMAN","Apolipoprotein B-100",FALSE,TRUE
+"APOC1","APOC1_HUMAN","Apolipoprotein C-I",TRUE,TRUE
+"APOC2","APOC2_HUMAN","Apolipoprotein C-II",TRUE,TRUE
+"APOC3","APOC3_HUMAN","Apolipoprotein C-III",FALSE,TRUE
+"APOC4","APOC4_HUMAN","Apolipoprotein C-IV",FALSE,TRUE
+"APOD","APOD_HUMAN","Apolipoprotein D",TRUE,TRUE
+"APOE","APOE_HUMAN","Apolipoprotein E",TRUE,TRUE
+"APOF","APOF_HUMAN","Apolipoprotein F",FALSE,FALSE
+"APOH","APOH_HUMAN","Beta-2-glycoprotein 1",FALSE,TRUE
+"APOL1","APOL1_HUMAN","Apolipoprotein L1",TRUE,TRUE
+"APOL2","APOL2_HUMAN","Apolipoprotein L2",TRUE,TRUE
+"APOM","APOM_HUMAN","Apolipoprotein M",TRUE,TRUE
+"ARG1","ARGI1_HUMAN","Arginase-1",FALSE,FALSE
+"ATP1A3","AT1A3_HUMAN","Sodium/potassium-transporting ATPase subunit alpha-3",FALSE,FALSE
+"BCAS1","BCAS1_HUMAN","Breast carcinoma-amplified sequence 1",FALSE,FALSE
+"BPI","BPI_HUMAN","Bactericidal permeability-increasing protein",FALSE,FALSE
+"C1QA","C1QA_HUMAN","Complement C1q subcomponent subunit A",TRUE,TRUE
+"C1QB","C1QB_HUMAN","Complement C1q subcomponent subunit B",FALSE,TRUE
+"C1QC","C1QC_HUMAN","Complement C1q subcomponent subunit C",TRUE,TRUE
+"C1R","C1R_HUMAN","Complement C1r subcomponent",FALSE,FALSE
+"C3","CO3_HUMAN","Complement C3",TRUE,TRUE
+"C4A","CO4A_HUMAN","Complement C4-A",TRUE,TRUE
+"C4B","CO4B_HUMAN","Complement C4-B",FALSE,TRUE
+"C4BPA","C4BPA_HUMAN","C4b-binding protein alpha chain",FALSE,TRUE
+"C4BPB","C4BPB_HUMAN","C4b-binding protein beta chain",FALSE,TRUE
+"C5","CO5_HUMAN","Complement C5",FALSE,TRUE
+"C6","CO6_HUMAN","Complement component C6",FALSE,TRUE
+"C7","CO7_HUMAN","Complement component C7",TRUE,TRUE
+"C8A","CO8A_HUMAN","Complement component C8 alpha chain",FALSE,TRUE
+"C8B","CO8B_HUMAN","Complement component C8 beta chain",FALSE,TRUE
+"C8G","CO8G_HUMAN","Complement component C8 gamma chain",TRUE,TRUE
+"C9","CO9_HUMAN","Complement component C9",FALSE,TRUE
+"CA1","CAH1_HUMAN","Carbonic anhydrase 1",FALSE,FALSE
+"CACNA1C","CAC1C_HUMAN","Voltage-dependent L-type calcium channel subunit alpha-1C",FALSE,FALSE
+"CALB2","CALB2_HUMAN","Calretinin",FALSE,FALSE
+"CD5L","CD5L_HUMAN","CD5 antigen-like",FALSE,FALSE
+"CFB","CFAB_HUMAN","Complement factor B",TRUE,TRUE
+"CFH","CFAH_HUMAN","Complement factor H",TRUE,TRUE
+"CFHR1","FHR1_HUMAN","Complement factor H-related protein 1",FALSE,FALSE
+"CFHR2","FHR2_HUMAN","Complement factor H-related protein 2",FALSE,FALSE
+"CFI","CFAI_HUMAN","Complement factor I",TRUE,TRUE
+"CILP2","CILP2_HUMAN","Cartilage intermediate layer protein 2",FALSE,FALSE
+"CKMT1A","KCRU_HUMAN","Creatine kinase U-type, mitochondrial",FALSE,FALSE
+"CLU","CLUS_HUMAN","Clusterin",TRUE,TRUE
+"CMA1","CMA1_HUMAN","Chymase",FALSE,FALSE
+"CMPK2","CMPK2_HUMAN","UMP-CMP kinase 2, mitochondrial",FALSE,FALSE
+"CPB2","CBPB2_HUMAN","Carboxypeptidase B2",FALSE,FALSE
+"CPN1","CBPN_HUMAN","Carboxypeptidase N catalytic chain",FALSE,FALSE
+"CPN2","CPN2_HUMAN","Carboxypeptidase N subunit 2",FALSE,FALSE
+"CPNE9","CPNE9_HUMAN","Copine-9",FALSE,FALSE
+"CRABP1","RABP1_HUMAN","Cellular retinoic acid-binding protein 1",FALSE,FALSE
+"CRISP3","CRIS3_HUMAN","Cysteine-rich secretory protein 3",FALSE,FALSE
+"DEFA3","DEF3_HUMAN","Neutrophil defensin 3",TRUE,TRUE
+"EPB42","EPB42_HUMAN","Erythrocyte membrane protein band 4.2",FALSE,FALSE
+"F10","FA10_HUMAN","Coagulation factor X",TRUE,TRUE
+"F12","FA12_HUMAN","Coagulation factor XII",FALSE,FALSE
+"F13A1","F13A_HUMAN","Coagulation factor XIII A chain",TRUE,TRUE
+"F13B","F13B_HUMAN","Coagulation factor XIII B chain",FALSE,TRUE
+"F2","THRB_HUMAN","Prothrombin",FALSE,TRUE
+"F9","FA9_HUMAN","Coagulation factor IX",FALSE,FALSE
+"FBN2","FBN2_HUMAN","Fibrillin-2",FALSE,FALSE
+"FETUB","FETUB_HUMAN","Fetuin-B",FALSE,FALSE
+"FGA","FIBA_HUMAN","Fibrinogen alpha chain",FALSE,TRUE
+"FGB","FIBB_HUMAN","Fibrinogen beta chain",FALSE,TRUE
+"FGG","FIBG_HUMAN","Fibrinogen gamma chain",FALSE,TRUE
+"GATD3B","GAL3B_HUMAN","Glutamine amidotransferase-like class 1 domain-containing protein 3B, mitochondrial",FALSE,FALSE
+"GC","VTDB_HUMAN","Vitamin D-binding protein",FALSE,TRUE
+"GLYAT","GLYAT_HUMAN","Glycine N-acyltransferase",FALSE,FALSE
+"GNAS","GNAS1_HUMAN","Guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas",FALSE,FALSE
+"GSTT1","GSTT1_HUMAN","Glutathione S-transferase theta-1",FALSE,FALSE
+"GSTT2","GST2_HUMAN","Glutathione S-transferase theta-2",FALSE,FALSE
+"GYPA","GLPA_HUMAN","Glycophorin-A",FALSE,FALSE
+"H1-4","H14_HUMAN","Histone H1.4",FALSE,FALSE
+"H1-5","H15_HUMAN","Histone H1.5",FALSE,FALSE
+"HABP2","HABP2_HUMAN","Hyaluronan-binding protein 2",FALSE,FALSE
+"HBA1","HBA_HUMAN","Hemoglobin subunit alpha",TRUE,TRUE
+"HBB","HBB_HUMAN","Hemoglobin subunit beta",TRUE,TRUE
+"HBD","HBD_HUMAN","Hemoglobin subunit delta",FALSE,TRUE
+"HBG1","HBG1_HUMAN","Hemoglobin subunit gamma-1",FALSE,TRUE
+"HBG2","HBG2_HUMAN","Hemoglobin subunit gamma-2",TRUE,TRUE
+"HBM","HBM_HUMAN","Hemoglobin subunit mu",FALSE,TRUE
+"HBQ1","HBAT_HUMAN","Hemoglobin subunit theta-1",FALSE,TRUE
+"HBZ","HBAZ_HUMAN","Hemoglobin subunit zeta",FALSE,TRUE
+"HGFAC","HGFA_HUMAN","Hepatocyte growth factor activator",FALSE,FALSE
+"HIST2H2AC","H2A2C_HUMAN","Histone H2A type 2-C",FALSE,FALSE
+"HLA-DRB3","DRB3_HUMAN","HLA class II histocompatibility antigen, DR beta 3 chain",FALSE,FALSE
+"HP","HPT_HUMAN","Haptoglobin",TRUE,TRUE
+"HPX","HEMO_HUMAN","Hemopexin",FALSE,TRUE
+"HRG","HRG_HUMAN","Histidine-rich glycoprotein",FALSE,FALSE
+"IGFALS","ALS_HUMAN","Insulin-like growth factor-binding protein complex acid labile subunit",FALSE,FALSE
+"IGHA1","IGHA1_HUMAN","Immunoglobulin heavy constant alpha 1",TRUE,TRUE
+"IGHA2","IGHA2_HUMAN","Immunoglobulin heavy constant alpha 2",TRUE,TRUE
+"IGHD","IGHD_HUMAN","Immunoglobulin heavy constant delta",FALSE,TRUE
+"IGHG1","IGHG1_HUMAN","Immunoglobulin heavy constant gamma 1",TRUE,TRUE
+"IGHG2","IGHG2_HUMAN","Immunoglobulin heavy constant gamma 2",TRUE,TRUE
+"IGHG3","IGHG3_HUMAN","Immunoglobulin heavy constant gamma 3",FALSE,TRUE
+"IGHG4","IGHG4_HUMAN","Immunoglobulin heavy constant gamma 4",FALSE,TRUE
+"IGHM","IGHM_HUMAN","Immunoglobulin heavy constant mu",TRUE,TRUE
+"IGHV1-18","HV118_HUMAN","Immunoglobulin heavy variable 1-18",FALSE,TRUE
+"IGHV1-3","HV103_HUMAN","Immunoglobulin heavy variable 1-3",FALSE,TRUE
+"IGHV1-45","HV145_HUMAN","Immunoglobulin heavy variable 1-45",FALSE,TRUE
+"IGHV1-46","HV146_HUMAN","Immunoglobulin heavy variable 1-46",FALSE,TRUE
+"IGHV1-69D","HV69D_HUMAN","Immunoglobulin heavy variable 1-69D",FALSE,TRUE
+"IGHV2-26","HV226_HUMAN","Immunoglobulin heavy variable 2-26",FALSE,TRUE
+"IGHV2-70D","HV70D_HUMAN","Immunoglobulin heavy variable 2-70D",FALSE,TRUE
+"IGHV3-13","HV313_HUMAN","Immunoglobulin heavy variable 3-13",FALSE,TRUE
+"IGHV3-15","HV315_HUMAN","Immunoglobulin heavy variable 3-15",FALSE,TRUE
+"IGHV3-21","HV321_HUMAN","Immunoglobulin heavy variable 3-21",FALSE,TRUE
+"IGHV3-30","HV330_HUMAN","Immunoglobulin heavy variable 3-30",FALSE,TRUE
+"IGHV3-35","HV335_HUMAN","Probable non-functional immunoglobulin heavy variable 3-35",FALSE,TRUE
+"IGHV3-38","HV338_HUMAN","Probable non-functional immunoglobulin heavy variable 3-38",FALSE,TRUE
+"IGHV3-43","HV343_HUMAN","Immunoglobulin heavy variable 3-43",FALSE,TRUE
+"IGHV3-49","HV349_HUMAN","Immunoglobulin heavy variable 3-49",FALSE,TRUE
+"IGHV3-64D","HV64D_HUMAN","Immunoglobulin heavy variable 3-64D",FALSE,TRUE
+"IGHV3-7","HV307_HUMAN","Immunoglobulin heavy variable 3-7",TRUE,TRUE
+"IGHV3-72","HV372_HUMAN","Immunoglobulin heavy variable 3-72",FALSE,TRUE
+"IGHV3-74","HV374_HUMAN","Immunoglobulin heavy variable 3-74",FALSE,TRUE
+"IGHV3-9","HV309_HUMAN","Immunoglobulin heavy variable 3-9",FALSE,TRUE
+"IGHV4-28","HV428_HUMAN","Immunoglobulin heavy variable 4-28",FALSE,TRUE
+"IGHV4-34","HV434_HUMAN","Immunoglobulin heavy variable 4-34",FALSE,TRUE
+"IGHV5-10-1","HV5X1_HUMAN","Immunoglobulin heavy variable 5-10-1",FALSE,TRUE
+"IGHV5-51","HV551_HUMAN","Immunoglobulin heavy variable 5-51",FALSE,TRUE
+"IGHV6-1","HV601_HUMAN","Immunoglobulin heavy variable 6-1",FALSE,TRUE
+"IGKC","IGKC_HUMAN","Immunoglobulin kappa constant",FALSE,TRUE
+"IGKJ1","KJ01_HUMAN","Immunoglobulin kappa joining 1",TRUE,TRUE
+"IGKV1-16","KV116_HUMAN","Immunoglobulin kappa variable 1-16",FALSE,TRUE
+"IGKV1-5","KV105_HUMAN","Immunoglobulin kappa variable 1-5",FALSE,TRUE
+"IGKV1-6","KV106_HUMAN","Immunoglobulin kappa variable 1-6",FALSE,TRUE
+"IGKV1-8","KV108_HUMAN","Immunoglobulin kappa variable 1-8",FALSE,TRUE
+"IGKV1D-13","KVD13_HUMAN","Immunoglobulin kappa variable 1D-13",FALSE,TRUE
+"IGKV1D-16","KVD16_HUMAN","Immunoglobulin kappa variable 1D-16",FALSE,TRUE
+"IGKV1D-33","KVD33_HUMAN","Immunoglobulin kappa variable 1D-33",FALSE,TRUE
+"IGKV2-24","KV224_HUMAN","Immunoglobulin kappa variable 2-24",FALSE,TRUE
+"IGKV2-29","KV229_HUMAN","Immunoglobulin kappa variable 2-29",FALSE,TRUE
+"IGKV2-30","KV230_HUMAN","Immunoglobulin kappa variable 2-30",FALSE,TRUE
+"IGKV2-40","KV240_HUMAN","Immunoglobulin kappa variable 2-40",FALSE,TRUE
+"IGKV2D-30","KVD30_HUMAN","Immunoglobulin kappa variable 2D-30",FALSE,TRUE
+"IGKV3-11","KV311_HUMAN","Immunoglobulin kappa variable 3-11",TRUE,TRUE
+"IGKV3-15","KV315_HUMAN","Immunoglobulin kappa variable 3-15",TRUE,TRUE
+"IGKV3-20","KV320_HUMAN","Immunoglobulin kappa variable 3-20",TRUE,TRUE
+"IGKV3D-15","KVD15_HUMAN","Immunoglobulin kappa variable 3D-15",FALSE,TRUE
+"IGKV3D-20","KVD20_HUMAN","Immunoglobulin kappa variable 3D-20",FALSE,TRUE
+"IGKV4-1","KV401_HUMAN","Immunoglobulin kappa variable 4-1",TRUE,TRUE
+"IGKV6-21","KV621_HUMAN","Immunoglobulin kappa variable 6-21",FALSE,TRUE
+"IGKV6D-21","KVD21_HUMAN","Immunoglobulin kappa variable 6D-21",FALSE,TRUE
+"IGLC2","IGLC2_HUMAN","Immunoglobulin lambda constant 2",TRUE,TRUE
+"IGLC3","IGLC3_HUMAN","Immunoglobulin lambda constant 3",TRUE,TRUE
+"IGLL1","IGLL1_HUMAN","Immunoglobulin lambda-like polypeptide 1",FALSE,TRUE
+"IGLL5","IGLL5_HUMAN","Immunoglobulin lambda-like polypeptide 5",FALSE,TRUE
+"IGLV1-36","LV136_HUMAN","Immunoglobulin lambda variable 1-36",FALSE,TRUE
+"IGLV1-40","LV140_HUMAN","Immunoglobulin lambda variable 1-40",TRUE,TRUE
+"IGLV1-47","LV147_HUMAN","Immunoglobulin lambda variable 1-47",FALSE,TRUE
+"IGLV1-51","LV151_HUMAN","Immunoglobulin lambda variable 1-51",TRUE,TRUE
+"IGLV2-14","LV214_HUMAN","Immunoglobulin lambda variable 2-14",TRUE,TRUE
+"IGLV2-18","LV218_HUMAN","Immunoglobulin lambda variable 2-18",FALSE,TRUE
+"IGLV3-10","LV310_HUMAN","Immunoglobulin lambda variable 3-10",FALSE,TRUE
+"IGLV3-19","LV319_HUMAN","Immunoglobulin lambda variable 3-19",FALSE,TRUE
+"IGLV3-21","LV321_HUMAN","Immunoglobulin lambda variable 3-21",FALSE,TRUE
+"IGLV3-25","LV325_HUMAN","Immunoglobulin lambda variable 3-25",FALSE,TRUE
+"IGLV3-27","LV327_HUMAN","Immunoglobulin lambda variable 3-27",FALSE,TRUE
+"IGLV6-57","LV657_HUMAN","Immunoglobulin lambda variable 6-57",FALSE,TRUE
+"IGLV7-43","LV743_HUMAN","Immunoglobulin lambda variable 7-43",FALSE,TRUE
+"IGLV8-61","LV861_HUMAN","Immunoglobulin lambda variable 8-61",FALSE,TRUE
+"IRF4","IRF4_HUMAN","Interferon regulatory factor 4",FALSE,FALSE
+"ITGA2B","ITA2B_HUMAN","Integrin alpha-IIb",FALSE,FALSE
+"ITIH1","ITIH1_HUMAN","Inter-alpha-trypsin inhibitor heavy chain H1",FALSE,TRUE
+"ITIH2","ITIH2_HUMAN","Inter-alpha-trypsin inhibitor heavy chain H2",FALSE,TRUE
+"ITIH3","ITIH3_HUMAN","Inter-alpha-trypsin inhibitor heavy chain H3",FALSE,TRUE
+"ITIH4","ITIH4_HUMAN","Inter-alpha-trypsin inhibitor heavy chain H4",TRUE,TRUE
+"ITIH5","ITIH5_HUMAN","Inter-alpha-trypsin inhibitor heavy chain H5",FALSE,FALSE
+"JCHAIN","IGJ_HUMAN","Immunoglobulin J chain",TRUE,TRUE
+"KEL","KELL_HUMAN","Kell blood group glycoprotein",FALSE,FALSE
+"KERA","KERA_HUMAN","Keratocan",FALSE,FALSE
+"KNG1","KNG1_HUMAN","Kininogen-1",FALSE,TRUE
+"KRT16","K1C16_HUMAN","Keratin, type I cytoskeletal 16",FALSE,FALSE
+"KRT17","K1C17_HUMAN","Keratin, type I cytoskeletal 17",FALSE,FALSE
+"KRT25","K1C25_HUMAN","Keratin, type I cytoskeletal 25",FALSE,FALSE
+"KRT6B","K2C6B_HUMAN","Keratin, type II cytoskeletal 6B",FALSE,FALSE
+"KRT74","K2C74_HUMAN","Keratin, type II cytoskeletal 74",FALSE,FALSE
+"KRT77","K2C1B_HUMAN","Keratin, type II cytoskeletal 1b",FALSE,FALSE
+"KRT9","K1C9_HUMAN","Keratin, type I cytoskeletal 9",FALSE,FALSE
+"LPA","APOA_HUMAN","Apolipoprotein(a)",FALSE,FALSE
+"LYZ","LYSC_HUMAN","Lysozyme C",TRUE,TRUE
+"MAL2","MAL2_HUMAN","Protein MAL2",FALSE,FALSE
+"MMP9","MMP9_HUMAN","Matrix metalloproteinase-9",FALSE,FALSE
+"MOCS2","MOC2B_HUMAN","Molybdopterin synthase catalytic subunit",FALSE,FALSE
+"MRPL45","RM45_HUMAN","39S ribosomal protein L45, mitochondrial",FALSE,FALSE
+"NACA","NACAM_HUMAN","Nascent polypeptide-associated complex subunit alpha, muscle-specific form",FALSE,FALSE
+"NEFL","NFL_HUMAN","Neurofilament light polypeptide",FALSE,FALSE
+"NTM","NTRI_HUMAN","Neurotrimin",FALSE,FALSE
+"OPCML","OPCM_HUMAN","Opioid-binding protein/cell adhesion molecule",FALSE,FALSE
+"ORM1","A1AG1_HUMAN","Alpha-1-acid glycoprotein 1",TRUE,TRUE
+"ORM2","A1AG2_HUMAN","Alpha-1-acid glycoprotein 2",FALSE,TRUE
+"PALM2","PALM2_HUMAN","Paralemmin-2",FALSE,FALSE
+"PCK1","PCKGC_HUMAN","Phosphoenolpyruvate carboxykinase, cytosolic [GTP]",FALSE,FALSE
+"PDE3B","PDE3B_HUMAN","cGMP-inhibited 3',5'-cyclic phosphodiesterase B",FALSE,FALSE
+"PF4","PLF4_HUMAN","Platelet factor 4",FALSE,TRUE
+"PGK2","PGK2_HUMAN","Phosphoglycerate kinase 2",FALSE,FALSE
+"PGLYRP2","PGRP2_HUMAN","N-acetylmuramoyl-L-alanine amidase",FALSE,FALSE
+"PKLR","KPYR_HUMAN","Pyruvate kinase PKLR",FALSE,FALSE
+"PLG","PLMN_HUMAN","Plasminogen",FALSE,TRUE
+"PMP2","MYP2_HUMAN","Myelin P2 protein",FALSE,FALSE
+"PON1","PON1_HUMAN","Serum paraoxonase/arylesterase 1",FALSE,FALSE
+"POTEI","POTEI_HUMAN","POTE ankyrin domain family member I",FALSE,FALSE
+"PPBP","CXCL7_HUMAN","Platelet basic protein",TRUE,TRUE
+"PRKCB","KPCB_HUMAN","Protein kinase C beta type",FALSE,FALSE
+"PROS1","PROS_HUMAN","Vitamin K-dependent protein S",TRUE,TRUE
+"PRPH","PERI_HUMAN","Peripherin",FALSE,FALSE
+"PRTN3","PRTN3_HUMAN","Myeloblastin",FALSE,FALSE
+"PSAPL1","SAPL1_HUMAN","Proactivator polypeptide-like 1",FALSE,FALSE
+"PSAT1","SERC_HUMAN","Phosphoserine aminotransferase",FALSE,FALSE
+"PZP","PZP_HUMAN","Pregnancy zone protein",FALSE,FALSE
+"RAB12","RAB12_HUMAN","Ras-related protein Rab-12",FALSE,FALSE
+"RNASE7","RNAS7_HUMAN","Ribonuclease 7",FALSE,FALSE
+"RTN1","RTN1_HUMAN","Reticulon-1",FALSE,FALSE
+"RYR2","RYR2_HUMAN","Ryanodine receptor 2",FALSE,FALSE
+"S100A7","S10A7_HUMAN","Protein S100-A7",FALSE,FALSE
+"SAA1","SAA1_HUMAN","Serum amyloid A-1 protein",TRUE,TRUE
+"SDF4","CAB45_HUMAN","45 kDa calcium-binding protein",FALSE,FALSE
+"SEC14L4","S14L4_HUMAN","SEC14-like protein 4",FALSE,FALSE
+"SERPINA1","A1AT_HUMAN","Alpha-1-antitrypsin",TRUE,TRUE
+"SERPINA4","KAIN_HUMAN","Kallistatin",FALSE,FALSE
+"SERPINA6","CBG_HUMAN","Corticosteroid-binding globulin",FALSE,FALSE
+"SERPINA7","THBG_HUMAN","Thyroxine-binding globulin",FALSE,FALSE
+"SERPINB3","SPB3_HUMAN","Serpin B3",FALSE,FALSE
+"SERPINC1","ANT3_HUMAN","Antithrombin-III",FALSE,TRUE
+"SERPIND1","HEP2_HUMAN","Heparin cofactor 2",FALSE,TRUE
+"SERPING1","IC1_HUMAN","Plasma protease C1 inhibitor",TRUE,TRUE
+"SHBG","SHBG_HUMAN","Sex hormone-binding globulin",FALSE,FALSE
+"SLC19A3","S19A3_HUMAN","Thiamine transporter 2",FALSE,FALSE
+"SLC35A4","S35U4_HUMAN","SLC35A4 upstream open reading frame protein",FALSE,FALSE
+"SLC37A4","G6PT1_HUMAN","Glucose-6-phosphate exchanger SLC37A4",FALSE,FALSE
+"SLC4A1","B3AT_HUMAN","Band 3 anion transport protein",FALSE,FALSE
+"SPON1","SPON1_HUMAN","Spondin-1",FALSE,FALSE
+"SPTA1","SPTA1_HUMAN","Spectrin alpha chain, erythrocytic 1",FALSE,FALSE
+"STK26","STK26_HUMAN","Serine/threonine-protein kinase 26",FALSE,FALSE
+"TF","TRFE_HUMAN","Serotransferrin",TRUE,TRUE
+"THBS1","TSP1_HUMAN","Thrombospondin-1",TRUE,TRUE
+"TMPO","LAP2B_HUMAN","Lamina-associated polypeptide 2, isoforms beta/gamma",FALSE,FALSE
+"TTR","TTHY_HUMAN","Transthyretin",TRUE,TRUE
+"TUBB1","TBB1_HUMAN","Tubulin beta-1 chain",FALSE,FALSE
+"TUBB3","TBB3_HUMAN","Tubulin beta-3 chain",FALSE,FALSE
+"TUBB8","TBB8_HUMAN","Tubulin beta-8 chain",FALSE,FALSE
+"U2AF1L5","U2AF5_HUMAN","Splicing factor U2AF 35 kDa subunit-like protein",FALSE,FALSE
+"VTN","VTNC_HUMAN","Vitronectin",FALSE,FALSE
+"VWF","VWF_HUMAN","von Willebrand factor",TRUE,TRUE

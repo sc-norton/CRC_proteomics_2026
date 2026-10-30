@@ -1,0 +1,2 @@
+"total_samples","n_CRC","n_CTL","n_CRE","n_PLA","n_male","n_female","n_T1","n_T2","n_CRE_T1","n_CRE_T2","n_PLA_T1","n_PLA_T2","n_male_T1","n_male_T2","n_female_T1","n_female_T2","n_paired","n_paired_CRE","n_paired_PLA","n_unpaired","n_T1_only","n_T2_only"
+29,22,7,12,10,13,16,19,10,7,5,5,5,10,3,9,7,9,5,4,11,10,1

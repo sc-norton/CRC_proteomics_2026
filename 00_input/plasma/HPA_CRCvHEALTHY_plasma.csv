@@ -1,0 +1,41 @@
+﻿Protein,Description,p.adjusted,NPX fold change,Seeds,Importance
+PRDX6,peroxiredoxin 6,0.00,1.6,100,100
+LTA4H,leukotriene A4 hydrolase,0.00,1,100,35
+KLK13,kallikrein related peptidase 13,0.00,-1,100,32.8
+CKMT1A,"creatine kinase, mitochondrial 1A",0.00,-1,95,18.9
+CKMT1B,"creatine kinase, mitochondrial 1B",0.00,-1,95,18.9
+ADAMTS13,ADAM metallopeptidase with thrombospondin type 1 motif 13,0.00,-0.4,99,15.7
+HAGH,hydroxyacylglutathione hydrolase,0.00,1.6,90,15.4
+PON3,paraoxonase 3,0.00,-0.5,91,15.2
+DNER,delta/notch like EGF repeat containing,0.00,-0.5,90,14.8
+PPY,pancreatic polypeptide,0.00,1.3,96,13.3
+AGRP,agouti related neuropeptide,0.00,0.9,87,12.2
+APLP1,amyloid beta precursor like protein 1,0.00,-1.3,88,12
+GCG,glucagon,0.00,1.6,93,11.2
+CASP8,caspase 8,0.00,1.4,10,10.7
+INPP1,inositol polyphosphate-1-phosphatase,0.00,1.1,49,10.3
+AREG,amphiregulin,0.00,1.1,84,9.8
+TFRC,transferrin receptor,0.00,0.7,92,9.8
+MNDA,myeloid cell nuclear differentiation antigen,0.00,-0.9,63,9.7
+CLEC4A,C-type lectin domain family 4 member A,0.00,-0.5,64,9.2
+LAP3,leucine aminopeptidase 3,0.00,0.7,68,9.1
+SKAP1,src kinase associated phosphoprotein 1,0.00,-0.5,14,8.7
+BID,BH3 interacting domain death agonist,0.00,1.6,32,8.6
+ANXA5,annexin A5,0.00,-0.2,52,8.2
+NPM1,nucleophosmin 1,0.00,-0.9,22,8
+RET,ret proto-oncogene,0.00,-0.5,53,7.8
+RASA1,RAS p21 protein activator 1,0.00,-0.2,45,7.8
+EGFR,epidermal growth factor receptor,0.00,-0.3,15,7.6
+HPGDS,hematopoietic prostaglandin D synthase,0.00,-0.4,25,7.5
+MMP12,matrix metallopeptidase 12,0.00,0.8,46,7
+ISLR2,immunoglobulin superfamily containing leucine rich repeat 2,0.00,-0.4,57,6.8
+BMP4,bone morphogenetic protein 4,0.00,0.5,57,6.6
+GZMB,granzyme B,0.00,-0.9,36,6.4
+DEFB4A,defensin beta 4A,0.00,1.1,25,6.3
+DEFB4B,defensin beta 4B,0.00,1.1,25,6.3
+GALNT10,polypeptide N-acetylgalactosaminyltransferase 10,0.00,0.2,40,6
+THOP1,thimet oligopeptidase 1,0.00,-0.2,62,6
+GZMA,granzyme A,0.00,-0.5,26,5.7
+IL34,interleukin 34,0.00,-0.3,35,5.6
+PIK3AP1,phosphoinositide-3-kinase adaptor protein 1,0.00,0.9,16,5.4
+MB,myoglobin,0.00,-0.5,24,5.3

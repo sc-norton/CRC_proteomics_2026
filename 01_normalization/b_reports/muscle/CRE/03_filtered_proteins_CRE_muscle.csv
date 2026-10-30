@@ -1,0 +1,130 @@
+uniprot_id,gene,description,in_hpa_muscle,in_blood_blacklist,reason
+Q16778,HIST2H2BE,Histone H2B type 2-E,TRUE,FALSE,Missingness
+P12110,COL6A2,Collagen alpha-2(VI) chain,TRUE,FALSE,Missingness
+P00395,MT-CO1,Cytochrome c oxidase subunit 1,TRUE,FALSE,Missingness
+Q9NZQ9,TMOD4,Tropomodulin-4,TRUE,FALSE,Missingness
+Q9BSE5,AGMAT,"Agmatinase, mitochondrial",TRUE,FALSE,Missingness
+Q13363,CTBP1,C-terminal-binding protein 1,TRUE,FALSE,Missingness
+Q13326,SGCG,Gamma-sarcoglycan,TRUE,FALSE,Missingness
+P62314,SNRPD1,Small nuclear ribonucleoprotein Sm D1,TRUE,FALSE,Missingness
+P18077,RPL35A,60S ribosomal protein L35a,TRUE,FALSE,Missingness
+A5YM72,CARNS1,Carnosine synthase 1,TRUE,FALSE,Missingness
+P62330,ARF6,ADP-ribosylation factor 6,TRUE,FALSE,Missingness
+Q9UHA4,LAMTOR3,Ragulator complex protein LAMTOR3,TRUE,FALSE,Missingness
+P55039,DRG2,Developmentally-regulated GTP-binding protein 2,TRUE,FALSE,Missingness
+Q9Y5U8,MPC1,Mitochondrial pyruvate carrier 1,TRUE,FALSE,Missingness
+Q9UBX5,FBLN5,Fibulin-5,TRUE,FALSE,Missingness
+Q709C8,VPS13C,Vacuolar protein sorting-associated protein 13C,TRUE,FALSE,Missingness
+P36405,ARL3,ADP-ribosylation factor-like protein 3,TRUE,FALSE,Missingness
+Q15208,STK38,Serine/threonine-protein kinase 38,TRUE,FALSE,Missingness
+Q9Y3D2,MSRB2,"Methionine-R-sulfoxide reductase B2, mitochondrial",TRUE,FALSE,Missingness
+Q9BZV1,UBXN6,UBX domain-containing protein 6,TRUE,FALSE,Missingness
+Q9NWU1,OXSM,"3-oxoacyl-[acyl-carrier-protein] synthase, mitochondrial",TRUE,FALSE,Missingness
+Q96JJ7,TMX3,Protein disulfide-isomerase TMX3,TRUE,FALSE,Missingness
+P34897,SHMT2,"Serine hydroxymethyltransferase, mitochondrial",TRUE,FALSE,Missingness
+Q96I23,PYURF,"Protein preY, mitochondrial",TRUE,FALSE,Missingness
+O95376,ARIH2,E3 ubiquitin-protein ligase ARIH2,TRUE,FALSE,Missingness
+P52815,MRPL12,"39S ribosomal protein L12, mitochondrial",TRUE,FALSE,Missingness
+Q14116,IL18,Interleukin-18,TRUE,FALSE,Missingness
+Q9H8S9,MOB1A,MOB kinase activator 1A,TRUE,FALSE,Missingness
+P16118,PFKFB1,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 1",TRUE,FALSE,Missingness
+P24043,LAMA2,Laminin subunit alpha-2,TRUE,FALSE,Missingness
+P48739,PITPNB,Phosphatidylinositol transfer protein beta isoform,TRUE,FALSE,Missingness
+O14874,BCKDK,"[3-methyl-2-oxobutanoate dehydrogenase [lipoamide]] kinase, mitochondrial",TRUE,FALSE,Missingness
+Q9Y508,RNF114,E3 ubiquitin-protein ligase RNF114,TRUE,FALSE,Missingness
+P51151,RAB9A,Ras-related protein Rab-9A,TRUE,FALSE,Missingness
+Q13496,MTM1,Myotubularin,TRUE,FALSE,Missingness
+Q9NNW7,TXNRD2,"Thioredoxin reductase 2, mitochondrial",TRUE,FALSE,Missingness
+Q5SQH8,C6orf136,Uncharacterized protein C6orf136,TRUE,FALSE,Missingness
+Q96HY7,DHTKD1,"Probable 2-oxoglutarate dehydrogenase E1 component DHKTD1, mitochondrial",TRUE,FALSE,Missingness
+Q9H987,SYNPO2L,Synaptopodin 2-like protein,TRUE,FALSE,Missingness
+P46199,MTIF2,"Translation initiation factor IF-2, mitochondrial",TRUE,FALSE,Missingness
+Q6UWP2,DHRS11,Dehydrogenase/reductase SDR family member 11,TRUE,FALSE,Missingness
+O60237,PPP1R12B,Protein phosphatase 1 regulatory subunit 12B,TRUE,FALSE,Missingness
+O94973,AP2A2,AP-2 complex subunit alpha-2,TRUE,FALSE,Missingness
+P62310,LSM3,U6 snRNA-associated Sm-like protein LSm3,TRUE,FALSE,Missingness
+Q49AH0,CDNF,Cerebral dopamine neurotrophic factor,TRUE,FALSE,Missingness
+Q6IPR1,ETFRF1,Electron transfer flavoprotein regulatory factor 1,TRUE,FALSE,Missingness
+P08134,RHOC,Rho-related GTP-binding protein RhoC,TRUE,FALSE,Missingness
+P49407,ARRB1,Beta-arrestin-1,TRUE,FALSE,Missingness
+Q13586,STIM1,Stromal interaction molecule 1,TRUE,FALSE,Missingness
+Q9NXJ5,PGPEP1,Pyroglutamyl-peptidase 1,TRUE,FALSE,Missingness
+A0FGR8,ESYT2,Extended synaptotagmin-2,TRUE,FALSE,Missingness
+Q687X5,STEAP4,Metalloreductase STEAP4,TRUE,FALSE,Missingness
+Q969Q0,RPL36AL,60S ribosomal protein L36a-like,TRUE,FALSE,Missingness
+P26368,U2AF2,Splicing factor U2AF 65 kDa subunit,TRUE,FALSE,Missingness
+Q86TX2,ACOT1,Acyl-coenzyme A thioesterase 1,TRUE,FALSE,Missingness
+P62266,RPS23,40S ribosomal protein S23,TRUE,FALSE,Missingness
+Q96C11,FGGY,FGGY carbohydrate kinase domain-containing protein,TRUE,FALSE,Missingness
+Q8NFU3,TSTD1,Thiosulfate:glutathione sulfurtransferase,TRUE,FALSE,Missingness
+Q96H20,SNF8,Vacuolar-sorting protein SNF8,TRUE,FALSE,Missingness
+P01911,HLA-DRB1,"HLA class II histocompatibility antigen, DRB1 beta chain",TRUE,FALSE,Missingness
+Q6GMV2,SMYD5,SET and MYND domain-containing protein 5,TRUE,FALSE,Missingness
+P63146,UBE2B,Ubiquitin-conjugating enzyme E2 B,TRUE,FALSE,Missingness
+P27694,RPA1,Replication protein A 70 kDa DNA-binding subunit,TRUE,FALSE,Missingness
+Q8WX93,PALLD,Palladin,TRUE,FALSE,Missingness
+Q96S66,CLCC1,Chloride channel CLIC-like protein 1,TRUE,FALSE,Missingness
+P42224,STAT1,Signal transducer and activator of transcription 1-alpha/beta,TRUE,FALSE,Missingness
+Q86UP2,KTN1,Kinectin,TRUE,FALSE,Missingness
+Q86UE4,MTDH,Protein LYRIC,TRUE,FALSE,Missingness
+P08754,GNAI3,Guanine nucleotide-binding protein G(i) subunit alpha,TRUE,FALSE,Missingness
+Q9NQ50,MRPL40,"39S ribosomal protein L40, mitochondrial",TRUE,FALSE,Missingness
+P13164,IFITM1,Interferon-induced transmembrane protein 1,TRUE,FALSE,Missingness
+Q6NUK1,SLC25A24,Calcium-binding mitochondrial carrier protein SCaMC-1,TRUE,FALSE,Missingness
+Q9GZS3,WDR61,WD repeat-containing protein 61,TRUE,FALSE,Missingness
+Q96C00,ZBTB9,Zinc finger and BTB domain-containing protein 9,TRUE,FALSE,Missingness
+Q9P2J5,LARS1,"Leucine--tRNA ligase, cytoplasmic",TRUE,FALSE,Missingness
+Q9P0U1,TOMM7,Mitochondrial import receptor subunit TOM7 homolog,TRUE,FALSE,Missingness
+P63172,DYNLT1,Dynein light chain Tctex-type 1,TRUE,FALSE,Missingness
+Q9Y5K5,UCHL5,Ubiquitin carboxyl-terminal hydrolase isozyme L5,TRUE,FALSE,Missingness
+Q9Y5X1,SNX9,Sorting nexin-9,TRUE,FALSE,Missingness
+Q6PI48,DARS2,"Aspartate--tRNA ligase, mitochondrial",TRUE,FALSE,Missingness
+P51114,FXR1,Fragile X mental retardation syndrome-related protein 1,TRUE,FALSE,Missingness
+P49840,GSK3A,Glycogen synthase kinase-3 alpha,TRUE,FALSE,Missingness
+Q96BW5,PTER,Phosphotriesterase-related protein,TRUE,FALSE,Missingness
+Q9BVV7,TIMM21,Mitochondrial import inner membrane translocase subunit Tim21,TRUE,FALSE,Missingness
+O43684,BUB3,Mitotic checkpoint protein BUB3,TRUE,FALSE,Missingness
+Q96CT7,CCDC124,Coiled-coil domain-containing protein 124,TRUE,FALSE,Missingness
+Q9UDT6,CLIP2,CAP-Gly domain-containing linker protein 2,TRUE,FALSE,Missingness
+Q86YB7,ECHDC2,"Enoyl-CoA hydratase domain-containing protein 2, mitochondrial",TRUE,FALSE,Missingness
+P00326,ADH1C,Alcohol dehydrogenase 1C,TRUE,FALSE,Missingness
+Q712K3,UBE2R2,Ubiquitin-conjugating enzyme E2 R2,TRUE,FALSE,Missingness
+P26196,DDX6,Probable ATP-dependent RNA helicase DDX6,TRUE,FALSE,Missingness
+Q9HAB8,PPCS,Phosphopantothenate--cysteine ligase,TRUE,FALSE,Missingness
+Q9BY44,EIF2A,Eukaryotic translation initiation factor 2A,TRUE,FALSE,Missingness
+Q12955,ANK3,Ankyrin-3,TRUE,FALSE,Missingness
+Q4G0N4,NADK2,"NAD kinase 2, mitochondrial",TRUE,FALSE,Missingness
+Q7L5D6,GET4,Golgi to ER traffic protein 4 homolog,TRUE,FALSE,Missingness
+P22570,FDXR,"NADPH:adrenodoxin oxidoreductase, mitochondrial",TRUE,FALSE,Missingness
+Q9P2T1,GMPR2,GMP reductase 2,TRUE,FALSE,Missingness
+Q9H2J4,PDCL3,Phosducin-like protein 3,TRUE,FALSE,Missingness
+Q16629,SRSF7,Serine/arginine-rich splicing factor 7,TRUE,FALSE,Missingness
+Q8TD19,NEK9,Serine/threonine-protein kinase Nek9,TRUE,FALSE,Missingness
+P36404,ARL2,ADP-ribosylation factor-like protein 2,TRUE,FALSE,Missingness
+Q9NP81,SARS2,"Serine--tRNA ligase, mitochondrial",TRUE,FALSE,Missingness
+Q9BZE1,MRPL37,"39S ribosomal protein L37, mitochondrial",TRUE,FALSE,Missingness
+Q9BW91,NUDT9,"ADP-ribose pyrophosphatase, mitochondrial",TRUE,FALSE,Missingness
+Q8N6M3,FITM2,Fat storage-inducing transmembrane protein 2,TRUE,FALSE,Missingness
+P50897,PPT1,Palmitoyl-protein thioesterase 1,TRUE,FALSE,Missingness
+P61513,RPL37A,60S ribosomal protein L37a,TRUE,FALSE,Missingness
+Q8WVI0,SMIM4,Small integral membrane protein 4,TRUE,FALSE,Missingness
+Q96EM0,L3HYPDH,Trans-3-hydroxy-L-proline dehydratase,TRUE,FALSE,Missingness
+P78318,IGBP1,Immunoglobulin-binding protein 1,TRUE,FALSE,Missingness
+Q9Y6A9,SPCS1,Signal peptidase complex subunit 1,TRUE,FALSE,Missingness
+Q9NUQ7,UFSP2,Ufm1-specific protease 2,TRUE,FALSE,Missingness
+P25686,DNAJB2,DnaJ homolog subfamily B member 2,TRUE,FALSE,Missingness
+P41252,IARS1,"Isoleucine--tRNA ligase, cytoplasmic",TRUE,FALSE,Missingness
+Q8IYB8,SUPV3L1,"ATP-dependent RNA helicase SUPV3L1, mitochondrial",TRUE,FALSE,Missingness
+Q53HC9,EIPR1,EARP and GARP complex-interacting protein 1,TRUE,FALSE,Missingness
+O14562,UBFD1,Ubiquitin domain-containing protein UBFD1,TRUE,FALSE,Missingness
+Q9NS69,TOMM22,Mitochondrial import receptor subunit TOM22 homolog,TRUE,FALSE,Missingness
+O14579,COPE,Coatomer subunit epsilon,TRUE,FALSE,Missingness
+P20020,ATP2B1,Plasma membrane calcium-transporting ATPase 1,TRUE,FALSE,Missingness
+O95352,ATG7,Ubiquitin-like modifier-activating enzyme ATG7,TRUE,FALSE,Missingness
+Q6PGP7,TTC37,Tetratricopeptide repeat protein 37,TRUE,FALSE,Missingness
+Q9UHD1,CHORDC1,Cysteine and histidine-rich domain-containing protein 1,TRUE,FALSE,Missingness
+Q06210,GFPT1,Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 1,TRUE,FALSE,Missingness
+P51608,MECP2,Methyl-CpG-binding protein 2,TRUE,FALSE,Missingness
+Q8TC12,RDH11,Retinol dehydrogenase 11,TRUE,FALSE,Missingness
+Q99622,C12orf57,Protein C10,TRUE,FALSE,Missingness
+Q9NQ88,TIGAR,"Fructose-2,6-bisphosphatase TIGAR",TRUE,FALSE,Missingness

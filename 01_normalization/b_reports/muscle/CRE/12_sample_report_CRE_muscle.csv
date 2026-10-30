@@ -1,0 +1,2 @@
+"dataset","total_samples","n_SURV","n_CTL","n_CRE","n_PLA","n_male","n_female","n_T1","n_T2","n_CRE_T1","n_CRE_T2","n_PLA_T1","n_PLA_T2","n_male_T1","n_male_T2","n_female_T1","n_female_T2","n_paired","n_paired_CRE","n_paired_PLA","n_unpaired","n_T1_only","n_T2_only"
+"CRE",25,25,0,14,11,13,12,12,13,7,7,5,6,7,6,5,7,10,6,4,5,2,3

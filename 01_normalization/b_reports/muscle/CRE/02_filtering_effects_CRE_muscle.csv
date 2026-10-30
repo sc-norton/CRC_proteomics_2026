@@ -1,0 +1,5 @@
+step,n_before,n_after,n_removed,pct_retained
+Raw input,NA,3172,NA,100
+HPA muscle filter,3172,2964,208,93.4
+Blood blacklist filter,2964,2900,64,91.4
+Missingness filter,2900,1886,1014,59.5

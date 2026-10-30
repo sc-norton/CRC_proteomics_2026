@@ -1,0 +1,6 @@
+step,n_before,n_after,n_removed,pct_retained
+Raw input,NA,3172,NA,100
+HPA muscle filter,3172,2964,208,93.4
+Keratin filter,2964,2955,9,93.2
+Blood blacklist filter,2955,2900,55,91.4
+Missingness filter,2900,1958,942,61.7

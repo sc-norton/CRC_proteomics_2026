@@ -1,0 +1,6 @@
+"","cancer","supp","timepoint","cancer_time","supp_time","n"
+"1","CRC","CRE","T1","CRC_T1","CRE_T1",7
+"2","CRC","CRE","T2","CRC_T2","CRE_T2",6
+"3","CRC","PLA","T1","CRC_T1","PLA_T1",5
+"4","CRC","PLA","T2","CRC_T2","PLA_T2",6
+"5","CTL","CTL","T1","CTL_T1","CTL_T1",8

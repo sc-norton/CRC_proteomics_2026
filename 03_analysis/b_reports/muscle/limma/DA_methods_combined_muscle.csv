@@ -1,0 +1,33 @@
+"comparison","method","n_UP","n_DOWN"
+"Baseline_supp","FDR < 0.05 (BH)",0,0
+"Post_training_supp","FDR < 0.05 (BH)",0,1
+"Training_CRE","FDR < 0.05 (BH)",2,0
+"Training_PLA","FDR < 0.05 (BH)",0,0
+"Interaction_supp","FDR < 0.05 (BH)",0,0
+"Baseline_supp","FDR < 0.10 (BH)",0,0
+"Post_training_supp","FDR < 0.10 (BH)",0,1
+"Training_CRE","FDR < 0.10 (BH)",4,0
+"Training_PLA","FDR < 0.10 (BH)",0,0
+"Interaction_supp","FDR < 0.10 (BH)",1,0
+"Baseline_supp","Nominal P-val",43,41
+"Post_training_supp","Nominal P-val",56,51
+"Training_CRE","Nominal P-val",57,50
+"Training_PLA","Nominal P-val",65,79
+"Interaction_supp","Nominal P-val",52,43
+"Baseline_supp","Pi-value",14,17
+"Post_training_supp","Pi-value",19,31
+"Training_CRE","Pi-value",21,11
+"Training_PLA","Pi-value",27,23
+"Interaction_supp","Pi-value",30,31
+"Cancer","FDR < 0.05 (BH)",195,101
+"Residual","FDR < 0.05 (BH)",283,199
+"Training","FDR < 0.05 (BH)",1,0
+"Cancer","FDR < 0.10 (BH)",272,201
+"Residual","FDR < 0.10 (BH)",350,289
+"Training","FDR < 0.10 (BH)",7,4
+"Cancer","Nominal P-val",338,268
+"Residual","Nominal P-val",383,350
+"Training","Nominal P-val",93,96
+"Cancer","Pi-value",213,73
+"Residual","Pi-value",275,138
+"Training","Pi-value",21,8

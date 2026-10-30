@@ -1,0 +1,13 @@
+"comparison","method","n_UP","n_DOWN"
+"Cancer","FDR < 0.05 (BH)",0,0
+"Residual","FDR < 0.05 (BH)",7,5
+"Training","FDR < 0.05 (BH)",4,0
+"Cancer","FDR < 0.10 (BH)",0,0
+"Residual","FDR < 0.10 (BH)",18,13
+"Training","FDR < 0.10 (BH)",6,5
+"Cancer","Nominal P-val",87,72
+"Residual","Nominal P-val",154,112
+"Training","Nominal P-val",100,100
+"Cancer","Pi-value",32,15
+"Residual","Pi-value",90,28
+"Training","Pi-value",21,12

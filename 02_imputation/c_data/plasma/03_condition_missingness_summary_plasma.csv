@@ -1,0 +1,4 @@
+condition,n_samples,n_missing,pct_missing,group
+CRC_T1,12,275,6.72,CRC_PRE
+CRC_T2,10,176,5.16,CRC_POST
+CTL_T1,7,172,7.21,CTL

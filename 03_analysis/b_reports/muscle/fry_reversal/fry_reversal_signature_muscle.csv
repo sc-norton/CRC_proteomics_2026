@@ -1,0 +1,3 @@
+source_contrast,test_contrast,set,n,expected,direction,consistent,interpretation,PValue,PValue.Mixed,sig_thresh_used,cor_within,circularity_r
+Cancer,Training,signature_up,32,Down,Up,FALSE,Not significant,0.5166713274406867,0.04163592779203596,0.05,0.2823584871785773,-0.04605167782701762
+Cancer,Training,signature_down,15,Up,Up,TRUE,Not significant,0.3771143243925633,0.7690142008296043,0.05,0.2823584871785773,-0.04605167782701762
