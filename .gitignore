@@ -5,6 +5,9 @@
 .Ruserdata
 .Rproj.user/
 
-# Data (main study results, data not needed for proteomics)
+# Input Data (main study results, data not needed for proteomics)
 00_input/data
 00_input/R21
+
+# Any Archived Scripts
+**/archived/
