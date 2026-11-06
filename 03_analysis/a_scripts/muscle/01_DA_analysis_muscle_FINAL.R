@@ -18,23 +18,10 @@ config <- list(
 dir.create(config$report_dir, showWarnings = FALSE, recursive = TRUE)
 dir.create(config$data_dir,   showWarnings = FALSE, recursive = TRUE)
 
-dir_tree <- list(
-  supp = list(
-    report = file.path(config$report_dir, "supp")
-  ),
-  cancer = list(
-    report = file.path(config$report_dir, "cancer")
-  )
-)
-
-invisible(lapply(dir_tree, function(ds_dirs) {
-  lapply(ds_dirs, dir.create, recursive = TRUE, showWarnings = FALSE)
-}))
-
 # --- 1: Load Data ----------------------
 CRC <- readRDS(config$norm_RDS)
 
-CRC$metadata[c("sample_id", "blood_pct")]
+CRC$metadata[c("sample_id", "blood_pct", "B_M_ratio")]
 
 # --- 2: Limma Analysis Function --------
 
@@ -199,41 +186,80 @@ contrast_specs_cancer <- c(
 
 # --- 5: Run Analysis -------------------
 
-out_supp_cv <- run_limma_analysis(CRC, contrast_specs_supp,
-                              group_col = "supp_time",
-                              covariates = "blood_pct",
-                              label     = "supp_cv",
-                              dirs      = dir_tree$supp)
+# Covariate models. Every analysis below is run once per entry.
+#   - Names become the label suffix and the report subfolder.
+#     "none" -> label "supp"; "cv" -> "supp_cv"; "cv2" -> "supp_cv2"
+#     (keeps your existing labels/filenames for the first two models).
+#   - The first entry is the REFERENCE model the sensitivity analysis
+#     (section 6b) compares every other model against.
+#   - To also test both covariates jointly, add e.g.
+#     cv_both = c("blood_pct", "COVARIATE_2")
 
-out_cancer_cv <- run_limma_analysis(CRC, contrast_specs_cancer,
-                               group_col  = "cancer_time",
-                               covariates = "blood_pct",
-                               label      = "cancer_cv",
-                               dirs       = dir_tree$cancer)
+covariate_models <- list(
+  none = NULL,
+  cv   = "blood_pct",
+  cv2  = "B_M_ratio"  
+)
 
-out_supp <- run_limma_analysis(CRC, contrast_specs_supp,
-                                  group_col = "supp_time",
-                                  label     = "supp",
-                                  dirs      = dir_tree$supp)
+ref_model <- names(covariate_models)[1]
 
-out_cancer <- run_limma_analysis(CRC, contrast_specs_cancer,
-                                    group_col  = "cancer_time",
-                                    label      = "cancer",
-                                    dirs       = dir_tree$cancer)
+analyses <- list(
+  supp   = list(contrasts = contrast_specs_supp,   group_col = "supp_time"),
+  cancer = list(contrasts = contrast_specs_cancer, group_col = "cancer_time")
+)
 
-# out_cre_sex <- run_limma_analysis(CRE, contrast_specs_cre_sex,
-#                                   group_col = "sex_time",
-#                                   covariates = "blood_pct",
-#                                   label     = "SEX",
-#                                   dirs      = dir_tree$FvM)
+# Guard: every covariate must exist and have no NAs. A covariate with NAs
+# would silently drop those samples from THAT model only, so differences
+# between runs would partly reflect different samples, not the covariate.
+all_covs <- unique(unlist(covariate_models))
+missing_cols <- setdiff(all_covs, colnames(CRC$metadata))
+if (length(missing_cols) > 0) {
+  stop("Covariate(s) not in metadata: ", paste(missing_cols, collapse = ", "))
+}
+na_counts <- vapply(CRC$metadata[all_covs], function(x) sum(is.na(x)), integer(1))
+if (any(na_counts > 0)) {
+  stop("Covariate(s) with missing values: ",
+       paste(sprintf("%s (%d NA)", names(na_counts)[na_counts > 0],
+                     na_counts[na_counts > 0]), collapse = ", "),
+       ". Impute or subset first so every model uses the same samples.")
+}
+
+# Quick look at how each covariate is distributed across groups. A
+# covariate that differs strongly by group will absorb part of the group
+# effect -- worth knowing before interpreting a drop in DAP counts.
+for (an in names(analyses)) {
+  gc <- analyses[[an]]$group_col
+  cat(sprintf("\n>> Covariates by %s\n", gc))
+  print(
+    CRC$metadata %>%
+      group_by(.data[[gc]]) %>%
+      summarise(across(all_of(all_covs),
+                       list(mean = ~ mean(.x), sd = ~ sd(.x))),
+                .groups = "drop")
+  )
+}
+
+# Run every analysis x covariate model. Each run writes to its own
+# subfolder (e.g. limma/supp/cv/) so proteoDA's per_contrast_results and
+# plots from one run don't overwrite another's.
+limma_runs <- imap(analyses, function(a, an) {
+  imap(covariate_models, function(covs, cm) {
+    label <- if (cm == ref_model) an else paste0(an, "_", cm)
+    dirs  <- list(report = file.path(config$report_dir, an, cm))
+    dir.create(dirs$report, recursive = TRUE, showWarnings = FALSE)
+    run_limma_analysis(CRC, a$contrasts,
+                       group_col  = a$group_col,
+                       covariates = covs,
+                       label      = label,
+                       dirs       = dirs)
+  })
+})
 
 # --- 6: Combine & Export Results -------
 
 # Matrix sheet: identifiers + every participant sample column, built once
 # directly from CRC (not from a results_list df) so it isn't tied to
 # whichever group's contrast happened to produce it.
-sample_cols <- colnames(CRC$data)
-
 normalized_matrix <- bind_cols(
   CRC$annotation %>% dplyr::select(uniprot_id, protein, gene, description),
   CRC$data
@@ -246,26 +272,240 @@ stats_cols <- c("uniprot", "protein", "gene", "Ensembl", "description",
                 "B", "P.Value", "adj.P.Val", "sig.PVal", "sig.FDR",
                 "Pi.Val", "DE.adj", "DE.adj.1", "DE.nom", "DE.pi")
 
-results_combined_cv <- c(out_supp_cv$results_list, out_cancer_cv$results_list)
-results_combined    <- c(out_supp$results_list,    out_cancer$results_list)
-
-results_combined_cv <- lapply(results_combined_cv, function(df) {
-  as.data.frame(df)[, stats_cols, drop = FALSE]
+# All contrasts (supp + cancer) per covariate model
+results_by_model <- map(set_names(names(covariate_models)), function(cm) {
+  res <- do.call(c, unname(map(limma_runs, ~ .x[[cm]]$results_list)))
+  map(res, ~ as.data.frame(.x)[, stats_cols, drop = FALSE])
 })
-results_combined <- lapply(results_combined, function(df) {
-  as.data.frame(df)[, stats_cols, drop = FALSE]
+da_by_model <- map(set_names(names(covariate_models)), function(cm) {
+  bind_rows(map(limma_runs, ~ .x[[cm]]$da_log))
 })
 
-workbook_sheets    <- c(list(normalized_matrix = normalized_matrix), results_combined)
-workbook_sheets_cv <- c(list(normalized_matrix = normalized_matrix), results_combined_cv)
+# --- 6a: Protein-level blood association ------------------------
+# Per protein: Spearman r of normalized log2 abundance vs. each blood
+# measure across samples. "_within" centers protein and blood measure on
+# their cancer_time group means first, so between-group differences
+# (incl. the biopsy-method confound) can't create a correlation.
+# Descriptive only: paired T1/T2 samples aren't independent, so no p-values.
 
-da_combined    <- rbind(out_supp$da_log,    out_cancer$da_log)
-da_combined_cv <- rbind(out_supp_cv$da_log, out_cancer_cv$da_log)
+blood_vars <- c(blood_pct = "blood_pct", bm_ratio = "B_M_ratio")
+adj_group  <- "cancer_time"   # covers every sample, incl. CTL
+min_obs    <- 10
 
-write_xlsx(workbook_sheets,    file.path(config$data_dir, "limma_results_all_muscle.xlsx"))
-write_xlsx(workbook_sheets_cv, file.path(config$data_dir, "limma_results_all_muscle_cv.xlsx"))
-write.csv(da_combined,    file.path(config$report_dir, "DA_methods_combined_muscle.csv"), row.names = FALSE)
-write.csv(da_combined_cv, file.path(config$report_dir, "DA_methods_combined_muscle_cv.csv"), row.names = FALSE)
+expr <- as.matrix(CRC$data)
+meta <- CRC$metadata
+stopifnot(all(colnames(expr) == meta$sample_id))
+
+grp <- factor(meta[[adj_group]])
+center_by_group <- function(x, g) x - ave(x, g, FUN = function(v) mean(v, na.rm = TRUE))
+expr_c <- t(apply(expr, 1, center_by_group, g = grp))
+n_obs  <- rowSums(!is.na(expr))
+
+blood_assoc <- tibble(uniprot = CRC$annotation$uniprot_id)
+for (nm in names(blood_vars)) {
+  b <- meta[[blood_vars[[nm]]]]
+  r_raw    <- as.vector(cor(t(expr),   b, method = "spearman", use = "pairwise.complete.obs"))
+  r_within <- as.vector(cor(t(expr_c), center_by_group(b, grp),
+                            method = "spearman", use = "pairwise.complete.obs"))
+  r_raw[n_obs < min_obs] <- NA; r_within[n_obs < min_obs] <- NA
+  blood_assoc[[paste0(nm, "_r_raw")]]    <- r_raw
+  blood_assoc[[paste0(nm, "_r_within")]] <- r_within
+}
+
+results_by_model <- map(results_by_model, function(res_list) {
+  map(res_list, ~ left_join(.x, blood_assoc, by = "uniprot"))
+})
+
+# Contrast-level check: does a contrast's t track blood association?
+# A clearly positive or negative r means that contrast's signal partly
+# moves with blood content.
+blood_contrast_check <- imap_dfr(results_by_model, function(res_list, cm) {
+  imap_dfr(res_list, function(df, cname) {
+    tibble(model = cm, comparison = cname,
+           r_t_vs_blood_pct = cor(df$t, df$blood_pct_r_within, method = "spearman",
+                                  use = "complete.obs"),
+           r_t_vs_bm_ratio  = cor(df$t, df$bm_ratio_r_within,  method = "spearman",
+                                  use = "complete.obs"))
+  })
+})
+write.csv(blood_contrast_check,
+          file.path(config$report_dir, "blood_contrast_check_muscle.csv"), row.names = FALSE)
+
+# File suffix: none -> "" (same filenames as before), others -> "_<name>"
+file_suffix <- function(cm) if (cm == ref_model) "" else paste0("_", cm)
+
+for (cm in names(covariate_models)) {
+  write_xlsx(c(list(normalized_matrix = normalized_matrix), results_by_model[[cm]]),
+             file.path(config$data_dir,
+                       paste0("limma_results_all_muscle", file_suffix(cm), ".xlsx")))
+  write.csv(da_by_model[[cm]],
+            file.path(config$report_dir,
+                      paste0("DA_methods_combined_muscle", file_suffix(cm), ".csv")),
+            row.names = FALSE)
+}
+
+# Section 7 exports protein lists from the reference (no-covariate) model
+results_combined <- results_by_model[[ref_model]]
+
+# --- 6b: Covariate Sensitivity Analysis -
+
+# Compares each covariate model against the reference model on:
+#   (1) DAP counts per contrast and DA criterion
+#   (2) Overlap of DAP calls (direction-aware): shared / lost / gained /
+#       direction flips, plus Jaccard index
+#   (3) Effect-size concordance across ALL proteins (not just DAPs):
+#       correlation and slope of logFC, correlation of moderated t
+# Counts alone can hide a lot: two models can each call 40 DAPs with only
+# half of them in common. (2) and (3) show whether the covariate changes
+# WHICH proteins are called and HOW MUCH estimates shift.
+
+sens_dir <- file.path(config$report_dir, "sensitivity")
+dir.create(sens_dir, recursive = TRUE, showWarnings = FALSE)
+
+de_methods <- c("FDR < 0.05 (BH)" = "DE.adj",
+                "FDR < 0.10 (BH)" = "DE.adj.1",
+                "Nominal P-val"   = "DE.nom",
+                "Pi-value"        = "DE.pi")
+model_levels      <- names(covariate_models)
+comparison_levels <- names(results_by_model[[ref_model]])
+
+# One row per protein x contrast x model
+all_res_long <- imap_dfr(results_by_model, function(res_list, cm) {
+  imap_dfr(res_list, function(df, cname) {
+    df %>%
+      dplyr::transmute(model = cm, comparison = cname, uniprot, gene,
+                       logFC, t, P.Value, adj.P.Val,
+                       DE.adj, DE.adj.1, DE.nom, DE.pi)
+  })
+})
+
+# (1) Counts
+da_counts <- imap_dfr(da_by_model, ~ dplyr::mutate(.x, model = .y)) %>%
+  dplyr::mutate(n_DAP      = n_UP + n_DOWN,
+                model      = factor(model, levels = model_levels),
+                comparison = factor(comparison, levels = comparison_levels))
+
+da_counts_wide <- da_counts %>%
+  dplyr::select(comparison, method, model, n_DAP) %>%
+  tidyr::pivot_wider(names_from = model, values_from = n_DAP) %>%
+  dplyr::arrange(method, comparison)
+
+# (2) Overlap vs. reference, direction-aware
+ref_calls_all <- all_res_long %>% dplyr::filter(model == ref_model)
+
+overlap <- imap_dfr(de_methods, function(col, mlab) {
+  ref <- ref_calls_all %>%
+    dplyr::select(comparison, uniprot, ref_call = dplyr::all_of(col))
+  all_res_long %>%
+    dplyr::filter(model != ref_model) %>%
+    dplyr::select(model, comparison, uniprot, call = dplyr::all_of(col)) %>%
+    dplyr::inner_join(ref, by = c("comparison", "uniprot")) %>%
+    dplyr::group_by(model, comparison) %>%
+    dplyr::summarise(
+      n_ref     = sum(ref_call != "NDE"),
+      n_model   = sum(call != "NDE"),
+      n_shared  = sum(ref_call != "NDE" & call == ref_call),
+      n_lost    = sum(ref_call != "NDE" & call == "NDE"),   # DAP in ref only
+      n_gained  = sum(ref_call == "NDE" & call != "NDE"),   # DAP in this model only
+      n_flipped = sum(ref_call != "NDE" & call != "NDE" & call != ref_call),
+      .groups   = "drop"
+    ) %>%
+    dplyr::mutate(
+      method  = mlab,
+      # NA when neither model calls anything for this contrast
+      jaccard = dplyr::if_else(n_ref + n_model - n_shared > 0,
+                               n_shared / (n_ref + n_model - n_shared),
+                               NA_real_)
+    )
+}) %>%
+  dplyr::mutate(model      = factor(model, levels = model_levels),
+                comparison = factor(comparison, levels = comparison_levels)) %>%
+  dplyr::select(method, comparison, model, dplyr::everything()) %>%
+  dplyr::arrange(method, comparison, model)
+
+# Protein-level detail: every protein that is a DAP in at least one model,
+# with its call in each model side by side (FDR < 0.05 and nominal shown;
+# swap in other DE.* columns if needed)
+dap_detail <- all_res_long %>%
+  dplyr::select(comparison, uniprot, gene, model, logFC, adj.P.Val, DE.adj, DE.nom) %>%
+  dplyr::group_by(comparison, uniprot) %>%
+  dplyr::filter(any(DE.adj != "NDE") | any(DE.nom != "NDE")) %>%
+  dplyr::ungroup() %>%
+  tidyr::pivot_wider(names_from  = model,
+                     values_from = c(logFC, adj.P.Val, DE.adj, DE.nom)) %>%
+  dplyr::arrange(factor(comparison, levels = comparison_levels), gene)
+
+# (3) Effect-size concordance vs. reference, all proteins
+ref_est <- ref_calls_all %>%
+  dplyr::select(comparison, uniprot, ref_logFC = logFC, ref_t = t)
+
+concordance <- all_res_long %>%
+  dplyr::filter(model != ref_model) %>%
+  dplyr::inner_join(ref_est, by = c("comparison", "uniprot")) %>%
+  dplyr::group_by(model, comparison) %>%
+  dplyr::summarise(
+    n_proteins  = dplyr::n(),
+    r_logFC     = stats::cor(logFC, ref_logFC, use = "complete.obs"),
+    slope_logFC = unname(stats::coef(stats::lm(logFC ~ ref_logFC))[2]),
+    r_t         = stats::cor(t, ref_t, use = "complete.obs"),
+    median_abs_logFC_shift = stats::median(abs(logFC - ref_logFC), na.rm = TRUE),
+    .groups     = "drop"
+  ) %>%
+  dplyr::mutate(model      = factor(model, levels = model_levels),
+                comparison = factor(comparison, levels = comparison_levels)) %>%
+  dplyr::arrange(comparison, model)
+
+write_xlsx(
+  list(counts_long  = da_counts,
+       counts_wide  = da_counts_wide,
+       overlap      = overlap,
+       concordance  = concordance,
+       dap_detail   = dap_detail),
+  file.path(sens_dir, "covariate_sensitivity_muscle.xlsx")
+)
+
+# Plot: DAP counts per contrast, by model, one panel per DA criterion
+p_counts <- ggplot(da_counts, aes(x = comparison, y = n_DAP, fill = model)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.75) +
+  geom_text(aes(label = n_DAP), position = position_dodge(width = 0.8),
+            vjust = -0.3, size = 2.5) +
+  facet_wrap(~ method, scales = "free_y") +
+  labs(x = NULL, y = "Number of DAPs (UP + DOWN)", fill = "Covariate model",
+       title = "DAP detection by covariate model — muscle") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggsave(file.path(sens_dir, "dap_counts_by_model_muscle.pdf"), p_counts,
+       width = 12, height = 8, device = cairo_pdf)
+
+# Plot: logFC in each covariate model vs. reference, all proteins.
+# Points on the dashed identity line = covariate didn't change the estimate.
+scatter_df <- all_res_long %>%
+  dplyr::filter(model != ref_model) %>%
+  dplyr::inner_join(ref_est, by = c("comparison", "uniprot")) %>%
+  dplyr::mutate(comparison = factor(comparison, levels = comparison_levels))
+
+conc_labels <- concordance %>%
+  dplyr::mutate(label = sprintf("r = %.2f\nslope = %.2f", r_logFC, slope_logFC))
+
+p_scatter <- ggplot(scatter_df, aes(ref_logFC, logFC)) +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "grey50") +
+  geom_point(size = 0.5, alpha = 0.4) +
+  geom_text(data = conc_labels, aes(x = -Inf, y = Inf, label = label),
+            hjust = -0.1, vjust = 1.2, size = 2.6, inherit.aes = FALSE) +
+  facet_grid(model ~ comparison) +
+  labs(x = paste0("logFC (", ref_model, ")"), y = "logFC (covariate model)",
+       title = "Effect-size concordance vs. no-covariate model — muscle") +
+  theme_bw()
+
+ggsave(file.path(sens_dir, "logFC_concordance_muscle.pdf"), p_scatter,
+       width = 3 * length(comparison_levels),
+       height = 3 * (length(model_levels) - 1) + 1,
+       device = cairo_pdf, limitsize = FALSE)
+
+cat("\n>> Covariate sensitivity summary (FDR < 0.05):\n")
+print(overlap %>% dplyr::filter(method == "FDR < 0.05 (BH)"))
+print(concordance)
 
 # STOP HERE #
 # --- 7: Export UP/DOWN Protein Lists ---

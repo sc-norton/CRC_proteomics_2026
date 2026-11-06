@@ -55,7 +55,8 @@ config <- list(
                         "leg_ext_lbs", "chest_press_lbs", "sts_max_pwr",
                         "grip_lbs"),  # example -- edit to the variables you actually want
   power_range       = c(1:10, seq(12, 30, 2)),
-  network_type      = "signed hybrid",
+  r_squared         = 0.85,
+  network_type      = "signed",
   tom_type          = "signed",
   min_module_size   = 30,
   merge_cut_height  = 0.25,
@@ -110,7 +111,7 @@ plot(sample_tree, main = paste("Sample clustering —", config$tissue),
 dev.off()
 
 # Inspect the plot; if there's a clear outlier branch, cut it manually:
-# cut_h <- 120
+# cut_h <- 40
 # keep <- cutreeStatic(sample_tree, cutHeight = cut_h, minSize = 10) == 1
 # expr_mat <- expr_mat[keep, ]; meta <- meta %>% filter(sample_id %in% rownames(expr_mat))
 
@@ -124,7 +125,7 @@ sft_df <- sft$fitIndices %>%
   dplyr::mutate(scale_free_r2 = -sign(slope) * SFT.R.sq)
 
 p_sft <- ggplot(sft_df, aes(Power, scale_free_r2, label = Power)) +
-  geom_hline(yintercept = 0.8, linetype = "dashed", color = "grey50") +
+  geom_hline(yintercept = config$r_squared, linetype = "dashed", color = "grey50") +
   geom_text(color = colors$primary) +
   labs(x = "Soft threshold power", y = expression(Signed~R^2),
        title = paste("Scale-free topology fit —", config$tissue)) +
@@ -142,7 +143,7 @@ print(p_sft + p_conn)
 dev.off()
 
 # lowest power reaching R^2 >= 0.8; falls back to max tested power otherwise
-soft_power <- sft_df$Power[which(sft_df$scale_free_r2 >= 0.8)][1]
+soft_power <- sft_df$Power[which(sft_df$scale_free_r2 >= config$r_squared)][1]
 if (is.na(soft_power)) soft_power <- max(config$power_range)
 message("Selected soft power: ", soft_power)
 
@@ -563,9 +564,10 @@ stopifnot(all(rownames(expr_mat) == meta$sample_id))
 limma_expr  <- t(expr_mat)  # proteins x samples, same QC'd protein set as the network
 limma_group <- factor(meta[[config$group_col]], levels = config$group_levels)
 limma_block <- meta[[config$subject_col]]
+limma_covar <- meta[["blood_pct"]]
 
-limma_design <- stats::model.matrix(~ 0 + limma_group)
-colnames(limma_design) <- levels(limma_group)
+limma_design <- stats::model.matrix(~ 0 + limma_group + limma_covar)
+colnames(limma_design) <- c(levels(limma_group), "blood_pct")
 
 contrast_strings <- vapply(contrast_definition,
                            function(d) paste0(d[["to"]], " - ", d[["from"]]),

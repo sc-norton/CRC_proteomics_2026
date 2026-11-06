@@ -1,0 +1,10 @@
+# R / RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Data (main study results, data not needed for proteomics)
+/00_input/data/
+/00_input/R21/

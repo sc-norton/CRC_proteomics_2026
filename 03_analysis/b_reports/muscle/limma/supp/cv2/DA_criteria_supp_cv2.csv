@@ -1,0 +1,21 @@
+"comparison","method","n_UP","n_DOWN"
+"Baseline_supp","FDR < 0.05 (BH)",0,0
+"Post_training_supp","FDR < 0.05 (BH)",0,1
+"Training_CRE","FDR < 0.05 (BH)",3,0
+"Training_PLA","FDR < 0.05 (BH)",0,0
+"Interaction_supp","FDR < 0.05 (BH)",0,0
+"Baseline_supp","FDR < 0.10 (BH)",0,0
+"Post_training_supp","FDR < 0.10 (BH)",0,1
+"Training_CRE","FDR < 0.10 (BH)",5,0
+"Training_PLA","FDR < 0.10 (BH)",3,2
+"Interaction_supp","FDR < 0.10 (BH)",1,0
+"Baseline_supp","Nominal P-val",30,48
+"Post_training_supp","Nominal P-val",68,75
+"Training_CRE","Nominal P-val",90,55
+"Training_PLA","Nominal P-val",104,89
+"Interaction_supp","Nominal P-val",51,40
+"Baseline_supp","Pi-value",13,13
+"Post_training_supp","Pi-value",22,32
+"Training_CRE","Pi-value",29,11
+"Training_PLA","Pi-value",45,20
+"Interaction_supp","Pi-value",20,28
